@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./divider.component.css']
 })
 export class DividerComponent implements OnInit {
-  title = "TODO Title";
+  title = "astromech";
 
   constructor() { }
 
