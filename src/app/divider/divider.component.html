@@ -2,12 +2,12 @@
 
 <h1>X-Wing Dividers</h1>
 <div>
-  Select a Card Type. Enter a caddy length in millimeters. Print.
+  Select a Card Type. Enter a caddy length in millimeters. Print at Scale 100% (instead of "Shrink to fit"). Cut on solid lines and fold on dashed lines.
 </div>
 
 <div>
   <mat-form-field>
-    <mat-select placeholder="Card Type" [(ngModel)]="selectedCardType">
+    <mat-select placeholder="Card Type" [(ngModel)]="selectedCardType" (selectionChange)="caddyLength = selectedCardType.defaultLength">
       <mat-option *ngFor="let cardType of cardTypes" [value]="cardType">
         {{cardType.title}}
       </mat-option>

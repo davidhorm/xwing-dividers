@@ -22,7 +22,7 @@ export class DividerComponent implements OnInit {
    * The caddy length in millimeters. Default to the first item in the dropdown.
    */
   caddyLength: number = this.cardTypes[0].defaultLength;
-
+  
   constructor() { }
 
   ngOnInit() {
