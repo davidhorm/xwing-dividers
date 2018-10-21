@@ -5,11 +5,13 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { DividerComponent } from './divider/divider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule,
