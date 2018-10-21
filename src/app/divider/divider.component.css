@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    font-family: 'Jura', sans-serif;
+}
+
+td {
+    border-width: 2px;
+}
+
+td.top-border {
+    border-style: solid solid dashed solid;
+}
+
+td.bottom-border {
+    border-style: dashed solid solid solid;
+}
+
+td.side {
+    width: 1.25in;
+}
+
+td.middle {
+    width: 3.75in;
+}
+
+/* labels have the icon and title */
+td.top-label, td.bottom-label {
+    height: 2.75in;
+    text-align: center;
+    vertical-align: top;
+}
+
+td.bottom-label {
+    transform: rotate(180deg);
+}
+
+/* The tab that is used to glue */
+td.tab {
+    height: 1.25in;
+    text-align: center;
+}
+
+td.no-tab {
+    height: 1.5in;
+    border-width: 0px;
+}
+
+td.flex {
+    height: 3in;
+    border-style: dashed;
+}
+
+td.left-flex {
+    border-left-style: solid;
+}
+
+td.right-flex {
+    border-right-style: solid;
+}
