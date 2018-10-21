@@ -1,6 +1,11 @@
+div {
+    margin-top: 1.5em;
+}
+
 table {
     border-collapse: collapse;
     font-family: 'Jura', sans-serif;
+    margin-top: 1.5em;
 }
 
 td {
@@ -28,6 +33,11 @@ td.top-label, td.bottom-label {
     height: 2.75in;
     text-align: center;
     vertical-align: top;
+    font-size: 2em;
+}
+
+i.xwing-miniatures-font {
+    font-size: 0.9em;
 }
 
 td.bottom-label {

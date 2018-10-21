@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CARDTYPES } from '../shared/card-types';
+import { CardType } from '../shared/card-type.model';
 
 @Component({
   selector: 'app-divider',
@@ -6,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./divider.component.css']
 })
 export class DividerComponent implements OnInit {
-  title = "astromech";
+  cardTypes: CardType[] = CARDTYPES;
+  selectedCardType = this.cardTypes[0]; //auto select the first item
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }
