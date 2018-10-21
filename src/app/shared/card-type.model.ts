@@ -8,4 +8,9 @@ export class CardType {
      * xwing-miniatures-font CSS class name used to display the icon.
      */
     iconClassName: string;
+
+    /**
+     * Default length of Caddy in millimeters.
+     */
+    defaultLength: number;
 }

@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -21,8 +22,9 @@ import { DividerComponent } from './divider/divider.component';
     BrowserAnimationsModule,
     FormsModule,
     MatTabsModule,
+    MatFormFieldModule,
     MatSelectModule,
-    MatFormFieldModule
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
