@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CARDTYPES } from '../shared/card-types';
+import { CARD_TYPES } from '../shared/card-type.service';
 import { CardType } from '../shared/card-type.model';
 
 @Component({
@@ -11,7 +11,7 @@ export class DividerComponent implements OnInit {
   /**
    * The list of card types in the dropdown.
    */
-  cardTypes: CardType[] = CARDTYPES;
+  cardTypes: CardType[] = CARD_TYPES;
 
   /**
    * The selected card type. Default to the first item in the dropdown.

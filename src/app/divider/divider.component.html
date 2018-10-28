@@ -2,7 +2,7 @@
 
 <h1>X-Wing Dividers</h1>
 <div>
-  Select a Card Type. Enter a caddy length in millimeters. Print at Scale 100% (instead of "Shrink to fit"). Cut on solid lines and fold on dashed lines.
+  Select a Card Type. Enter a caddy length in millimeters. Print at Scale 100% (instead of "Shrink to fit") and Narrow margins. Cut on solid lines and fold on dashed lines.
 </div>
 
 <div>
@@ -26,9 +26,9 @@
 <table>
   <tbody>
     <tr>
-      <td class="side no-tab"><!-- empty space in corner--></td>
+      <td class="side no-tab-top"><!-- empty space in corner--></td>
       <td class="middle top-label top-border" rowspan="2"><i class="xwing-miniatures-font {{selectedCardType?.iconClassName}}"></i> {{selectedCardType?.title}}</td>
-      <td class="side no-tab"><!-- empty space in corner--></td>
+      <td class="side no-tab-top"><!-- empty space in corner--></td>
     </tr>
     <tr>
       <td class="side tab top-border">glue</td>
@@ -41,12 +41,12 @@
     </tr>
     <tr>
       <td class="side tab bottom-border">glue</td>
-      <td class="middle bottom-label bottom-border" rowspan="2"><i class="xwing-miniatures-font {{selectedCardType?.iconClassName}}"></i> {{selectedCardType?.title}}</td>
+      <td class="middle bottom-label bottom-border" rowspan="2"></td>
       <td class="side tab bottom-border">glue</td>
     </tr>
     <tr>
-      <td class="side no-tab"><!-- empty space in corner--></td>
-      <td class="side no-tab"><!-- empty space in corner--></td>
+      <td class="side no-tab-bottom"><!-- empty space in corner--></td>
+      <td class="side no-tab-bottom"><!-- empty space in corner--></td>
     </tr>
   </tbody>
 </table>
