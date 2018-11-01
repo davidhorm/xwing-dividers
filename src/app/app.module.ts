@@ -10,12 +10,14 @@ import { MatInputModule } from '@angular/material/input';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { DividerComponent } from './divider/divider.component';
+import { GearboxComponent } from './gearbox/gearbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    DividerComponent
+    DividerComponent,
+    GearboxComponent
   ],
   imports: [
     BrowserModule,
