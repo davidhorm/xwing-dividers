@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GearboxSize } from './gearbox-size.model';
+import { GEARBOX_SIZE } from './gearbox-size.service';
 
 @Component({
   selector: 'app-gearbox',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GearboxComponent implements OnInit {
 
-  constructor() { }
+  selectedGearboxSize: GearboxSize;
+  defaultDepth: Number = 16;
+  shipTokenDepth: Number = 2;
+  depth: Number;
+
+  constructor() { 
+    this.selectedGearboxSize = GEARBOX_SIZE[0];
+    this.depth = this.defaultDepth;
+  }
 
   ngOnInit() {
   }

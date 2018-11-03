@@ -8,34 +8,46 @@
   
   <table>
     <tr>
-      <td>glue</td>
-      <td>side</td>
-      <td>flap</td>
-      <td>empty</td>
+      <td [style.height.mm]="depth">
+        <div class="flap solid-top solid-left" [style.width.mm]="depth-1" [style.margin-left.mm]="1">
+          <div>glue</div>
+        </div>
+      </td>
+      <td class="solid-top dashed-left dashed-right" [style.height.mm]="depth">side</td>
+      <td [style.height.mm]="depth">
+        <div class="flap solid-top solid-right" [style.width.mm]="depth-1" [style.border-top-right-radius.mm]="depth-3"><!-- top flap --></div>
+      </td>
+      <td><!-- empty corner --></td>
     </tr>
     <tr>
-      <td>bottom</td>
-      <td>back</td>
-      <td>top</td>
-      <td>flap</td>
+      <td class="solid-top solid-left solid-bottom" [style.width.mm]="depth">bottom</td>
+      <td class="dashed" [style.height.mm]="selectedGearboxSize.width" [style.width.mm]="selectedGearboxSize.height">back</td>
+      <td class="solid-top solid-bottom dashed-right" [style.width.mm]="depth">top</td>
+      <td class="solid-top solid-right solid-bottom" style="width: 16mm; border-radius: 0 14mm 14mm 0;"><!-- top flap --></td>
     </tr>
     <tr>
-      <td>glue</td>
-      <td>side</td>
-      <td>flap</td>
-      <td>empty</td>
+      <td [style.height.mm]="depth">
+          <div class="flap solid-left solid-bottom" [style.width.mm]="depth-1" [style.margin-left.mm]="1">glue</div>
+      </td>
+      <td class="dashed" [style.height.mm]="depth">side</td>
+      <td [style.height.mm]="depth">
+          <div class="flap solid-right solid-bottom" [style.width.mm]="depth-1" [style.border-bottom-right-radius.mm]="depth-3"><!-- top flap --></div>
+        </td>
+      <td><!-- empty corner --></td>
     </tr>
     <tr>
-      <td>glue</td>
-      <td>front</td>
-      <td>empty</td>
-      <td>empty</td>
+      <td [style.height.mm]="selectedGearboxSize.width">
+        <div class="flap solid-left solid-bottom" [style.width.mm]="depth-1" [style.margin-left.mm]="1">glue</div>
+      </td>
+      <td class="dashed" [style.height.mm]="selectedGearboxSize.width" [style.width.mm]="selectedGearboxSize.height">front</td>
+      <td><!-- empty --></td>
+      <td><!-- empty --></td>
     </tr>
     <tr>
-      <td>empty</td>
-      <td>glue</td>
-      <td>empty</td>
-      <td>empty</td>
+      <td><!-- empty corner --></td>
+      <td class="solid-left solid-bottom solid-right" [style.height.mm]="depth-1">glue</td>
+      <td><!-- empty corner --></td>
+      <td><!-- empty corner --></td>
     </tr>
   </table>
     
