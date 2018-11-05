@@ -18,12 +18,14 @@ td {
 .flap {
     height: 100%;
     position: relative;
+}
+
+.center-text {
     text-align: center;
 }
 
-.flap div {
-    /*vertical-align: middle;*/
-    /*transform: rotate(90deg);*/
+.gearbox {
+    height: 210mm;
 }
 
 /* common border classes */

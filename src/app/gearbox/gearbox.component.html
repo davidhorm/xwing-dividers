@@ -1,3 +1,6 @@
+<div class="gearbox">
+
+
 <div class="non-print">
 
   <h1>X-Wing Gearboxes</h1>
@@ -5,50 +8,55 @@
     Select a Ship. Select which ship tokens. Print at Scale 100% (instead of "Shrink to fit") and Narrow margins. Cut on solid lines and fold on dashed lines.
     Beside the ship tokens, the gearboxes will also fix a single base, two pegs, a maneuver dial, and a dial ID token.
   </div>
-  
-  <table>
+</div>
+
+<!--  -->
+<table [ngStyle]="rotateTable()">
+
+    <!-- top flap -->
     <tr>
-      <td [style.height.mm]="depth">
-        <div class="flap solid-top solid-left" [style.width.mm]="depth-1" [style.margin-left.mm]="1">
-          <div>glue</div>
-        </div>
-      </td>
-      <td class="solid-top dashed-left dashed-right" [style.height.mm]="depth">side</td>
-      <td [style.height.mm]="depth">
-        <div class="flap solid-top solid-right" [style.width.mm]="depth-1" [style.border-top-right-radius.mm]="depth-3"><!-- top flap --></div>
-      </td>
-      <td><!-- empty corner --></td>
-    </tr>
-    <tr>
-      <td class="solid-top solid-left solid-bottom" [style.width.mm]="depth">bottom</td>
-      <td class="dashed" [style.height.mm]="selectedGearboxSize.width" [style.width.mm]="selectedGearboxSize.height">back</td>
-      <td class="solid-top solid-bottom dashed-right" [style.width.mm]="depth">top</td>
-      <td class="solid-top solid-right solid-bottom" style="width: 16mm; border-radius: 0 14mm 14mm 0;"><!-- top flap --></td>
-    </tr>
-    <tr>
-      <td [style.height.mm]="depth">
-          <div class="flap solid-left solid-bottom" [style.width.mm]="depth-1" [style.margin-left.mm]="1">glue</div>
-      </td>
-      <td class="dashed" [style.height.mm]="depth">side</td>
-      <td [style.height.mm]="depth">
-          <div class="flap solid-right solid-bottom" [style.width.mm]="depth-1" [style.border-bottom-right-radius.mm]="depth-3"><!-- top flap --></div>
-        </td>
-      <td><!-- empty corner --></td>
-    </tr>
-    <tr>
-      <td [style.height.mm]="selectedGearboxSize.width">
-        <div class="flap solid-left solid-bottom" [style.width.mm]="depth-1" [style.margin-left.mm]="1">glue</div>
-      </td>
-      <td class="dashed" [style.height.mm]="selectedGearboxSize.width" [style.width.mm]="selectedGearboxSize.height">front</td>
+      <td><!-- empty --></td>
+      <td class="solid-top solid-right solid-left" style="height: 16mm; border-radius: 14mm 14mm 0 0;"><!-- top flap --></td>
       <td><!-- empty --></td>
       <td><!-- empty --></td>
     </tr>
-    <tr>
-      <td><!-- empty corner --></td>
-      <td class="solid-left solid-bottom solid-right" [style.height.mm]="depth-1">glue</td>
-      <td><!-- empty corner --></td>
-      <td><!-- empty corner --></td>
-    </tr>
-  </table>
     
+    <!-- top -->
+    <tr [style.height.mm]="depth">
+      <td>
+        <div class="flap solid-top solid-left" [style.height.mm]="depth-2" [style.border-top-left-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- left flap --></div>
+      </td>
+      <td class="dashed-top solid-right solid-left">top</td>
+      <td>
+        <div class="flap solid-top solid-right" [style.height.mm]="depth-2" [style.border-top-right-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- right flap --></div>
+      </td>
+      <td><!-- empty --></td>
+    </tr>
+    
+    <!-- front/back/sides -->
+    <tr [style.height.mm]="selectedGearboxSize.height">
+        <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">side</td>
+        <td class="dashed" [style.width.mm]="selectedGearboxSize.width">back</td>
+        <td class="dashed" [style.width.mm]="depth">side</td>
+        <td class="solid-top dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">front</td>
+        <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>
+    </tr>
+    
+    <!-- bottom glue row -->
+    <tr [style.height.mm]="depth">
+      <td>
+        <div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div>
+      </td>
+      <td class="solid-left solid-bottom solid-right">bottom</td>
+      <td>
+        <div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div>
+      </td>
+      <td>
+        <div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div>
+      </td>
+      <td><!-- empty corner --></td>
+    </tr>
+
+</table>
+
 </div>
