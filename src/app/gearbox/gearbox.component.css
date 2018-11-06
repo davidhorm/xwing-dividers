@@ -15,9 +15,30 @@ td {
     padding: 0;
 }
 
-.flap {
+.outer-container {
     height: 100%;
     position: relative;
+}
+
+.inner-container {
+    position: absolute; 
+    top: 0; 
+    white-space: nowrap;
+}
+
+.inner-container-span {
+    display: inline-block;
+}
+
+.top-flap {
+    height: 16mm; 
+    border-radius: 14mm 14mm 0 0;
+}
+
+.front-indent {
+    height: 7mm; 
+    width: 14mm; 
+    border-radius: 0 0 14mm 14mm;
 }
 
 .center-text {

@@ -16,7 +16,7 @@
     <!-- top flap -->
     <tr>
       <td><!-- empty --></td>
-      <td class="solid-top solid-right solid-left" style="height: 16mm; border-radius: 14mm 14mm 0 0;"><!-- top flap --></td>
+      <td class="top-flap solid-top solid-right solid-left"><!-- top flap --></td>
       <td><!-- empty --></td>
       <td><!-- empty --></td>
     </tr>
@@ -24,11 +24,11 @@
     <!-- top -->
     <tr [style.height.mm]="depth">
       <td>
-        <div class="flap solid-top solid-left" [style.height.mm]="depth-2" [style.border-top-left-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- left flap --></div>
+        <div class="outer-container solid-top solid-left" [style.height.mm]="depth-2" [style.border-top-left-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- left flap --></div>
       </td>
       <td class="dashed-top solid-right solid-left">top</td>
       <td>
-        <div class="flap solid-top solid-right" [style.height.mm]="depth-2" [style.border-top-right-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- right flap --></div>
+        <div class="outer-container solid-top solid-right" [style.height.mm]="depth-2" [style.border-top-right-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- right flap --></div>
       </td>
       <td><!-- empty --></td>
     </tr>
@@ -38,7 +38,17 @@
         <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">side</td>
         <td class="dashed" [style.width.mm]="selectedGearboxSize.width">back</td>
         <td class="dashed" [style.width.mm]="depth">side</td>
-        <td class="solid-top dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">front</td>
+
+        <!-- front -->
+        <td class="outer-container dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">
+          <div class="inner-container">
+              <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+              <span class="inner-container-span front-indent solid-right solid-bottom solid-left">&nbsp;</span>
+              <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+          </div>
+          <div>front</div>
+        </td>
+
         <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>
     </tr>
     
