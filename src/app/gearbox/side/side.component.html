@@ -1,0 +1,17 @@
+<div style="position: relative;">
+  <div [style.height.mm]="depth - 6" [ngStyle]="getWidthStyle()" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; position: absolute;">
+    <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
+    <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
+    <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
+  </div>
+</div>
+
+<!-- 
+  getWidthStyle('top' | 'bottom') = selectedGearboxSize.width - 6
+  getWidthStyle('left' | 'right') = selectedGearboxSize.height - 6
+
+  getRotateStyle('top') = transform: rotate(180deg) translate(-100%, -50%);
+  getRotateStyle('left') = transform: rotate(90deg) translate(-50%, -100%);
+  getRotateStyle('right') = transform: rotate(-90deg) translate(-50%);
+  getRotateStyle('bottom') = transform: rotate(0deg) translate(0, -50%);
+-->

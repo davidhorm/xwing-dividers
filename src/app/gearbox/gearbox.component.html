@@ -10,8 +10,8 @@
   </div>
 </div>
 
-<!--  -->
-<table [ngStyle]="rotateTable()">
+<!-- [ngStyle]="rotateTable()" -->
+<table>
 
     <!-- top flap -->
     <tr>
@@ -23,21 +23,53 @@
     
     <!-- top -->
     <tr [style.height.mm]="depth">
-      <td>
-        <div class="outer-container solid-top solid-left" [style.height.mm]="depth-2" [style.border-top-left-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- left flap --></div>
+      <td><div class="outer-container solid-top solid-left" [ngStyle]="getTopSideFlapStyle('left')"><!-- left flap --></div></td>
+
+      <td class="dashed-top solid-right solid-left" style="text-align: center;">
+
+          <div style="position: relative;">
+            <div [style.width.mm]="selectedGearboxSize.width - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(180deg) translate(-100%, -50%); position: absolute;">
+              <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
+              <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
+              <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
+            </div>
+          </div>
+
       </td>
-      <td class="dashed-top solid-right solid-left">top</td>
-      <td>
-        <div class="outer-container solid-top solid-right" [style.height.mm]="depth-2" [style.border-top-right-radius.mm]="depth-3" [style.margin-top.mm]="3"><!-- right flap --></div>
-      </td>
+
+      <td><div class="outer-container solid-top solid-right" [ngStyle]="getTopSideFlapStyle('right')"><!-- right flap --></div></td>
       <td><!-- empty --></td>
     </tr>
     
     <!-- front/back/sides -->
     <tr [style.height.mm]="selectedGearboxSize.height">
-        <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">side</td>
+        <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
+          
+          <!-- left side -->
+          <div style="position: relative;">
+            <div [style.width.mm]="selectedGearboxSize.height - 6" [style.height.mm]="depth - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(90deg) translate(-50%, -100%); position: absolute;">
+              <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
+              <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
+              <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
+            </div>
+          </div>
+          
+
+        </td>
         <td class="dashed" [style.width.mm]="selectedGearboxSize.width">back</td>
-        <td class="dashed" [style.width.mm]="depth">side</td>
+
+        <td class="dashed" [style.width.mm]="depth">
+          
+            <!-- right side -->
+            <div style="position: relative;">
+                <div [style.width.mm]="selectedGearboxSize.height - 6" [style.height.mm]="depth - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(-90deg) translate(-50%); position: absolute;">
+                  <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
+                  <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
+                  <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
+                </div>
+              </div>
+
+        </td>
 
         <!-- front -->
         <td class="outer-container dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">
@@ -54,16 +86,23 @@
     
     <!-- bottom glue row -->
     <tr [style.height.mm]="depth">
-      <td>
-        <div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div>
+      <td><div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+
+      <!-- bottom -->
+      <td class="solid-left solid-bottom solid-right">
+
+        <div style="position: relative;">
+          <div [style.width.mm]="selectedGearboxSize.width - 6" style="text-align: center; padding: 3mm; transform: rotate(0deg) translate(0, -50%); position: absolute;">
+            <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
+            <span style="width: 30mm; display: inline-block; font-size: 3.5mm;">StarViper-class Attack Platform</span>
+            <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
+          </div>
+        </div>
+
       </td>
-      <td class="solid-left solid-bottom solid-right">bottom</td>
-      <td>
-        <div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div>
-      </td>
-      <td>
-        <div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div>
-      </td>
+
+      <td><div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+      <td><div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div></td>
       <td><!-- empty corner --></td>
     </tr>
 

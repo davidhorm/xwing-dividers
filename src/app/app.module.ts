@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { DividerComponent } from './divider/divider.component';
 import { GearboxComponent } from './gearbox/gearbox.component';
+import { SideComponent } from './gearbox/side/side.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     DividerComponent,
-    GearboxComponent
+    GearboxComponent,
+    SideComponent
   ],
   imports: [
     BrowserModule,

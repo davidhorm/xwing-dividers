@@ -29,6 +29,18 @@ export class GearboxComponent implements OnInit {
     };
   }
 
+  getTopSideFlapStyle(side: string) {
+    let buffer = 3;
+
+    return {
+      'height': `${this.depth-buffer}mm`, 
+      'border-top-left-radius': side === "left" ? `${this.depth-buffer}mm`: null,
+      'border-top-right-radius': side === "right" ? `${this.depth-buffer}mm`: null,
+      'margin-top': `${buffer}mm`
+    };
+    
+  }
+
   ngOnInit() {
   }
 
