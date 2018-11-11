@@ -27,13 +27,12 @@
 
       <td class="dashed-top solid-right solid-left" style="text-align: center;">
 
-          <div style="position: relative;">
-            <div [style.width.mm]="selectedGearboxSize.width - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(180deg) translate(-100%, -50%); position: absolute;">
-              <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
-              <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
-              <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
-            </div>
-          </div>
+        <app-side 
+          shipName="StarViper-class Attack Platform"
+          boxSide="top"
+          [boxDepth]="depth"
+          [sideWidth]="selectedGearboxSize.width">
+        </app-side>
 
       </td>
 
@@ -43,31 +42,29 @@
     
     <!-- front/back/sides -->
     <tr [style.height.mm]="selectedGearboxSize.height">
-        <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
+        
+      <!-- left side -->
+      <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
           
-          <!-- left side -->
-          <div style="position: relative;">
-            <div [style.width.mm]="selectedGearboxSize.height - 6" [style.height.mm]="depth - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(90deg) translate(-50%, -100%); position: absolute;">
-              <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
-              <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
-              <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
-            </div>
-          </div>
-          
+          <app-side 
+            shipName="StarViper-class Attack Platform"
+            boxSide="left"
+            [boxDepth]="depth"
+            [sideWidth]="selectedGearboxSize.height">
+          </app-side>
 
         </td>
         <td class="dashed" [style.width.mm]="selectedGearboxSize.width">back</td>
 
+        <!-- right side -->
         <td class="dashed" [style.width.mm]="depth">
           
-            <!-- right side -->
-            <div style="position: relative;">
-                <div [style.width.mm]="selectedGearboxSize.height - 6" [style.height.mm]="depth - 6" style="text-align: center; padding: 3mm; white-space: nowrap; transform-origin: top left; transform: rotate(-90deg) translate(-50%); position: absolute;">
-                  <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
-                  <span style="width: 30mm; display: inline-block; font-size: 3.5mm; white-space: normal;">StarViper-class Attack Platform</span>
-                  <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
-                </div>
-              </div>
+            <app-side 
+              shipName="StarViper-class Attack Platform"
+              boxSide="right"
+              [boxDepth]="depth"
+              [sideWidth]="selectedGearboxSize.height">
+            </app-side>
 
         </td>
 
@@ -91,13 +88,12 @@
       <!-- bottom -->
       <td class="solid-left solid-bottom solid-right">
 
-        <div style="position: relative;">
-          <div [style.width.mm]="selectedGearboxSize.width - 6" style="text-align: center; padding: 3mm; transform: rotate(0deg) translate(0, -50%); position: absolute;">
-            <i class="xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter" style="font-size: 8mm; float: left;"></i>
-            <span style="width: 30mm; display: inline-block; font-size: 3.5mm;">StarViper-class Attack Platform</span>
-            <i class="xwing-miniatures-font xwing-miniatures-font-scum" style="font-size: 6mm; float: right;"></i>
-          </div>
-        </div>
+        <app-side 
+          shipName="StarViper-class Attack Platform"
+          boxSide="bottom"
+          [boxDepth]="depth"
+          [sideWidth]="selectedGearboxSize.width">
+        </app-side>
 
       </td>
 

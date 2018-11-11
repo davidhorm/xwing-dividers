@@ -4,9 +4,7 @@
 
 .inner-side-container {
     text-align: center; 
-    white-space: nowrap; 
-    transform-origin: top left; 
-    position: absolute;
+    white-space: nowrap;
 }
 
 .ship-icon {
