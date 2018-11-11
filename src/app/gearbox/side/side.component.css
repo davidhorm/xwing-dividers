@@ -1,0 +1,27 @@
+.outer-side-container {
+    position: relative;
+}
+
+.inner-side-container {
+    text-align: center; 
+    white-space: nowrap; 
+    transform-origin: top left; 
+    position: absolute;
+}
+
+.ship-icon {
+    font-size: 8mm; 
+    float: left;
+}
+
+.ship-name {
+    width: 30mm; 
+    display: inline-block; 
+    font-size: 3.5mm; 
+    white-space: normal;
+}
+
+.faction-icon {
+    font-size: 6mm;
+    float: right;
+}
