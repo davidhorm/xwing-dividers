@@ -1,0 +1,345 @@
+[
+ {
+  "ffg": 14,
+  "name": "Alpha-class Star Wing",
+  "xws": "alphaclassstarwing",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 26,
+  "name": "Lambda-class T-4a Shuttle",
+  "xws": "lambdaclasst4ashuttle",
+  "size": "Large",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 25,
+  "name": "TIE Advanced v1",
+  "xws": "tieadvancedv1",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 13,
+  "name": "TIE Advanced x1",
+  "xws": "tieadvancedx1",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 29,
+  "name": "TIE/ag Aggressor",
+  "xws": "tieagaggressor",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 20,
+  "name": "TIE/ca Punisher",
+  "xws": "tiecapunisher",
+  "size": "Medium",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 18,
+  "name": "TIE/D Defender",
+  "xws": "tieddefender",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 41,
+  "name": "TIE Interceptor",
+  "xws": "tieinterceptor",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 11,
+  "name": "TIE/ln Fighter",
+  "xws": "tielnfighter",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 27,
+  "name": "TIE/ph Phantom",
+  "xws": "tiephphantom",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 43,
+  "name": "TIE Reaper",
+  "xws": "tiereaper",
+  "size": "Medium",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 19,
+  "name": "TIE/sa Bomber",
+  "xws": "tiesabomber",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 16,
+  "name": "TIE/sk Striker",
+  "xws": "tieskstriker",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 28,
+  "name": "VT-49 Decimator",
+  "xws": "vt49decimator",
+  "size": "Large",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 17,
+  "name": "A/SF-01 B-wing",
+  "xws": "asf01bwing",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 31,
+  "name": "ARC-170 Starfighter",
+  "xws": "arc170starfighter",
+  "size": "Medium",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 32,
+  "name": "Attack Shuttle",
+  "xws": "attackshuttle",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 6,
+  "name": "Auzituck Gunship",
+  "xws": "auzituckgunship",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 12,
+  "name": "BTL-A4 Y-wing",
+  "xws": "btla4ywing",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 30,
+  "name": "BTL-S8 K-wing",
+  "xws": "btls8kwing",
+  "size": "Medium",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 40,
+  "name": "E-wing",
+  "xws": "ewing",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 34,
+  "name": "HWK-290 Light Freighter",
+  "xws": "hwk290lightfreighter",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 1,
+  "name": "Modified YT-1300 Light Freighter",
+  "xws": "modifiedyt1300lightfreighter",
+  "size": "Large",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 35,
+  "name": "RZ-1 A-wing",
+  "xws": "rz1awing",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 8,
+  "name": "Sheathipede-class Shuttle",
+  "xws": "sheathipedeclassshuttle",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 33,
+  "name": "T-65 X-wing",
+  "xws": "t65xwing",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 11,
+  "name": "TIE/ln Fighter",
+  "xws": "tielnfighter",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 15,
+  "name": "UT-60D U-wing",
+  "xws": "ut60duwing",
+  "size": "Medium",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 23,
+  "name": "VCX-100 Light Freighter",
+  "xws": "vcx100lightfreighter",
+  "size": "Large",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 5,
+  "name": "YT-2400 Light Freighter",
+  "xws": "yt2400lightfreighter",
+  "size": "Large",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 38,
+  "name": "Z-95-AF4 Headhunter",
+  "xws": "z95af4headhunter",
+  "size": "Small",
+  "faction": "Rebel Alliance"
+ },
+ {
+  "ffg": 21,
+  "name": "Aggressor Assault Fighter",
+  "xws": "aggressorassaultfighter",
+  "size": "Medium",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 12,
+  "name": "BTL-A4 Y-wing",
+  "xws": "btla4ywing",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 47,
+  "name": "Customized YT-1300 Light Freighter",
+  "xws": "customizedyt1300lightfreighter",
+  "size": "Large",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 48,
+  "name": "Escape Craft",
+  "xws": "escapecraft",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 36,
+  "name": "Fang Fighter",
+  "xws": "fangfighter",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 10,
+  "name": "Firespray-class Patrol Craft",
+  "xws": "firesprayclasspatrolcraft",
+  "size": "Medium",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 22,
+  "name": "G-1A Starfighter",
+  "xws": "g1astarfighter",
+  "size": "Medium",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 34,
+  "name": "HWK-290 Light Freighter",
+  "xws": "hwk290lightfreighter",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 45,
+  "name": "JumpMaster 5000",
+  "xws": "jumpmaster5000",
+  "size": "Large",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 7,
+  "name": "Kihraxz Fighter",
+  "xws": "kihraxzfighter",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 42,
+  "name": "Lancer-class Pursuit Craft",
+  "xws": "lancerclasspursuitcraft",
+  "size": "Large",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 39,
+  "name": "M12-L Kimogila Fighter",
+  "xws": "m12lkimogilafighter",
+  "size": "Medium",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 44,
+  "name": "M3-A Interceptor",
+  "xws": "m3ainterceptor",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 9,
+  "name": "Quadrijet Transfer Spacetug",
+  "xws": "quadrijettransferspacetug",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 4,
+  "name": "Scurrg H-6 Bomber",
+  "xws": "scurrgh6bomber",
+  "size": "Medium",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 3,
+  "name": "StarViper-class Attack Platform",
+  "xws": "starviperclassattackplatform",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 24,
+  "name": "YV-666 Light Freighter",
+  "xws": "yv666lightfreighter",
+  "size": "Large",
+  "faction": "Scum and Villainy"
+ },
+ {
+  "ffg": 38,
+  "name": "Z-95-AF4 Headhunter",
+  "xws": "z95af4headhunter",
+  "size": "Small",
+  "faction": "Scum and Villainy"
+ }
+]
