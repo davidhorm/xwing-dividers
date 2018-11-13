@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { GearboxSize } from './gearbox-size.model';
 import { GEARBOX_SIZE } from './gearbox-size.service';
+import { Ship } from "../shared/ship.model";
+import { ShipService } from '../shared/ship.service';
 
 @Component({
   selector: 'app-gearbox',
   templateUrl: './gearbox.component.html',
-  styleUrls: ['./gearbox.component.css']
+  styleUrls: ['./gearbox.component.css'],
+  providers: [ ShipService ]
 })
 export class GearboxComponent implements OnInit {
 
@@ -14,9 +17,23 @@ export class GearboxComponent implements OnInit {
   shipTokenDepth: number = 2;
   depth: number;
 
-  constructor() { 
+  shipCollection: Ship[];
+  selectedShip: Ship;
+
+  constructor(private shipService: ShipService) { 
     this.selectedGearboxSize = GEARBOX_SIZE[0];
     this.depth = this.defaultDepth;
+  }
+
+  ngOnInit() {
+    this.getShipData();
+  }
+
+  getShipData(): void {
+    this.shipService.getShipData()
+    .subscribe((data: Ship[]) => 
+      this.shipCollection = data
+    );
   }
 
   rotateTable() {
@@ -40,8 +57,4 @@ export class GearboxComponent implements OnInit {
     };
     
   }
-
-  ngOnInit() {
-  }
-
 }
