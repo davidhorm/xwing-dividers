@@ -29,10 +29,11 @@ shipFilePaths.forEach(shipFilePath => {
 			"faction": shipJson.faction,
 			"size": shipJson.size,
 			"shipIcon": `xwing-miniatures-ship-${shipJson.xws}`,
-			"factionIcon": getFactionIcon(shipJson.faction)
+			"factionIcon": getFactionIcon(shipJson.faction),
+			"pilots": getPilots(shipJson.pilots)
 		};
            
-        shipDataArray.push(shipData);
+		shipDataArray.push(shipData);
 	}
 	else {
 		console.log(`¯\\_(ツ)_/¯ - skipping ${shipJson.faction} - ${shipJson.name}`);
@@ -47,6 +48,7 @@ shipDataArray.sort( (a, b) =>
 let shipDataFilePath = "./src/assets/ship-data.json";
 fs.writeFileSync(shipDataFilePath, JSON.stringify(shipDataArray, null, 1));
 console.log(`\n *CREATED ${shipDataFilePath} * \n`);
+
 
 function getFactionIcon(faction) {
 	switch(faction) {
@@ -67,4 +69,19 @@ function getFactionIcon(faction) {
 		default:
 			return null;
 	}
+}
+
+function getPilots(pilots) {
+
+	//sort by initiative desc, then pilot name asc
+	pilots.sort((a,b) => {
+		return b.initiative - a.initiative || a.name.localeCompare(b.name);
+	})
+
+	let pilotArray = [];
+	pilots.forEach(pilot => {
+		pilotArray.push(pilot.name);
+	});
+
+	return pilotArray;
 }

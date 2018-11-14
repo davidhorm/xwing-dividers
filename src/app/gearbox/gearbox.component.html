@@ -22,6 +22,10 @@
     </mat-form-field>
   </div>
 
+  <div>
+    <div *ngFor="let pilot of selectedShip?.pilots">{{pilot}}</div>
+  </div>
+
 </div>
 
 <!-- [ngStyle]="rotateTable()" -->

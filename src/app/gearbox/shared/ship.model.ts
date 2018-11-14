@@ -6,5 +6,6 @@ export interface Ship {
     faction: string;
     shipIcon: string;
     factionIcon: string;
+    pilots: string[];
     
 }
