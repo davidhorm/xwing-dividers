@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Ship } from 'src/app/shared/ship.model';
+import { Ship } from '../shared/ship.model';
 
 @Component({
   selector: 'app-side',

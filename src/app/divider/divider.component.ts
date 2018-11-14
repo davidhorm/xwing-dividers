@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CARD_TYPES } from '../shared/card-type.service';
-import { CardType } from '../shared/card-type.model';
+import { CARD_TYPES } from './shared/card-type.service';
+import { CardType } from './shared/card-type.model';
 
 @Component({
   selector: 'app-divider',

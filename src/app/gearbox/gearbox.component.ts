@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { GearboxSize } from './gearbox-size.model';
 import { GEARBOX_SIZE } from './gearbox-size.service';
-import { Ship } from "../shared/ship.model";
-import { ShipService } from '../shared/ship.service';
+import { Ship } from "./shared/ship.model";
+import { ShipService } from './shared/ship.service';
 
 @Component({
   selector: 'app-gearbox',
