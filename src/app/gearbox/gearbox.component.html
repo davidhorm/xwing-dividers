@@ -14,7 +14,9 @@
     <mat-form-field>
       <mat-select placeholder="Ship" [(ngModel)]="selectedShip">
         <mat-option *ngFor="let ship of shipCollection" [value]="ship">
-          {{ship.faction}} - {{ship.name}}
+          <i class="faction-icon xwing-miniatures-font {{ship.factionIcon}}" style="font-size: 4mm;"></i> 
+          <i class="ship-icon xwing-miniatures-ship {{ship?.shipIcon}}"></i>
+          {{ship.name}}
         </mat-option>
       </mat-select>
     </mat-form-field>
