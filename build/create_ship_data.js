@@ -38,6 +38,11 @@ shipFilePaths.forEach(shipFilePath => {
 	}
 });
 
+//sort by faction then ship name
+shipDataArray.sort( (a, b) => 
+	{ return a.faction.localeCompare(b.faction) || a.name.localeCompare(b.name); }
+);
+
 let shipDataFilePath = "./src/assets/ship-data.json";
 fs.writeFileSync(shipDataFilePath, JSON.stringify(shipDataArray, null, 1));
 console.log(`\n *CREATED ${shipDataFilePath} * \n`);

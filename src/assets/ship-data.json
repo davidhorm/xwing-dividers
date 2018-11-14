@@ -28,6 +28,20 @@
   "faction": "Galactic Empire"
  },
  {
+  "ffg": 41,
+  "name": "TIE Interceptor",
+  "xws": "tieinterceptor",
+  "size": "Small",
+  "faction": "Galactic Empire"
+ },
+ {
+  "ffg": 43,
+  "name": "TIE Reaper",
+  "xws": "tiereaper",
+  "size": "Medium",
+  "faction": "Galactic Empire"
+ },
+ {
   "ffg": 29,
   "name": "TIE/ag Aggressor",
   "xws": "tieagaggressor",
@@ -49,13 +63,6 @@
   "faction": "Galactic Empire"
  },
  {
-  "ffg": 41,
-  "name": "TIE Interceptor",
-  "xws": "tieinterceptor",
-  "size": "Small",
-  "faction": "Galactic Empire"
- },
- {
   "ffg": 11,
   "name": "TIE/ln Fighter",
   "xws": "tielnfighter",
@@ -67,13 +74,6 @@
   "name": "TIE/ph Phantom",
   "xws": "tiephphantom",
   "size": "Small",
-  "faction": "Galactic Empire"
- },
- {
-  "ffg": 43,
-  "name": "TIE Reaper",
-  "xws": "tiereaper",
-  "size": "Medium",
   "faction": "Galactic Empire"
  },
  {
