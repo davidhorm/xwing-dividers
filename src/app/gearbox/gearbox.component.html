@@ -40,7 +40,7 @@
       <td class="dashed-top solid-right solid-left" style="text-align: center;">
 
         <app-side 
-          shipName="StarViper-class Attack Platform"
+          [ship]="selectedShip"
           boxSide="top"
           [boxDepth]="depth"
           [sideWidth]="selectedGearboxSize.width">
@@ -59,7 +59,7 @@
       <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
           
           <app-side 
-            shipName="StarViper-class Attack Platform"
+            [ship]="selectedShip"
             boxSide="left"
             [boxDepth]="depth"
             [sideWidth]="selectedGearboxSize.height">
@@ -72,7 +72,7 @@
         <td class="dashed" [style.width.mm]="depth">
           
             <app-side 
-              shipName="StarViper-class Attack Platform"
+              [ship]="selectedShip"
               boxSide="right"
               [boxDepth]="depth"
               [sideWidth]="selectedGearboxSize.height">
@@ -101,7 +101,7 @@
       <td class="solid-left solid-bottom solid-right">
 
         <app-side 
-          shipName="StarViper-class Attack Platform"
+          [ship]="selectedShip"
           boxSide="bottom"
           [boxDepth]="depth"
           [sideWidth]="selectedGearboxSize.width">

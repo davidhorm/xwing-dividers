@@ -2,344 +2,393 @@
  {
   "ffg": 14,
   "name": "Alpha-class Star Wing",
-  "xws": "alphaclassstarwing",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-alphaclassstarwing",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 26,
   "name": "Lambda-class T-4a Shuttle",
-  "xws": "lambdaclasst4ashuttle",
+  "faction": "Galactic Empire",
   "size": "Large",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-lambdaclasst4ashuttle",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 25,
   "name": "TIE Advanced v1",
-  "xws": "tieadvancedv1",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieadvancedv1",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 13,
   "name": "TIE Advanced x1",
-  "xws": "tieadvancedx1",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieadvancedx1",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 41,
   "name": "TIE Interceptor",
-  "xws": "tieinterceptor",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieinterceptor",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 43,
   "name": "TIE Reaper",
-  "xws": "tiereaper",
+  "faction": "Galactic Empire",
   "size": "Medium",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tiereaper",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 29,
   "name": "TIE/ag Aggressor",
-  "xws": "tieagaggressor",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieagaggressor",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 20,
   "name": "TIE/ca Punisher",
-  "xws": "tiecapunisher",
+  "faction": "Galactic Empire",
   "size": "Medium",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tiecapunisher",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 18,
   "name": "TIE/D Defender",
-  "xws": "tieddefender",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieddefender",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 11,
   "name": "TIE/ln Fighter",
-  "xws": "tielnfighter",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tielnfighter",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 27,
   "name": "TIE/ph Phantom",
-  "xws": "tiephphantom",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tiephphantom",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 19,
   "name": "TIE/sa Bomber",
-  "xws": "tiesabomber",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tiesabomber",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 16,
   "name": "TIE/sk Striker",
-  "xws": "tieskstriker",
+  "faction": "Galactic Empire",
   "size": "Small",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-tieskstriker",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 28,
   "name": "VT-49 Decimator",
-  "xws": "vt49decimator",
+  "faction": "Galactic Empire",
   "size": "Large",
-  "faction": "Galactic Empire"
+  "shipIcon": "xwing-miniatures-ship-vt49decimator",
+  "factionIcon": "xwing-miniatures-font-empire"
  },
  {
   "ffg": 17,
   "name": "A/SF-01 B-wing",
-  "xws": "asf01bwing",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-asf01bwing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 31,
   "name": "ARC-170 Starfighter",
-  "xws": "arc170starfighter",
+  "faction": "Rebel Alliance",
   "size": "Medium",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-arc170starfighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 32,
   "name": "Attack Shuttle",
-  "xws": "attackshuttle",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-attackshuttle",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 6,
   "name": "Auzituck Gunship",
-  "xws": "auzituckgunship",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-auzituckgunship",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 12,
   "name": "BTL-A4 Y-wing",
-  "xws": "btla4ywing",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-btla4ywing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 30,
   "name": "BTL-S8 K-wing",
-  "xws": "btls8kwing",
+  "faction": "Rebel Alliance",
   "size": "Medium",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-btls8kwing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 40,
   "name": "E-wing",
-  "xws": "ewing",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-ewing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 34,
   "name": "HWK-290 Light Freighter",
-  "xws": "hwk290lightfreighter",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 1,
   "name": "Modified YT-1300 Light Freighter",
-  "xws": "modifiedyt1300lightfreighter",
+  "faction": "Rebel Alliance",
   "size": "Large",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-modifiedyt1300lightfreighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 35,
   "name": "RZ-1 A-wing",
-  "xws": "rz1awing",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-rz1awing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 8,
   "name": "Sheathipede-class Shuttle",
-  "xws": "sheathipedeclassshuttle",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-sheathipedeclassshuttle",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 33,
   "name": "T-65 X-wing",
-  "xws": "t65xwing",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-t65xwing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 11,
   "name": "TIE/ln Fighter",
-  "xws": "tielnfighter",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-tielnfighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 15,
   "name": "UT-60D U-wing",
-  "xws": "ut60duwing",
+  "faction": "Rebel Alliance",
   "size": "Medium",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-ut60duwing",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 23,
   "name": "VCX-100 Light Freighter",
-  "xws": "vcx100lightfreighter",
+  "faction": "Rebel Alliance",
   "size": "Large",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-vcx100lightfreighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 5,
   "name": "YT-2400 Light Freighter",
-  "xws": "yt2400lightfreighter",
+  "faction": "Rebel Alliance",
   "size": "Large",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-yt2400lightfreighter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 38,
   "name": "Z-95-AF4 Headhunter",
-  "xws": "z95af4headhunter",
+  "faction": "Rebel Alliance",
   "size": "Small",
-  "faction": "Rebel Alliance"
+  "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
+  "factionIcon": "xwing-miniatures-font-rebel"
  },
  {
   "ffg": 21,
   "name": "Aggressor Assault Fighter",
-  "xws": "aggressorassaultfighter",
+  "faction": "Scum and Villainy",
   "size": "Medium",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-aggressorassaultfighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 12,
   "name": "BTL-A4 Y-wing",
-  "xws": "btla4ywing",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-btla4ywing",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 47,
   "name": "Customized YT-1300 Light Freighter",
-  "xws": "customizedyt1300lightfreighter",
+  "faction": "Scum and Villainy",
   "size": "Large",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-customizedyt1300lightfreighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 48,
   "name": "Escape Craft",
-  "xws": "escapecraft",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-escapecraft",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 36,
   "name": "Fang Fighter",
-  "xws": "fangfighter",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-fangfighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 10,
   "name": "Firespray-class Patrol Craft",
-  "xws": "firesprayclasspatrolcraft",
+  "faction": "Scum and Villainy",
   "size": "Medium",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-firesprayclasspatrolcraft",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 22,
   "name": "G-1A Starfighter",
-  "xws": "g1astarfighter",
+  "faction": "Scum and Villainy",
   "size": "Medium",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-g1astarfighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 34,
   "name": "HWK-290 Light Freighter",
-  "xws": "hwk290lightfreighter",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 45,
   "name": "JumpMaster 5000",
-  "xws": "jumpmaster5000",
+  "faction": "Scum and Villainy",
   "size": "Large",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-jumpmaster5000",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 7,
   "name": "Kihraxz Fighter",
-  "xws": "kihraxzfighter",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-kihraxzfighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 42,
   "name": "Lancer-class Pursuit Craft",
-  "xws": "lancerclasspursuitcraft",
+  "faction": "Scum and Villainy",
   "size": "Large",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-lancerclasspursuitcraft",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 39,
   "name": "M12-L Kimogila Fighter",
-  "xws": "m12lkimogilafighter",
+  "faction": "Scum and Villainy",
   "size": "Medium",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-m12lkimogilafighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 44,
   "name": "M3-A Interceptor",
-  "xws": "m3ainterceptor",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-m3ainterceptor",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 9,
   "name": "Quadrijet Transfer Spacetug",
-  "xws": "quadrijettransferspacetug",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-quadrijettransferspacetug",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 4,
   "name": "Scurrg H-6 Bomber",
-  "xws": "scurrgh6bomber",
+  "faction": "Scum and Villainy",
   "size": "Medium",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-scurrgh6bomber",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 3,
   "name": "StarViper-class Attack Platform",
-  "xws": "starviperclassattackplatform",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-starviperclassattackplatform",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 24,
   "name": "YV-666 Light Freighter",
-  "xws": "yv666lightfreighter",
+  "faction": "Scum and Villainy",
   "size": "Large",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-yv666lightfreighter",
+  "factionIcon": "xwing-miniatures-font-scum"
  },
  {
   "ffg": 38,
   "name": "Z-95-AF4 Headhunter",
-  "xws": "z95af4headhunter",
+  "faction": "Scum and Villainy",
   "size": "Small",
-  "faction": "Scum and Villainy"
+  "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
+  "factionIcon": "xwing-miniatures-font-scum"
  }
 ]

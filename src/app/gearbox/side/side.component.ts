@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Ship } from 'src/app/shared/ship.model';
 
 @Component({
   selector: 'app-side',
@@ -9,7 +10,7 @@ export class SideComponent implements OnInit {
 
   constructor() { }
 
-  @Input() shipName:string;
+  @Input() ship:Ship;
   @Input() boxSide:string;
   @Input() boxDepth:number;
   @Input() sideWidth:number;

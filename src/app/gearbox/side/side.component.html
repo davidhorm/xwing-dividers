@@ -1,7 +1,7 @@
 <div class="outer-side-container">
   <div class="inner-side-container" [ngStyle]="getSideStyle()">
-    <i class="ship-icon xwing-miniatures-ship xwing-miniatures-ship-customizedyt1300lightfreighter"></i>
-    <span class="ship-name">{{shipName}}</span>
-    <i class="faction-icon xwing-miniatures-font xwing-miniatures-font-scum"></i>
+    <i class="ship-icon xwing-miniatures-ship {{ship?.shipIcon}}"></i>
+    <span class="ship-name">{{ship?.name}}</span>
+    <i class="faction-icon xwing-miniatures-font {{ship?.factionIcon}}"></i>
   </div>
 </div>
