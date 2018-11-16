@@ -1,721 +1,1514 @@
 [
- {
-  "ffg": 14,
-  "name": "Alpha-class Star Wing",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-alphaclassstarwing",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Major Vynder",
-   "Lieutenant Karsabi",
-   "Rho Squadron Pilot",
-   "Nu Squadron Pilot"
-  ]
- },
- {
-  "ffg": 26,
-  "name": "Lambda-class T-4a Shuttle",
-  "faction": "Galactic Empire",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-lambdaclasst4ashuttle",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Captain Kagi",
-   "Colonel Jendon",
-   "Lieutenant Sai",
-   "Omicron Group Pilot"
-  ]
- },
- {
-  "ffg": 25,
-  "name": "TIE Advanced v1",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieadvancedv1",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Grand Inquisitor",
-   "Seventh Sister",
-   "Baron of the Empire",
-   "Inquisitor"
-  ]
- },
- {
-  "ffg": 13,
-  "name": "TIE Advanced x1",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieadvancedx1",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Darth Vader",
-   "Maarek Stele",
-   "Ved Foslo",
-   "Storm Squadron Ace",
-   "Zertik Strom",
-   "Tempest Squadron Pilot"
-  ]
- },
- {
-  "ffg": 41,
-  "name": "TIE Interceptor",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieinterceptor",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Soontir Fel",
-   "Saber Squadron Ace",
-   "Turr Phennir",
-   "Alpha Squadron Pilot"
-  ]
- },
- {
-  "ffg": 43,
-  "name": "TIE Reaper",
-  "faction": "Galactic Empire",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-tiereaper",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Major Vermeil",
-   "Captain Feroph",
-   "\"Vizier\"",
-   "Scarif Base Pilot"
-  ]
- },
- {
-  "ffg": 29,
-  "name": "TIE/ag Aggressor",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieagaggressor",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Lieutenant Kestal",
-   "Onyx Squadron Scout",
-   "\"Double Edge\"",
-   "Sienar Specialist"
-  ]
- },
- {
-  "ffg": 20,
-  "name": "TIE/ca Punisher",
-  "faction": "Galactic Empire",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-tiecapunisher",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "\"Redline\"",
-   "\"Deathrain\"",
-   "Cutlass Squadron Pilot"
-  ]
- },
- {
-  "ffg": 18,
-  "name": "TIE/D Defender",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieddefender",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Rexler Brath",
-   "Colonel Vessery",
-   "Countess Ryad",
-   "Onyx Squadron Ace",
-   "Delta Squadron Pilot"
-  ]
- },
- {
-  "ffg": 11,
-  "name": "TIE/ln Fighter",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tielnfighter",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "\"Howlrunner\"",
-   "\"Mauler\" Mithel",
-   "\"Scourge\" Skutu",
-   "Del Meeko",
-   "Gideon Hask",
-   "Iden Versio",
-   "Seyn Marana",
-   "Black Squadron Ace",
-   "Valen Rudor",
-   "\"Night Beast\"",
-   "Obsidian Squadron Pilot",
-   "\"Wampa\"",
-   "Academy Pilot"
-  ]
- },
- {
-  "ffg": 27,
-  "name": "TIE/ph Phantom",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tiephphantom",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "\"Whisper\"",
-   "\"Echo\"",
-   "Sigma Squadron Ace",
-   "Imdaar Test Pilot"
-  ]
- },
- {
-  "ffg": 19,
-  "name": "TIE/sa Bomber",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tiesabomber",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Tomax Bren",
-   "Captain Jonus",
-   "Major Rhymer",
-   "Gamma Squadron Ace",
-   "\"Deathfire\"",
-   "Scimitar Squadron Pilot"
-  ]
- },
- {
-  "ffg": 16,
-  "name": "TIE/sk Striker",
-  "faction": "Galactic Empire",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tieskstriker",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "\"Duchess\"",
-   "\"Countdown\"",
-   "\"Pure Sabacc\"",
-   "Black Squadron Scout",
-   "Planetary Sentinel"
-  ]
- },
- {
-  "ffg": 28,
-  "name": "VT-49 Decimator",
-  "faction": "Galactic Empire",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-vt49decimator",
-  "factionIcon": "xwing-miniatures-font-empire",
-  "pilots": [
-   "Rear Admiral Chiraneau",
-   "Captain Oicunn",
-   "Patrol Leader"
-  ]
- },
- {
-  "ffg": 17,
-  "name": "A/SF-01 B-wing",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-asf01bwing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Braylen Stramm",
-   "Ten Numb",
-   "Blade Squadron Veteran",
-   "Blue Squadron Pilot"
-  ]
- },
- {
-  "ffg": 31,
-  "name": "ARC-170 Starfighter",
-  "faction": "Rebel Alliance",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-arc170starfighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Norra Wexley",
-   "Garven Dreis",
-   "Shara Bey",
-   "Ibtisam"
-  ]
- },
- {
-  "ffg": 32,
-  "name": "Attack Shuttle",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-attackshuttle",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Hera Syndulla",
-   "Ezra Bridger",
-   "Sabine Wren",
-   "\"Zeb\" Orrelios"
-  ]
- },
- {
-  "ffg": 6,
-  "name": "Auzituck Gunship",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-auzituckgunship",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Wullffwarro",
-   "Lowhhrick",
-   "Kashyyyk Defender"
-  ]
- },
- {
-  "ffg": 12,
-  "name": "BTL-A4 Y-wing",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-btla4ywing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Norra Wexley",
-   "\"Dutch\" Vander",
-   "Horton Salm",
-   "Evaan Verlaine",
-   "Gold Squadron Veteran",
-   "Gray Squadron Bomber"
-  ]
- },
- {
-  "ffg": 30,
-  "name": "BTL-S8 K-wing",
-  "faction": "Rebel Alliance",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-btls8kwing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Miranda Doni",
-   "Esege Tuketu",
-   "Warden Squadron Pilot"
-  ]
- },
- {
-  "ffg": 40,
-  "name": "E-wing",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-ewing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Corran Horn",
-   "Gavin Darklighter",
-   "Rogue Squadron Escort",
-   "Knave Squadron Escort"
-  ]
- },
- {
-  "ffg": 34,
-  "name": "HWK-290 Light Freighter",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Jan Ors",
-   "Roark Garnet",
-   "Kyle Katarn",
-   "Rebel Scout"
-  ]
- },
- {
-  "ffg": 1,
-  "name": "Modified YT-1300 Light Freighter",
-  "faction": "Rebel Alliance",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-modifiedyt1300lightfreighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Han Solo",
-   "Lando Calrissian",
-   "Chewbacca",
-   "Outer Rim Smuggler"
-  ]
- },
- {
-  "ffg": 35,
-  "name": "RZ-1 A-wing",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-rz1awing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Jake Farrell",
-   "Arvel Crynyd",
-   "Green Squadron Pilot",
-   "Phoenix Squadron Pilot"
-  ]
- },
- {
-  "ffg": 8,
-  "name": "Sheathipede-class Shuttle",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-sheathipedeclassshuttle",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Fenn Rau",
-   "Ezra Bridger",
-   "\"Zeb\" Orrelios",
-   "AP-5"
-  ]
- },
- {
-  "ffg": 33,
-  "name": "T-65 X-wing",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-t65xwing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Wedge Antilles",
-   "Luke Skywalker",
-   "Thane Kyrell",
-   "Garven Dreis",
-   "Jek Porkins",
-   "Kullbee Sperado",
-   "Biggs Darklighter",
-   "Leevan Tenza",
-   "Red Squadron Veteran",
-   "Blue Squadron Escort",
-   "Edrio Two Tubes",
-   "Cavern Angels Zealot"
-  ]
- },
- {
-  "ffg": 11,
-  "name": "TIE/ln Fighter",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-tielnfighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Ezra Bridger",
-   "Sabine Wren",
-   "\"Zeb\" Orrelios",
-   "Captain Rex"
-  ]
- },
- {
-  "ffg": 15,
-  "name": "UT-60D U-wing",
-  "faction": "Rebel Alliance",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-ut60duwing",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Bodhi Rook",
-   "Saw Gerrera",
-   "Cassian Andor",
-   "Magva Yarro",
-   "Benthic Two Tubes",
-   "Blue Squadron Scout",
-   "Heff Tobber",
-   "Partisan Renegade"
-  ]
- },
- {
-  "ffg": 23,
-  "name": "VCX-100 Light Freighter",
-  "faction": "Rebel Alliance",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-vcx100lightfreighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Hera Syndulla",
-   "Kanan Jarrus",
-   "\"Chopper\"",
-   "Lothal Rebel"
-  ]
- },
- {
-  "ffg": 5,
-  "name": "YT-2400 Light Freighter",
-  "faction": "Rebel Alliance",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-yt2400lightfreighter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Dash Rendar",
-   "\"Leebo\"",
-   "Wild Space Fringer"
-  ]
- },
- {
-  "ffg": 38,
-  "name": "Z-95-AF4 Headhunter",
-  "faction": "Rebel Alliance",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
-  "factionIcon": "xwing-miniatures-font-rebel",
-  "pilots": [
-   "Airen Cracken",
-   "Lieutenant Blount",
-   "Tala Squadron Pilot",
-   "Bandit Squadron Pilot"
-  ]
- },
- {
-  "ffg": 21,
-  "name": "Aggressor Assault Fighter",
-  "faction": "Scum and Villainy",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-aggressorassaultfighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "IG-88A",
-   "IG-88B",
-   "IG-88C",
-   "IG-88D"
-  ]
- },
- {
-  "ffg": 12,
-  "name": "BTL-A4 Y-wing",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-btla4ywing",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Kavil",
-   "Drea Renthal",
-   "Hired Gun",
-   "Crymorah Goon"
-  ]
- },
- {
-  "ffg": 47,
-  "name": "Customized YT-1300 Light Freighter",
-  "faction": "Scum and Villainy",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-customizedyt1300lightfreighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Han Solo",
-   "Lando Calrissian",
-   "L3-37",
-   "Freighter Captain"
-  ]
- },
- {
-  "ffg": 48,
-  "name": "Escape Craft",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-escapecraft",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Lando Calrissian",
-   "Outer Rim Pioneer",
-   "L3-37",
-   "Autopilot Drone"
-  ]
- },
- {
-  "ffg": 36,
-  "name": "Fang Fighter",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-fangfighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Fenn Rau",
-   "Old Teroch",
-   "Joy Rekkoff",
-   "Kad Solus",
-   "Skull Squadron Pilot",
-   "Zealous Recruit"
-  ]
- },
- {
-  "ffg": 10,
-  "name": "Firespray-class Patrol Craft",
-  "faction": "Scum and Villainy",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-firesprayclasspatrolcraft",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Boba Fett",
-   "Emon Azzameen",
-   "Kath Scarlet",
-   "Koshka Frost",
-   "Krassis Trelix",
-   "Bounty Hunter"
-  ]
- },
- {
-  "ffg": 22,
-  "name": "G-1A Starfighter",
-  "faction": "Scum and Villainy",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-g1astarfighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "4-LOM",
-   "Zuckuss",
-   "Gand Findsman"
-  ]
- },
- {
-  "ffg": 34,
-  "name": "HWK-290 Light Freighter",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Dace Bonearm",
-   "Palob Godalhi",
-   "Torkil Mux",
-   "Spice Runner"
-  ]
- },
- {
-  "ffg": 45,
-  "name": "JumpMaster 5000",
-  "faction": "Scum and Villainy",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-jumpmaster5000",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Dengar",
-   "Tel Trevura",
-   "Manaroo",
-   "Contracted Scout"
-  ]
- },
- {
-  "ffg": 7,
-  "name": "Kihraxz Fighter",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-kihraxzfighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Talonbane Cobra",
-   "Graz",
-   "Viktor Hel",
-   "Black Sun Ace",
-   "Captain Jostero",
-   "Cartel Marauder"
-  ]
- },
- {
-  "ffg": 42,
-  "name": "Lancer-class Pursuit Craft",
-  "faction": "Scum and Villainy",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-lancerclasspursuitcraft",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Ketsu Onyo",
-   "Asajj Ventress",
-   "Sabine Wren",
-   "Shadowport Hunter"
-  ]
- },
- {
-  "ffg": 39,
-  "name": "M12-L Kimogila Fighter",
-  "faction": "Scum and Villainy",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-m12lkimogilafighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Torani Kulda",
-   "Cartel Executioner",
-   "Dalan Oberos"
-  ]
- },
- {
-  "ffg": 44,
-  "name": "M3-A Interceptor",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-m3ainterceptor",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Serissu",
-   "Genesis Red",
-   "Laetin A'shera",
-   "Quinn Jast",
-   "Tansarii Point Veteran",
-   "Inaldra",
-   "Cartel Spacer",
-   "Sunny Bounder"
-  ]
- },
- {
-  "ffg": 9,
-  "name": "Quadrijet Transfer Spacetug",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-quadrijettransferspacetug",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Constable Zuvio",
-   "Sarco Plank",
-   "Unkar Plutt",
-   "Jakku Gunrunner"
-  ]
- },
- {
-  "ffg": 4,
-  "name": "Scurrg H-6 Bomber",
-  "faction": "Scum and Villainy",
-  "size": "Medium",
-  "shipIcon": "xwing-miniatures-ship-scurrgh6bomber",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Captain Nym",
-   "Sol Sixxa",
-   "Lok Revenant"
-  ]
- },
- {
-  "ffg": 3,
-  "name": "StarViper-class Attack Platform",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-starviperclassattackplatform",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Guri",
-   "Dalan Oberos",
-   "Prince Xizor",
-   "Black Sun Assassin",
-   "Black Sun Enforcer"
-  ]
- },
- {
-  "ffg": 24,
-  "name": "YV-666 Light Freighter",
-  "faction": "Scum and Villainy",
-  "size": "Large",
-  "shipIcon": "xwing-miniatures-ship-yv666lightfreighter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "Bossk",
-   "Moralo Eval",
-   "Latts Razzi",
-   "Trandoshan Slaver"
-  ]
- },
- {
-  "ffg": 38,
-  "name": "Z-95-AF4 Headhunter",
-  "faction": "Scum and Villainy",
-  "size": "Small",
-  "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
-  "factionIcon": "xwing-miniatures-font-scum",
-  "pilots": [
-   "N'dru Suhlak",
-   "Black Sun Soldier",
-   "Kaa'to Leeachos",
-   "Binayre Pirate",
-   "Nashtah Pup"
-  ]
- }
+    {
+        "ffg": 14,
+        "name": "Alpha-class Star Wing",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-alphaclassstarwing",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Major Vynder",
+                        "Rho Squadron Pilot"
+                    ],
+                    [
+                        "Lieutenant Karsabi",
+                        "Nu Squadron Pilot"
+                    ],
+                    [
+                        "Rho Squadron Pilot",
+                        "Nu Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 26,
+        "name": "Lambda-class T-4a Shuttle",
+        "faction": "Galactic Empire",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-lambdaclasst4ashuttle",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Captain Kagi",
+                        "Colonel Jendon"
+                    ],
+                    [
+                        "Lieutenant Sai",
+                        "Omicron Group Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 25,
+        "name": "TIE Advanced v1",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieadvancedv1",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Grand Inquisitor",
+                        "Baron of the Empire"
+                    ],
+                    [
+                        "Seventh Sister",
+                        "Inquisitor"
+                    ],
+                    [
+                        "Baron of the Empire",
+                        "Inquisitor"
+                    ],
+                    [
+                        "Baron of the Empire",
+                        "Inquisitor"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 13,
+        "name": "TIE Advanced x1",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieadvancedx1",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Darth Vader",
+                        "Storm Squadron Ace"
+                    ],
+                    [
+                        "Maarek Stele",
+                        "Tempest Squadron Pilot"
+                    ],
+                    [
+                        "Ved Foslo",
+                        "Ved Foslo"
+                    ],
+                    [
+                        "Zertik Strom",
+                        "Tempest Squadron Pilot"
+                    ],
+                    [
+                        "Storm Squadron Ace",
+                        "Tempest Squadron Pilot"
+                    ]
+                ]
+            },
+            {
+                "product": "TIE Advanced x1 Expansion Pack",
+                "pilots": [
+                    [
+                        "Darth Vader",
+                        "Storm Squadron Ace"
+                    ],
+                    [
+                        "Maarek Stele",
+                        "Ved Foslo"
+                    ],
+                    [
+                        "Zertik Strom",
+                        "Tempest Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 41,
+        "name": "TIE Interceptor",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieinterceptor",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Soontir Fel",
+                        "Saber Squadron Ace"
+                    ],
+                    [
+                        "Turr Phennir",
+                        "Alpha Squadron Pilot"
+                    ],
+                    [
+                        "Saber Squadron Ace",
+                        "Alpha Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 43,
+        "name": "TIE Reaper",
+        "faction": "Galactic Empire",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-tiereaper",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "TIE Reaper Expansion Pack",
+                "pilots": [
+                    [
+                        "Major Vermeil",
+                        "\"Vizier\""
+                    ],
+                    [
+                        "Captain Feroph",
+                        "Scarif Base Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 29,
+        "name": "TIE/ag Aggressor",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieagaggressor",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "\"Double Edge\"",
+                        "Sienar Specialist"
+                    ],
+                    [
+                        "Lieutenant Kestal",
+                        "Onyx Squadron Scout"
+                    ],
+                    [
+                        "Onyx Squadron Scout",
+                        "Sienar Specialist"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 20,
+        "name": "TIE/ca Punisher",
+        "faction": "Galactic Empire",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-tiecapunisher",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "\"Redline\"",
+                        "Cutlass Squadron Pilot"
+                    ],
+                    [
+                        "\"Deathrain\"",
+                        "Cutlass Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 18,
+        "name": "TIE/D Defender",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieddefender",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Rexler Brath",
+                        "Onyx Squadron Ace"
+                    ],
+                    [
+                        "Colonel Vessery",
+                        "Delta Squadron Pilot"
+                    ],
+                    [
+                        "Countess Ryad",
+                        "Delta Squadron Pilot"
+                    ],
+                    [
+                        "Onyx Squadron Ace",
+                        "Delta Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 11,
+        "name": "TIE/ln Fighter",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tielnfighter",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "\"Howlrunner\"",
+                        "Black Squadron Ace"
+                    ],
+                    [
+                        "\"Mauler\" Mithel",
+                        "Black Squadron Ace"
+                    ],
+                    [
+                        "\"Scourge\" Skutu",
+                        "Obsidian Squadron Pilot"
+                    ],
+                    [
+                        "Del Meeko",
+                        "Del Meeko"
+                    ],
+                    [
+                        "Gideon Hask",
+                        "Gideon Hask"
+                    ],
+                    [
+                        "Seyn Marana",
+                        "Seyn Marana"
+                    ],
+                    [
+                        "\"Wampa\"",
+                        "Academy Pilot"
+                    ],
+                    [
+                        "Black Squadron Ace",
+                        "Obsidian Squadron Pilot"
+                    ],
+                    [
+                        "Black Squadron Ace",
+                        "Academy Pilot"
+                    ],
+                    [
+                        "Obsidian Squadron Pilot",
+                        "Academy Pilot"
+                    ],
+                    [
+                        "Obsidian Squadron Pilot",
+                        "Academy Pilot"
+                    ]
+                ]
+            },
+            {
+                "product": "X-Wing Core Set",
+                "pilots": [
+                    [
+                        "Iden Versio",
+                        "Black Squadron Ace"
+                    ],
+                    [
+                        "Valen Rudor",
+                        "Obsidian Squadron Pilot"
+                    ],
+                    [
+                        "\"Night Beast\"",
+                        "Academy Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 27,
+        "name": "TIE/ph Phantom",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tiephphantom",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "\"Whisper\"",
+                        "Sigma Squadron Ace"
+                    ],
+                    [
+                        "\"Echo\"",
+                        "Imdaar Test Pilot"
+                    ],
+                    [
+                        "Imdaar Test Pilot",
+                        "Sigma Squadron Ace"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 19,
+        "name": "TIE/sa Bomber",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tiesabomber",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Tomax Bren",
+                        "Gamma Squadron Ace"
+                    ],
+                    [
+                        "Captain Jonus",
+                        "Gamma Squadron Ace"
+                    ],
+                    [
+                        "Major Rhymer",
+                        "Scimitar Squadron Pilot"
+                    ],
+                    [
+                        "\"Deathfire\"",
+                        "Scimitar Squadron Pilot"
+                    ],
+                    [
+                        "Gamma Squadron Ace",
+                        "Scimitar Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 16,
+        "name": "TIE/sk Striker",
+        "faction": "Galactic Empire",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tieskstriker",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "\"Duchess\"",
+                        "Black Squadron Scout"
+                    ],
+                    [
+                        "\"Countdown\"",
+                        "Planetary Sentinel"
+                    ],
+                    [
+                        "\"Pure Sabacc\"",
+                        "Planetary Sentinel"
+                    ],
+                    [
+                        "Black Squadron Scout",
+                        "Planetary Sentinel"
+                    ],
+                    [
+                        "Black Squadron Scout",
+                        "Planetary Sentinel"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 28,
+        "name": "VT-49 Decimator",
+        "faction": "Galactic Empire",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-vt49decimator",
+        "factionIcon": "xwing-miniatures-font-empire",
+        "tokens": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    [
+                        "Rear Admiral Chiraneau",
+                        "Patrol Leader"
+                    ],
+                    [
+                        "Captain Oicunn",
+                        "Patrol Leader"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 17,
+        "name": "A/SF-01 B-wing",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-asf01bwing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Braylen Stramm",
+                        "Blade Squadron Veteran"
+                    ],
+                    [
+                        "Ten Numb",
+                        "Blue Squadron Pilot"
+                    ],
+                    [
+                        "Blue Squadron Pilot",
+                        "Blade Squadron Veteran"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 31,
+        "name": "ARC-170 Starfighter",
+        "faction": "Rebel Alliance",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-arc170starfighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Garven Dreis",
+                        "Norra Wexley"
+                    ],
+                    [
+                        "Ibtisam",
+                        "Shara Bey"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 32,
+        "name": "Attack Shuttle",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-attackshuttle",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Hera Syndulla",
+                        "Ezra Bridger"
+                    ],
+                    [
+                        "Sabine Wren",
+                        "\"Zeb\" Orrelios"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 6,
+        "name": "Auzituck Gunship",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-auzituckgunship",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Wulffwarro",
+                        "Kashyyyk Defender"
+                    ],
+                    [
+                        "Lowhhrick",
+                        "Kashyyyk Defender"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 12,
+        "name": "BTL-A4 Y-wing",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-btla4ywing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Norra Wexley",
+                        "Norra Wexley"
+                    ],
+                    [
+                        "\"Dutch\" Vander",
+                        "Gold Squadron Veteran"
+                    ],
+                    [
+                        "Horton Salm",
+                        "Gray Squadron Bomber"
+                    ],
+                    [
+                        "Evaan Verlaine",
+                        "Evaan Verlaine"
+                    ],
+                    [
+                        "Gray Squadron Bomber",
+                        "Gold Squadron Veteran"
+                    ]
+                ]
+            },
+            {
+                "product": "BTL-A4 Y-Wing Expansion Pack",
+                "pilots": [
+                    [
+                        "Norra Wexley",
+                        "Evaan Verlaine"
+                    ],
+                    [
+                        "\"Dutch\" Vander",
+                        "Gray Squadron Bomber"
+                    ],
+                    [
+                        "Horton Salm",
+                        "Gold Squadron Veteran"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 30,
+        "name": "BTL-S8 K-wing",
+        "faction": "Rebel Alliance",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-btls8kwing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Miranda Doni",
+                        "Warden Squadron Pilot"
+                    ],
+                    [
+                        "Esege Tuketu",
+                        "Warden Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 40,
+        "name": "E-wing",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-ewing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Corran Horn",
+                        "Rogue Squadron Escort"
+                    ],
+                    [
+                        "Gavin Darklighter",
+                        "Knave Squadron Escort"
+                    ],
+                    [
+                        "Rogue Squadron Escort",
+                        "Knave Squadron Escort"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 34,
+        "name": "HWK-290 Light Freighter",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Jan Ors",
+                        "Rebel Scout"
+                    ],
+                    [
+                        "Roark Garnet",
+                        "Rebel Scout"
+                    ],
+                    [
+                        "Kyle Katarn",
+                        "Rebel Scout"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 1,
+        "name": "Modified YT-1300 Light Freighter",
+        "faction": "Rebel Alliance",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-modifiedyt1300lightfreighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Han Solo",
+                        "Chewbacca"
+                    ],
+                    [
+                        "Lando Calrissian",
+                        "Outer Rim Smuggler"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 35,
+        "name": "RZ-1 A-wing",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-rz1awing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Jake Farrell",
+                        "Green Squadron Pilot"
+                    ],
+                    [
+                        "Arvel Crynyd",
+                        "Phoenix Squadron Pilot"
+                    ],
+                    [
+                        "Green Squadron Pilot",
+                        "Phoenix Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 8,
+        "name": "Sheathipede-class Shuttle",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-sheathipedeclassshuttle",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Fenn Rau",
+                        "Ezra Bridger"
+                    ],
+                    [
+                        "\"Zeb\" Orrelios",
+                        "AP-5"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 33,
+        "name": "T-65 X-wing",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-t65xwing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Saw's Renegades Expansion Pack",
+                "pilots": [
+                    [
+                        "Kullbee Sperado",
+                        "Cavern Angels Zealot"
+                    ],
+                    [
+                        "Leevan Tenza",
+                        "Cavern Angels Zealot"
+                    ],
+                    [
+                        "Edrio Two Tubes",
+                        "Cavern Angels Zealot"
+                    ]
+                ]
+            },
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Wedge Antilles",
+                        "Red Squadron Veteran"
+                    ],
+                    [
+                        "Thane Kyrell",
+                        "Thane Kyrell"
+                    ],
+                    [
+                        "Garven Dreis",
+                        "Blue Squadron Escort"
+                    ],
+                    [
+                        "Biggs Darklighter",
+                        "Blue Squadron Escort"
+                    ],
+                    [
+                        "Red Squadron Veteran",
+                        "Blue Squadron Escort"
+                    ]
+                ]
+            },
+            {
+                "product": "X-Wing Core Set",
+                "pilots": [
+                    [
+                        "Luke Skywalker",
+                        "Red Squadron Veteran"
+                    ],
+                    [
+                        "Jek Porkins",
+                        "Blue Squadron Escort"
+                    ]
+                ]
+            },
+            {
+                "product": "T-65 X-Wing Expansion Pack",
+                "pilots": [
+                    [
+                        "Wedge Antilles",
+                        "Red Squadron Veteran"
+                    ],
+                    [
+                        "Garven Dreis",
+                        "Thane Kyrell"
+                    ],
+                    [
+                        "Biggs Darklighter",
+                        "Blue Squadron Escort"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 11,
+        "name": "TIE/ln Fighter",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-tielnfighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Ezra Bridger",
+                        "Sabine Wren"
+                    ],
+                    [
+                        "\"Zeb\" Orrelios",
+                        "Captain Rex"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 15,
+        "name": "UT-60D U-wing",
+        "faction": "Rebel Alliance",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-ut60duwing",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Saw's Renegades Expansion Pack",
+                "pilots": [
+                    [
+                        "Saw Gerrera",
+                        "Benthic Two Tubes"
+                    ],
+                    [
+                        "Magva Yarro",
+                        "Partisan Renegade"
+                    ]
+                ]
+            },
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Bodhi Rook",
+                        "Heff Tobber"
+                    ],
+                    [
+                        "Cassian Andor",
+                        "Blue Squadron Scout"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 23,
+        "name": "VCX-100 Light Freighter",
+        "faction": "Rebel Alliance",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-vcx100lightfreighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Hera Syndulla",
+                        "\"Chopper\""
+                    ],
+                    [
+                        "Kanan Jarrus",
+                        "Lothal Rebel"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 5,
+        "name": "YT-2400 Light Freighter",
+        "faction": "Rebel Alliance",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-yt2400lightfreighter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Dash Rendar",
+                        "Wild Space Fringer"
+                    ],
+                    [
+                        "\"Leebo\"",
+                        "Wild Space Fringer"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 38,
+        "name": "Z-95-AF4 Headhunter",
+        "faction": "Rebel Alliance",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
+        "factionIcon": "xwing-miniatures-font-rebel",
+        "tokens": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    [
+                        "Airen Cracken",
+                        "Tala Squadron Pilot"
+                    ],
+                    [
+                        "Lieutenant Blount",
+                        "Bandit Squadron Pilot"
+                    ],
+                    [
+                        "Tala Squadron Pilot",
+                        "Bandit Squadron Pilot"
+                    ],
+                    [
+                        "Tala Squadron Pilot",
+                        "Bandit Squadron Pilot"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 21,
+        "name": "Aggressor Assault Fighter",
+        "faction": "Scum and Villainy",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-aggressorassaultfighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "IG-88A",
+                        "IG-88A"
+                    ],
+                    [
+                        "IG-88B",
+                        "IG-88B"
+                    ],
+                    [
+                        "IG-88C",
+                        "IG-88C"
+                    ],
+                    [
+                        "IG-88D",
+                        "IG-88D"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 12,
+        "name": "BTL-A4 Y-wing",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-btla4ywing",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Kavil",
+                        "Hired Gun"
+                    ],
+                    [
+                        "Drea Renthal",
+                        "Crymorah Goon"
+                    ],
+                    [
+                        "Crymorah Goon",
+                        "Hired Gun"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 47,
+        "name": "Customized YT-1300 Light Freighter",
+        "faction": "Scum and Villainy",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-customizedyt1300lightfreighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Lando's Millennium Falcon Expansion Pack",
+                "pilots": [
+                    [
+                        "Han Solo",
+                        "L3-37"
+                    ],
+                    [
+                        "Lando Calrissian",
+                        "Freighter Captain"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 48,
+        "name": "Escape Craft",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-escapecraft",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Lando's Millennium Falcon Expansion Pack",
+                "pilots": [
+                    [
+                        "Lando Calrissian",
+                        "L3-37"
+                    ],
+                    [
+                        "Outer Rim Pioneer",
+                        "Autopilot Drone"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 36,
+        "name": "Fang Fighter",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-fangfighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Fenn Rau",
+                        "Skull Squadron Pilot"
+                    ],
+                    [
+                        "Old Teroch",
+                        "Zealous Recruit"
+                    ],
+                    [
+                        "Joy Rekkoff",
+                        "Joy Rekkoff"
+                    ],
+                    [
+                        "Kad Solus",
+                        "Zealous Recruit"
+                    ],
+                    [
+                        "Skull Squadron Pilot",
+                        "Zealous Recruit"
+                    ]
+                ]
+            },
+            {
+                "product": "Fang Fighter Expansion Pack",
+                "pilots": [
+                    [
+                        "Fenn Rau",
+                        "Skull Squadron Pilot"
+                    ],
+                    [
+                        "Old Teroch",
+                        "Joy Rekkoff"
+                    ],
+                    [
+                        "Kad Solus",
+                        "Zealous Recruit"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 10,
+        "name": "Firespray-class Patrol Craft",
+        "faction": "Scum and Villainy",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-firesprayclasspatrolcraft",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Boba Fett",
+                        "Krassis Trelix"
+                    ],
+                    [
+                        "Emon Azzameen",
+                        "Bounty Hunter"
+                    ],
+                    [
+                        "Kath Scarlet",
+                        "Bounty Hunter"
+                    ],
+                    [
+                        "Koshka Frost",
+                        "Koshka Frost"
+                    ]
+                ]
+            },
+            {
+                "product": "Slave I Expansion Pack",
+                "pilots": [
+                    [
+                        "Boba Fett",
+                        "Krassis Trelix"
+                    ],
+                    [
+                        "Emon Azzameen",
+                        "Kath Scarlet"
+                    ],
+                    [
+                        "Koshka Frost",
+                        "Bounty Hunter"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 22,
+        "name": "G-1A Starfighter",
+        "faction": "Scum and Villainy",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-g1astarfighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "4-LOM",
+                        "Gand Findsman"
+                    ],
+                    [
+                        "Zuckuss",
+                        "Gand Findsman"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 34,
+        "name": "HWK-290 Light Freighter",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Dace Bonearm",
+                        "Spice Runner"
+                    ],
+                    [
+                        "Palob Godalhi",
+                        "Spice Runner"
+                    ],
+                    [
+                        "Torkil Mux",
+                        "Spice Runner"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 45,
+        "name": "JumpMaster 5000",
+        "faction": "Scum and Villainy",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-jumpmaster5000",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Dengar",
+                        "Tel Trevura"
+                    ],
+                    [
+                        "Manaroo",
+                        "Contracted Scout"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 7,
+        "name": "Kihraxz Fighter",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-kihraxzfighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Talonbane Cobra",
+                        "Black Sun Ace"
+                    ],
+                    [
+                        "Graz",
+                        "Black Sun Ace"
+                    ],
+                    [
+                        "Viktor Hel",
+                        "Cartel Marauder"
+                    ],
+                    [
+                        "Black Sun Ace",
+                        "Cartel Marauder"
+                    ],
+                    [
+                        "Captain Jostero",
+                        "Cartel Marauder"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 42,
+        "name": "Lancer-class Pursuit Craft",
+        "faction": "Scum and Villainy",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-lancerclasspursuitcraft",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Ketsu Onyo",
+                        "Asajj Ventress"
+                    ],
+                    [
+                        "Sabine Wren",
+                        "Shadowport Hunter"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 39,
+        "name": "M12-L Kimogila Fighter",
+        "faction": "Scum and Villainy",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-m12lkimogilafighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Torani Kulda",
+                        "Cartel Executioner"
+                    ],
+                    [
+                        "Dalan Oberos",
+                        "Cartel Executioner"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 44,
+        "name": "M3-A Interceptor",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-m3ainterceptor",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Serissu",
+                        "Tansarii Point Veteran"
+                    ],
+                    [
+                        "Genesis Red",
+                        "Tansarii Point Veteran"
+                    ],
+                    [
+                        "Laetin A'shera",
+                        "Cartel Spacer"
+                    ],
+                    [
+                        "Quinn Jast",
+                        "Cartel Spacer"
+                    ],
+                    [
+                        "Inaldra",
+                        "Cartel Spacer"
+                    ],
+                    [
+                        "Sunny Bounder",
+                        "Cartel Spacer"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 9,
+        "name": "Quadrijet Transfer Spacetug",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-quadrijettransferspacetug",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Constable Zuvio",
+                        "Jakku Gunrunner"
+                    ],
+                    [
+                        "Sarco Plank",
+                        "Jakku Gunrunner"
+                    ],
+                    [
+                        "Unkar Plutt",
+                        "Jakku Gunrunner"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 4,
+        "name": "Scurrg H-6 Bomber",
+        "faction": "Scum and Villainy",
+        "size": "Medium",
+        "shipIcon": "xwing-miniatures-ship-scurrgh6bomber",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Captain Nym",
+                        "Lok Revenant"
+                    ],
+                    [
+                        "Sol Sixxa",
+                        "Lok Revenant"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 3,
+        "name": "StarViper-class Attack Platform",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-starviperclassattackplatform",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Guri",
+                        "Black Sun Assassin"
+                    ],
+                    [
+                        "Dalan Oberos",
+                        "Black Sun Enforcer"
+                    ],
+                    [
+                        "Prince Xizor",
+                        "Black Sun Enforcer"
+                    ],
+                    [
+                        "Black Sun Assassin",
+                        "Black Sun Enforcer"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 24,
+        "name": "YV-666 Light Freighter",
+        "faction": "Scum and Villainy",
+        "size": "Large",
+        "shipIcon": "xwing-miniatures-ship-yv666lightfreighter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "Bossk",
+                        "Latts Razzi"
+                    ],
+                    [
+                        "Moralo Eval",
+                        "Trandoshan Slaver"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 38,
+        "name": "Z-95-AF4 Headhunter",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
+        "factionIcon": "xwing-miniatures-font-scum",
+        "tokens": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    [
+                        "N'dru Suhlak",
+                        "Binayre Pirate"
+                    ],
+                    [
+                        "Kaa'to Leeachos",
+                        "Black Sun Soldier"
+                    ],
+                    [
+                        "Black Sun Soldier",
+                        "Binayre Pirate"
+                    ],
+                    [
+                        "Black Sun Soldier",
+                        "Binayre Pirate"
+                    ],
+                    [
+                        "Nashtah Pup",
+                        "Nashtah Pup"
+                    ]
+                ]
+            }
+        ]
+    }
 ]

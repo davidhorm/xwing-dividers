@@ -23,7 +23,14 @@
   </div>
 
   <div>
-    <div *ngFor="let pilot of selectedShip?.pilots">{{pilot}}</div>
+    <ul *ngFor="let shipToken of selectedShip?.tokens">
+      <li>
+          {{shipToken.product}}
+          <ul *ngFor="let pilot of shipToken.pilots">
+            <li>{{pilot[0]}} / {{pilot[1]}}</li>
+          </ul>
+      </li>
+    </ul>
   </div>
 
 </div>

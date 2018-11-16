@@ -6,7 +6,7 @@ import { Ship } from "./ship.model";
 export class ShipService {
     
     constructor(private http: HttpClient) {}
-
+    
     getShipData() {
         let shipDataUrl: string = 'assets/ship-data.json';
         return this.http.get<Ship[]>(shipDataUrl);

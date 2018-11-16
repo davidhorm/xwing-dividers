@@ -1,0 +1,664 @@
+{
+    "alphaclassstarwing": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Major Vynder",
+                    "Lieutenant Karsabi",
+                    "Rho Squadron Pilot",
+                    "Nu Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "lambdaclasst4ashuttle": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Captain Kagi",
+                    "Colonel Jendon",
+                    "Lieutenant Sai",
+                    "Omicron Group Pilot"
+                ]
+            }
+        ]
+    },
+    "tieadvancedv1": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Grand Inquisitor",
+                    "Seventh Sister",
+                    "Baron of the Empire",
+                    "Inquisitor"
+                ]
+            }
+        ]
+    },
+    "tieadvancedx1": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Darth Vader",
+                    "Maarek Stele",
+                    "Ved Foslo",
+                    "Storm Squadron Ace",
+                    "Zertik Strom",
+                    "Tempest Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieagaggressor": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Lieutenant Kestal",
+                    "Onyx Squadron Scout",
+                    "\"Double Edge\"",
+                    "Sienar Specialist"
+                ]
+            }
+        ]
+    },
+    "tiecapunisher": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "\"Redline\"",
+                    "\"Deathrain\"",
+                    "Cutlass Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieddefender": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Rexler Brath",
+                    "Colonel Vessery",
+                    "Countess Ryad",
+                    "Onyx Squadron Ace",
+                    "Delta Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieinterceptor": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Soontir Fel",
+                    "Saber Squadron Ace",
+                    "Turr Phennir",
+                    "Alpha Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tielnfighter": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "\"Howlrunner\"",
+                    "\"Mauler\" Mithel",
+                    "\"Scourge\" Skutu",
+                    "Del Meeko",
+                    "Gideon Hask",
+                    "Iden Versio",
+                    "Seyn Marana",
+                    "Black Squadron Ace",
+                    "Valen Rudor",
+                    "\"Night Beast\"",
+                    "Obsidian Squadron Pilot",
+                    "\"Wampa\"",
+                    "Academy Pilot"
+                ]
+            }
+        ],
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Ezra Bridger",
+                    "Sabine Wren",
+                    "\"Zeb\" Orrelios",
+                    "Captain Rex"
+                ]
+            }
+        ]
+    },
+    "tiephphantom": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "\"Whisper\"",
+                    "\"Echo\"",
+                    "Sigma Squadron Ace",
+                    "Imdaar Test Pilot"
+                ]
+            }
+        ]
+    },
+    "tiereaper": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Major Vermeil",
+                    "Captain Feroph",
+                    "\"Vizier\"",
+                    "Scarif Base Pilot"
+                ]
+            }
+        ]
+    },
+    "tiesabomber": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Tomax Bren",
+                    "Captain Jonus",
+                    "Major Rhymer",
+                    "Gamma Squadron Ace",
+                    "\"Deathfire\"",
+                    "Scimitar Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieskstriker": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "\"Duchess\"",
+                    "\"Countdown\"",
+                    "\"Pure Sabacc\"",
+                    "Black Squadron Scout",
+                    "Planetary Sentinel"
+                ]
+            }
+        ]
+    },
+    "vt49decimator": {
+        "Galactic Empire": [
+            {
+                "product": "Galactic Empire Conversion Kit",
+                "pilots": [
+                    "Rear Admiral Chiraneau",
+                    "Captain Oicunn",
+                    "Patrol Leader"
+                ]
+            }
+        ]
+    },
+    "asf01bwing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Braylen Stramm",
+                    "Ten Numb",
+                    "Blade Squadron Veteran",
+                    "Blue Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "arc170starfighter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Norra Wexley",
+                    "Garven Dreis",
+                    "Shara Bey",
+                    "Ibtisam"
+                ]
+            }
+        ]
+    },
+    "attackshuttle": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Hera Syndulla",
+                    "Ezra Bridger",
+                    "Sabine Wren",
+                    "\"Zeb\" Orrelios"
+                ]
+            }
+        ]
+    },
+    "auzituckgunship": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Wullffwarro",
+                    "Lowhhrick",
+                    "Kashyyyk Defender"
+                ]
+            }
+        ]
+    },
+    "btla4ywing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Norra Wexley",
+                    "\"Dutch\" Vander",
+                    "Horton Salm",
+                    "Evaan Verlaine",
+                    "Gold Squadron Veteran",
+                    "Gray Squadron Bomber"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Kavil",
+                    "Drea Renthal",
+                    "Hired Gun",
+                    "Crymorah Goon"
+                ]
+            }
+        ]
+    },
+    "btls8kwing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Miranda Doni",
+                    "Esege Tuketu",
+                    "Warden Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "ewing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Corran Horn",
+                    "Gavin Darklighter",
+                    "Rogue Squadron Escort",
+                    "Knave Squadron Escort"
+                ]
+            }
+        ]
+    },
+    "hwk290lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Jan Ors",
+                    "Roark Garnet",
+                    "Kyle Katarn",
+                    "Rebel Scout"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Dace Bonearm",
+                    "Palob Godalhi",
+                    "Torkil Mux",
+                    "Spice Runner"
+                ]
+            }
+        ]
+    },
+    "modifiedyt1300lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Han Solo",
+                    "Lando Calrissian",
+                    "Chewbacca",
+                    "Outer Rim Smuggler"
+                ]
+            }
+        ]
+    },
+    "rz1awing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Jake Farrell",
+                    "Arvel Crynyd",
+                    "Green Squadron Pilot",
+                    "Phoenix Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "sheathipedeclassshuttle": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Fenn Rau",
+                    "Ezra Bridger",
+                    "\"Zeb\" Orrelios",
+                    "AP-5"
+                ]
+            }
+        ]
+    },
+    "t65xwing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Wedge Antilles",
+                    "Luke Skywalker",
+                    "Thane Kyrell",
+                    "Garven Dreis",
+                    "Jek Porkins",
+                    "Kullbee Sperado",
+                    "Biggs Darklighter",
+                    "Leevan Tenza",
+                    "Red Squadron Veteran",
+                    "Blue Squadron Escort",
+                    "Edrio Two Tubes",
+                    "Cavern Angels Zealot"
+                ]
+            }
+        ]
+    },
+    "ut60duwing": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Bodhi Rook",
+                    "Saw Gerrera",
+                    "Cassian Andor",
+                    "Magva Yarro",
+                    "Benthic Two Tubes",
+                    "Blue Squadron Scout",
+                    "Heff Tobber",
+                    "Partisan Renegade"
+                ]
+            }
+        ]
+    },
+    "vcx100lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Hera Syndulla",
+                    "Kanan Jarrus",
+                    "\"Chopper\"",
+                    "Lothal Rebel"
+                ]
+            }
+        ]
+    },
+    "yt2400lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Dash Rendar",
+                    "\"Leebo\"",
+                    "Wild Space Fringer"
+                ]
+            }
+        ]
+    },
+    "z95af4headhunter": {
+        "Rebel Alliance": [
+            {
+                "product": "Rebel Alliance Conversion Kit",
+                "pilots": [
+                    "Airen Cracken",
+                    "Lieutenant Blount",
+                    "Tala Squadron Pilot",
+                    "Bandit Squadron Pilot"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "N'dru Suhlak",
+                    "Black Sun Soldier",
+                    "Kaa'to Leeachos",
+                    "Binayre Pirate",
+                    "Nashtah Pup"
+                ]
+            }
+        ]
+    },
+    "aggressorassaultfighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "IG-88A",
+                    "IG-88B",
+                    "IG-88C",
+                    "IG-88D"
+                ]
+            }
+        ]
+    },
+    "customizedyt1300lightfreighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Han Solo",
+                    "Lando Calrissian",
+                    "L3-37",
+                    "Freighter Captain"
+                ]
+            }
+        ]
+    },
+    "escapecraft": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Lando Calrissian",
+                    "Outer Rim Pioneer",
+                    "L3-37",
+                    "Autopilot Drone"
+                ]
+            }
+        ]
+    },
+    "fangfighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Fenn Rau",
+                    "Old Teroch",
+                    "Joy Rekkoff",
+                    "Kad Solus",
+                    "Skull Squadron Pilot",
+                    "Zealous Recruit"
+                ]
+            }
+        ]
+    },
+    "firesprayclasspatrolcraft": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Boba Fett",
+                    "Emon Azzameen",
+                    "Kath Scarlet",
+                    "Koshka Frost",
+                    "Krassis Trelix",
+                    "Bounty Hunter"
+                ]
+            }
+        ]
+    },
+    "g1astarfighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "4-LOM",
+                    "Zuckuss",
+                    "Gand Findsman"
+                ]
+            }
+        ]
+    },
+    "jumpmaster5000": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Dengar",
+                    "Tel Trevura",
+                    "Manaroo",
+                    "Contracted Scout"
+                ]
+            }
+        ]
+    },
+    "kihraxzfighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Talonbane Cobra",
+                    "Graz",
+                    "Viktor Hel",
+                    "Black Sun Ace",
+                    "Captain Jostero",
+                    "Cartel Marauder"
+                ]
+            }
+        ]
+    },
+    "lancerclasspursuitcraft": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Ketsu Onyo",
+                    "Asajj Ventress",
+                    "Sabine Wren",
+                    "Shadowport Hunter"
+                ]
+            }
+        ]
+    },
+    "m12lkimogilafighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Torani Kulda",
+                    "Cartel Executioner",
+                    "Dalan Oberos"
+                ]
+            }
+        ]
+    },
+    "m3ainterceptor": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Serissu",
+                    "Genesis Red",
+                    "Laetin A'shera",
+                    "Quinn Jast",
+                    "Tansarii Point Veteran",
+                    "Inaldra",
+                    "Cartel Spacer",
+                    "Sunny Bounder"
+                ]
+            }
+        ]
+    },
+    "quadrijettransferspacetug": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Constable Zuvio",
+                    "Sarco Plank",
+                    "Unkar Plutt",
+                    "Jakku Gunrunner"
+                ]
+            }
+        ]
+    },
+    "scurrgh6bomber": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Captain Nym",
+                    "Sol Sixxa",
+                    "Lok Revenant"
+                ]
+            }
+        ]
+    },
+    "starviperclassattackplatform": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Guri",
+                    "Dalan Oberos",
+                    "Prince Xizor",
+                    "Black Sun Assassin",
+                    "Black Sun Enforcer"
+                ]
+            }
+        ]
+    },
+    "yv666lightfreighter": {
+        "Scum and Villainy": [
+            {
+                "product": "Scum and Villainy Conversion Kit",
+                "pilots": [
+                    "Bossk",
+                    "Moralo Eval",
+                    "Latts Razzi",
+                    "Trandoshan Slaver"
+                ]
+            }
+        ]
+    }
+}

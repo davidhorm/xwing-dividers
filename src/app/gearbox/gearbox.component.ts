@@ -31,9 +31,10 @@ export class GearboxComponent implements OnInit {
 
   getShipData(): void {
     this.shipService.getShipData()
-    .subscribe((data: Ship[]) => 
-      this.shipCollection = data
-    );
+      .subscribe((shipData: Ship[]) => {
+        this.shipCollection = shipData;
+        this.selectedShip = this.shipCollection[0];
+      });
   }
 
   rotateTable() {
