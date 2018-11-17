@@ -12,9 +12,19 @@
 
   <div>
     <mat-form-field>
-      <mat-select placeholder="Ship" [(ngModel)]="selectedShip">
-        <mat-option *ngFor="let ship of shipCollection" [value]="ship">
-          <i class="faction-icon xwing-miniatures-font {{ship.factionIcon}}" style="font-size: 4mm;"></i> 
+      <mat-select placeholder="Faction" [(ngModel)]="selectedFaction" (selectionChange)="onSelectedFactionChange()">
+          <mat-option *ngFor="let faction of factionCollection" [value]="faction">
+            <i class="faction-icon xwing-miniatures-font {{faction.icon}}" style="font-size: 4mm;"></i> 
+            {{faction.name}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-select placeholder="Ship" [(ngModel)]="selectedShip" (selectionChange)="onSelectedShipChange()">
+        <mat-option *ngFor="let ship of filteredShipCollection" [value]="ship">
           <i class="ship-icon xwing-miniatures-ship {{ship?.shipIcon}}"></i>
           {{ship.name}}
         </mat-option>
@@ -23,19 +33,24 @@
   </div>
 
   <div>
-    <ul *ngFor="let shipToken of selectedShip?.tokens">
-      <li>
-          {{shipToken.product}}
-          <ul *ngFor="let pilot of shipToken.pilots">
-            <li>{{pilot[0]}} / {{pilot[1]}}</li>
-          </ul>
-      </li>
+      <mat-form-field>
+        <mat-select placeholder="Product" [(ngModel)]="selectedProduct">
+          <mat-option *ngFor="let product of selectedShip?.products" [value]="product">
+            {{product?.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+  <div>
+    <ul *ngFor="let shipToken of selectedProduct?.shipTokens">
+      <li>{{shipToken[0]}} / {{shipToken[1]}}</li>
     </ul>
   </div>
 
 </div>
 
-<!-- [ngStyle]="rotateTable()" -->
+<!-- [ngStyle]="getRotateTableStyle()" -->
 <table>
 
     <!-- top flap -->

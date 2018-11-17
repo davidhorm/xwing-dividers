@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { GearboxSize } from './gearbox-size.model';
-import { GEARBOX_SIZE } from './gearbox-size.service';
+import { GearboxSize } from './shared/gearbox-size.model';
+import { GEARBOX_SIZE } from './shared/gearbox-size.service';
 import { Ship } from "./shared/ship.model";
 import { ShipService } from './shared/ship.service';
+import { FACTIONS } from './shared/faction.services';
+import { Faction } from './shared/faction.model';
+import { Product } from './shared/product.model';
 
 @Component({
   selector: 'app-gearbox',
@@ -17,10 +20,17 @@ export class GearboxComponent implements OnInit {
   shipTokenDepth: number = 2;
   depth: number;
 
-  shipCollection: Ship[];
+  factionCollection: Faction[] = FACTIONS;
+  selectedFaction: Faction;
+
+  allShipCollection: Ship[];
+  filteredShipCollection: Ship[];
   selectedShip: Ship;
 
+  selectedProduct: Product;
+
   constructor(private shipService: ShipService) { 
+    this.selectedFaction = FACTIONS[0];
     this.selectedGearboxSize = GEARBOX_SIZE[0];
     this.depth = this.defaultDepth;
   }
@@ -32,12 +42,22 @@ export class GearboxComponent implements OnInit {
   getShipData(): void {
     this.shipService.getShipData()
       .subscribe((shipData: Ship[]) => {
-        this.shipCollection = shipData;
-        this.selectedShip = this.shipCollection[0];
+        this.allShipCollection = shipData;
+        this.onSelectedFactionChange();
       });
   }
 
-  rotateTable() {
+  onSelectedFactionChange(): void {
+    this.filteredShipCollection = this.allShipCollection.filter(ship => ship.faction === this.selectedFaction.name);
+    this.selectedShip = this.filteredShipCollection[0];
+    this.onSelectedShipChange();
+  }
+
+  onSelectedShipChange(): void {
+    this.selectedProduct = this.selectedShip.products[0];
+  }
+
+  getRotateTableStyle() {
     let newHeight = this.depth*3 + this.selectedGearboxSize.height;
 
     return {

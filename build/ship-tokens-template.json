@@ -2,8 +2,9 @@
     "alphaclassstarwing": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Alpha-class Star Wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Major Vynder",
                     "Lieutenant Karsabi",
                     "Rho Squadron Pilot",
@@ -15,8 +16,9 @@
     "lambdaclasst4ashuttle": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Lambda-class T-4a Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Captain Kagi",
                     "Colonel Jendon",
                     "Lieutenant Sai",
@@ -28,8 +30,9 @@
     "tieadvancedv1": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE Advanced v1 Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Grand Inquisitor",
                     "Seventh Sister",
                     "Baron of the Empire",
@@ -41,8 +44,9 @@
     "tieadvancedx1": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE Advanced x1 Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Darth Vader",
                     "Maarek Stele",
                     "Ved Foslo",
@@ -56,8 +60,9 @@
     "tieagaggressor": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/ag Aggressor Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Lieutenant Kestal",
                     "Onyx Squadron Scout",
                     "\"Double Edge\"",
@@ -69,8 +74,9 @@
     "tiecapunisher": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/ca Punisher Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "\"Redline\"",
                     "\"Deathrain\"",
                     "Cutlass Squadron Pilot"
@@ -81,8 +87,9 @@
     "tieddefender": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/D Defender Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Rexler Brath",
                     "Colonel Vessery",
                     "Countess Ryad",
@@ -95,8 +102,9 @@
     "tieinterceptor": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE Interceptor Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Soontir Fel",
                     "Saber Squadron Ace",
                     "Turr Phennir",
@@ -108,8 +116,9 @@
     "tielnfighter": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 7,
+                "pilotNames": [
                     "\"Howlrunner\"",
                     "\"Mauler\" Mithel",
                     "\"Scourge\" Skutu",
@@ -128,8 +137,9 @@
         ],
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Ezra Bridger",
                     "Sabine Wren",
                     "\"Zeb\" Orrelios",
@@ -141,8 +151,9 @@
     "tiephphantom": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/ph Phantom Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "\"Whisper\"",
                     "\"Echo\"",
                     "Sigma Squadron Ace",
@@ -154,8 +165,9 @@
     "tiereaper": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE Reaper Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Major Vermeil",
                     "Captain Feroph",
                     "\"Vizier\"",
@@ -167,8 +179,9 @@
     "tiesabomber": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/sa Bomber Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Tomax Bren",
                     "Captain Jonus",
                     "Major Rhymer",
@@ -182,8 +195,9 @@
     "tieskstriker": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "TIE/sk Striker Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "\"Duchess\"",
                     "\"Countdown\"",
                     "\"Pure Sabacc\"",
@@ -196,8 +210,9 @@
     "vt49decimator": {
         "Galactic Empire": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "VT-49 Decimator Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Rear Admiral Chiraneau",
                     "Captain Oicunn",
                     "Patrol Leader"
@@ -208,8 +223,9 @@
     "asf01bwing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "A/SF-01 B-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Braylen Stramm",
                     "Ten Numb",
                     "Blade Squadron Veteran",
@@ -221,8 +237,9 @@
     "arc170starfighter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "ARC-170 Starfighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Norra Wexley",
                     "Garven Dreis",
                     "Shara Bey",
@@ -234,8 +251,9 @@
     "attackshuttle": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Attack Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Hera Syndulla",
                     "Ezra Bridger",
                     "Sabine Wren",
@@ -247,8 +265,9 @@
     "auzituckgunship": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Auzituck Gunship Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Wullffwarro",
                     "Lowhhrick",
                     "Kashyyyk Defender"
@@ -259,8 +278,9 @@
     "btla4ywing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "BTL-A4 Y-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Norra Wexley",
                     "\"Dutch\" Vander",
                     "Horton Salm",
@@ -272,8 +292,9 @@
         ],
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "BTL-A4 Y-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Kavil",
                     "Drea Renthal",
                     "Hired Gun",
@@ -285,8 +306,9 @@
     "btls8kwing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "BTL-S8 K-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Miranda Doni",
                     "Esege Tuketu",
                     "Warden Squadron Pilot"
@@ -297,8 +319,9 @@
     "ewing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "E-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Corran Horn",
                     "Gavin Darklighter",
                     "Rogue Squadron Escort",
@@ -310,8 +333,9 @@
     "hwk290lightfreighter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "HWK-290 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Jan Ors",
                     "Roark Garnet",
                     "Kyle Katarn",
@@ -321,8 +345,9 @@
         ],
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "HWK-290 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Dace Bonearm",
                     "Palob Godalhi",
                     "Torkil Mux",
@@ -334,8 +359,9 @@
     "modifiedyt1300lightfreighter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Modified YT-1300 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Han Solo",
                     "Lando Calrissian",
                     "Chewbacca",
@@ -347,8 +373,9 @@
     "rz1awing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "RZ-1 A-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Jake Farrell",
                     "Arvel Crynyd",
                     "Green Squadron Pilot",
@@ -360,8 +387,9 @@
     "sheathipedeclassshuttle": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Sheathipede-class Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Fenn Rau",
                     "Ezra Bridger",
                     "\"Zeb\" Orrelios",
@@ -373,8 +401,9 @@
     "t65xwing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "T-65 X-wing Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
                     "Wedge Antilles",
                     "Luke Skywalker",
                     "Thane Kyrell",
@@ -394,8 +423,9 @@
     "ut60duwing": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "UT-60D U-wing Expansion Pack",
+                "numberOfTokens": 4,
+                "pilotNames": [
                     "Bodhi Rook",
                     "Saw Gerrera",
                     "Cassian Andor",
@@ -411,8 +441,9 @@
     "vcx100lightfreighter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "VCX-100 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Hera Syndulla",
                     "Kanan Jarrus",
                     "\"Chopper\"",
@@ -424,8 +455,9 @@
     "yt2400lightfreighter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "YT-2400 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Dash Rendar",
                     "\"Leebo\"",
                     "Wild Space Fringer"
@@ -436,8 +468,9 @@
     "z95af4headhunter": {
         "Rebel Alliance": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Z-95-AF4 Headhunter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Airen Cracken",
                     "Lieutenant Blount",
                     "Tala Squadron Pilot",
@@ -447,8 +480,9 @@
         ],
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Z-95-AF4 Headhunter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "N'dru Suhlak",
                     "Black Sun Soldier",
                     "Kaa'to Leeachos",
@@ -461,8 +495,9 @@
     "aggressorassaultfighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Aggressor Assault Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "IG-88A",
                     "IG-88B",
                     "IG-88C",
@@ -474,8 +509,9 @@
     "customizedyt1300lightfreighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Customized YT-1300 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Han Solo",
                     "Lando Calrissian",
                     "L3-37",
@@ -487,8 +523,9 @@
     "escapecraft": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Escape Craft Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Lando Calrissian",
                     "Outer Rim Pioneer",
                     "L3-37",
@@ -500,8 +537,9 @@
     "fangfighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Fang Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Fenn Rau",
                     "Old Teroch",
                     "Joy Rekkoff",
@@ -515,8 +553,9 @@
     "firesprayclasspatrolcraft": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Firespray-class Patrol Craft Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Boba Fett",
                     "Emon Azzameen",
                     "Kath Scarlet",
@@ -530,8 +569,9 @@
     "g1astarfighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "G-1A Starfighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "4-LOM",
                     "Zuckuss",
                     "Gand Findsman"
@@ -542,8 +582,9 @@
     "jumpmaster5000": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "JumpMaster 5000 Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Dengar",
                     "Tel Trevura",
                     "Manaroo",
@@ -555,8 +596,9 @@
     "kihraxzfighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Kihraxz Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Talonbane Cobra",
                     "Graz",
                     "Viktor Hel",
@@ -570,8 +612,9 @@
     "lancerclasspursuitcraft": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Lancer-class Pursuit Craft Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Ketsu Onyo",
                     "Asajj Ventress",
                     "Sabine Wren",
@@ -583,8 +626,9 @@
     "m12lkimogilafighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "M12-L Kimogila Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Torani Kulda",
                     "Cartel Executioner",
                     "Dalan Oberos"
@@ -595,8 +639,9 @@
     "m3ainterceptor": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "M3-A Interceptor Expansion Pack",
+                "numberOfTokens": 4,
+                "pilotNames": [
                     "Serissu",
                     "Genesis Red",
                     "Laetin A'shera",
@@ -612,8 +657,9 @@
     "quadrijettransferspacetug": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Quadrijet Transfer Spacetug Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Constable Zuvio",
                     "Sarco Plank",
                     "Unkar Plutt",
@@ -625,8 +671,9 @@
     "scurrgh6bomber": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scurrg H-6 Bomber Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Captain Nym",
                     "Sol Sixxa",
                     "Lok Revenant"
@@ -637,8 +684,9 @@
     "starviperclassattackplatform": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "StarViper-class Attack Platform Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
                     "Guri",
                     "Dalan Oberos",
                     "Prince Xizor",
@@ -651,8 +699,9 @@
     "yv666lightfreighter": {
         "Scum and Villainy": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "YV-666 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
                     "Bossk",
                     "Moralo Eval",
                     "Latts Razzi",

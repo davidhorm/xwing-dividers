@@ -5,11 +5,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-alphaclassstarwing",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Major Vynder",
                         "Rho Squadron Pilot"
@@ -32,11 +31,10 @@
         "faction": "Galactic Empire",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-lambdaclasst4ashuttle",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Captain Kagi",
                         "Colonel Jendon"
@@ -55,11 +53,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieadvancedv1",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Grand Inquisitor",
                         "Baron of the Empire"
@@ -86,11 +83,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieadvancedx1",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Darth Vader",
                         "Storm Squadron Ace"
@@ -114,20 +110,15 @@
                 ]
             },
             {
-                "product": "TIE Advanced x1 Expansion Pack",
-                "pilots": [
-                    [
-                        "Darth Vader",
-                        "Storm Squadron Ace"
-                    ],
-                    [
-                        "Maarek Stele",
-                        "Ved Foslo"
-                    ],
-                    [
-                        "Zertik Strom",
-                        "Tempest Squadron Pilot"
-                    ]
+                "name": "TIE Advanced x1 Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Darth Vader",
+                    "Maarek Stele",
+                    "Ved Foslo",
+                    "Storm Squadron Ace",
+                    "Zertik Strom",
+                    "Tempest Squadron Pilot"
                 ]
             }
         ]
@@ -138,11 +129,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieinterceptor",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Soontir Fel",
                         "Saber Squadron Ace"
@@ -165,19 +155,15 @@
         "faction": "Galactic Empire",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-tiereaper",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "TIE Reaper Expansion Pack",
-                "pilots": [
-                    [
-                        "Major Vermeil",
-                        "\"Vizier\""
-                    ],
-                    [
-                        "Captain Feroph",
-                        "Scarif Base Pilot"
-                    ]
+                "name": "TIE Reaper Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "Major Vermeil",
+                    "Captain Feroph",
+                    "\"Vizier\"",
+                    "Scarif Base Pilot"
                 ]
             }
         ]
@@ -188,11 +174,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieagaggressor",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "\"Double Edge\"",
                         "Sienar Specialist"
@@ -215,11 +200,10 @@
         "faction": "Galactic Empire",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-tiecapunisher",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "\"Redline\"",
                         "Cutlass Squadron Pilot"
@@ -238,11 +222,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieddefender",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Rexler Brath",
                         "Onyx Squadron Ace"
@@ -269,11 +252,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tielnfighter",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "\"Howlrunner\"",
                         "Black Squadron Ace"
@@ -321,20 +303,15 @@
                 ]
             },
             {
-                "product": "X-Wing Core Set",
-                "pilots": [
-                    [
-                        "Iden Versio",
-                        "Black Squadron Ace"
-                    ],
-                    [
-                        "Valen Rudor",
-                        "Obsidian Squadron Pilot"
-                    ],
-                    [
-                        "\"Night Beast\"",
-                        "Academy Pilot"
-                    ]
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Iden Versio",
+                    "Black Squadron Ace",
+                    "Valen Rudor",
+                    "\"Night Beast\"",
+                    "Obsidian Squadron Pilot",
+                    "Academy Pilot"
                 ]
             }
         ]
@@ -345,11 +322,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tiephphantom",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "\"Whisper\"",
                         "Sigma Squadron Ace"
@@ -372,11 +348,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tiesabomber",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Tomax Bren",
                         "Gamma Squadron Ace"
@@ -407,11 +382,10 @@
         "faction": "Galactic Empire",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tieskstriker",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "\"Duchess\"",
                         "Black Squadron Scout"
@@ -442,11 +416,10 @@
         "faction": "Galactic Empire",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-vt49decimator",
-        "factionIcon": "xwing-miniatures-font-empire",
-        "tokens": [
+        "products": [
             {
-                "product": "Galactic Empire Conversion Kit",
-                "pilots": [
+                "name": "Galactic Empire Conversion Kit",
+                "shipTokens": [
                     [
                         "Rear Admiral Chiraneau",
                         "Patrol Leader"
@@ -465,11 +438,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-asf01bwing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Braylen Stramm",
                         "Blade Squadron Veteran"
@@ -492,11 +464,10 @@
         "faction": "Rebel Alliance",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-arc170starfighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Garven Dreis",
                         "Norra Wexley"
@@ -515,11 +486,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-attackshuttle",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Hera Syndulla",
                         "Ezra Bridger"
@@ -538,11 +508,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-auzituckgunship",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Wulffwarro",
                         "Kashyyyk Defender"
@@ -561,11 +530,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-btla4ywing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Norra Wexley",
                         "Norra Wexley"
@@ -589,20 +557,15 @@
                 ]
             },
             {
-                "product": "BTL-A4 Y-Wing Expansion Pack",
-                "pilots": [
-                    [
-                        "Norra Wexley",
-                        "Evaan Verlaine"
-                    ],
-                    [
-                        "\"Dutch\" Vander",
-                        "Gray Squadron Bomber"
-                    ],
-                    [
-                        "Horton Salm",
-                        "Gold Squadron Veteran"
-                    ]
+                "name": "BTL-A4 Y-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Norra Wexley",
+                    "\"Dutch\" Vander",
+                    "Horton Salm",
+                    "Evaan Verlaine",
+                    "Gold Squadron Veteran",
+                    "Gray Squadron Bomber"
                 ]
             }
         ]
@@ -613,11 +576,10 @@
         "faction": "Rebel Alliance",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-btls8kwing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Miranda Doni",
                         "Warden Squadron Pilot"
@@ -636,11 +598,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-ewing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Corran Horn",
                         "Rogue Squadron Escort"
@@ -663,11 +624,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Jan Ors",
                         "Rebel Scout"
@@ -690,11 +650,10 @@
         "faction": "Rebel Alliance",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-modifiedyt1300lightfreighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Han Solo",
                         "Chewbacca"
@@ -713,11 +672,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-rz1awing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Jake Farrell",
                         "Green Squadron Pilot"
@@ -740,11 +698,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-sheathipedeclassshuttle",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Fenn Rau",
                         "Ezra Bridger"
@@ -763,28 +720,20 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-t65xwing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Saw's Renegades Expansion Pack",
-                "pilots": [
-                    [
-                        "Kullbee Sperado",
-                        "Cavern Angels Zealot"
-                    ],
-                    [
-                        "Leevan Tenza",
-                        "Cavern Angels Zealot"
-                    ],
-                    [
-                        "Edrio Two Tubes",
-                        "Cavern Angels Zealot"
-                    ]
+                "name": "Saw's Renegades Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Kullbee Sperado",
+                    "Leevan Tenza",
+                    "Edrio Two Tubes",
+                    "Cavern Angels Zealot"
                 ]
             },
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Wedge Antilles",
                         "Red Squadron Veteran"
@@ -808,33 +757,25 @@
                 ]
             },
             {
-                "product": "X-Wing Core Set",
-                "pilots": [
-                    [
-                        "Luke Skywalker",
-                        "Red Squadron Veteran"
-                    ],
-                    [
-                        "Jek Porkins",
-                        "Blue Squadron Escort"
-                    ]
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "Luke Skywalker",
+                    "Jek Porkins",
+                    "Red Squadron Veteran",
+                    "Blue Squadron Escort"
                 ]
             },
             {
-                "product": "T-65 X-Wing Expansion Pack",
-                "pilots": [
-                    [
-                        "Wedge Antilles",
-                        "Red Squadron Veteran"
-                    ],
-                    [
-                        "Garven Dreis",
-                        "Thane Kyrell"
-                    ],
-                    [
-                        "Biggs Darklighter",
-                        "Blue Squadron Escort"
-                    ]
+                "name": "T-65 X-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Wedge Antilles",
+                    "Thane Kyrell",
+                    "Garven Dreis",
+                    "Biggs Darklighter",
+                    "Red Squadron Veteran",
+                    "Blue Squadron Escort"
                 ]
             }
         ]
@@ -845,11 +786,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-tielnfighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Ezra Bridger",
                         "Sabine Wren"
@@ -868,24 +808,20 @@
         "faction": "Rebel Alliance",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-ut60duwing",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Saw's Renegades Expansion Pack",
-                "pilots": [
-                    [
-                        "Saw Gerrera",
-                        "Benthic Two Tubes"
-                    ],
-                    [
-                        "Magva Yarro",
-                        "Partisan Renegade"
-                    ]
+                "name": "Saw's Renegades Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "Saw Gerrera",
+                    "Magva Yarro",
+                    "Benthic Two Tubes",
+                    "Partisan Renegade"
                 ]
             },
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Bodhi Rook",
                         "Heff Tobber"
@@ -904,11 +840,10 @@
         "faction": "Rebel Alliance",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-vcx100lightfreighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Hera Syndulla",
                         "\"Chopper\""
@@ -927,11 +862,10 @@
         "faction": "Rebel Alliance",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-yt2400lightfreighter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Dash Rendar",
                         "Wild Space Fringer"
@@ -950,11 +884,10 @@
         "faction": "Rebel Alliance",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
-        "factionIcon": "xwing-miniatures-font-rebel",
-        "tokens": [
+        "products": [
             {
-                "product": "Rebel Alliance Conversion Kit",
-                "pilots": [
+                "name": "Rebel Alliance Conversion Kit",
+                "shipTokens": [
                     [
                         "Airen Cracken",
                         "Tala Squadron Pilot"
@@ -981,11 +914,10 @@
         "faction": "Scum and Villainy",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-aggressorassaultfighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "IG-88A",
                         "IG-88A"
@@ -1012,11 +944,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-btla4ywing",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Kavil",
                         "Hired Gun"
@@ -1039,19 +970,15 @@
         "faction": "Scum and Villainy",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-customizedyt1300lightfreighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Lando's Millennium Falcon Expansion Pack",
-                "pilots": [
-                    [
-                        "Han Solo",
-                        "L3-37"
-                    ],
-                    [
-                        "Lando Calrissian",
-                        "Freighter Captain"
-                    ]
+                "name": "Lando's Millennium Falcon Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "Han Solo",
+                    "Lando Calrissian",
+                    "L3-37",
+                    "Freighter Captain"
                 ]
             }
         ]
@@ -1062,19 +989,15 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-escapecraft",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Lando's Millennium Falcon Expansion Pack",
-                "pilots": [
-                    [
-                        "Lando Calrissian",
-                        "L3-37"
-                    ],
-                    [
-                        "Outer Rim Pioneer",
-                        "Autopilot Drone"
-                    ]
+                "name": "Lando's Millennium Falcon Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "Lando Calrissian",
+                    "Outer Rim Pioneer",
+                    "L3-37",
+                    "Autopilot Drone"
                 ]
             }
         ]
@@ -1085,11 +1008,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-fangfighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Fenn Rau",
                         "Skull Squadron Pilot"
@@ -1113,20 +1035,15 @@
                 ]
             },
             {
-                "product": "Fang Fighter Expansion Pack",
-                "pilots": [
-                    [
-                        "Fenn Rau",
-                        "Skull Squadron Pilot"
-                    ],
-                    [
-                        "Old Teroch",
-                        "Joy Rekkoff"
-                    ],
-                    [
-                        "Kad Solus",
-                        "Zealous Recruit"
-                    ]
+                "name": "Fang Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Fenn Rau",
+                    "Old Teroch",
+                    "Joy Rekkoff",
+                    "Kad Solus",
+                    "Skull Squadron Pilot",
+                    "Zealous Recruit"
                 ]
             }
         ]
@@ -1137,11 +1054,10 @@
         "faction": "Scum and Villainy",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-firesprayclasspatrolcraft",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Boba Fett",
                         "Krassis Trelix"
@@ -1161,20 +1077,15 @@
                 ]
             },
             {
-                "product": "Slave I Expansion Pack",
-                "pilots": [
-                    [
-                        "Boba Fett",
-                        "Krassis Trelix"
-                    ],
-                    [
-                        "Emon Azzameen",
-                        "Kath Scarlet"
-                    ],
-                    [
-                        "Koshka Frost",
-                        "Bounty Hunter"
-                    ]
+                "name": "Slave I Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "Boba Fett",
+                    "Emon Azzameen",
+                    "Kath Scarlet",
+                    "Koshka Frost",
+                    "Krassis Trelix",
+                    "Bounty Hunter"
                 ]
             }
         ]
@@ -1185,11 +1096,10 @@
         "faction": "Scum and Villainy",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-g1astarfighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "4-LOM",
                         "Gand Findsman"
@@ -1208,11 +1118,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-hwk290lightfreighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Dace Bonearm",
                         "Spice Runner"
@@ -1235,11 +1144,10 @@
         "faction": "Scum and Villainy",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-jumpmaster5000",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Dengar",
                         "Tel Trevura"
@@ -1258,11 +1166,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-kihraxzfighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Talonbane Cobra",
                         "Black Sun Ace"
@@ -1293,11 +1200,10 @@
         "faction": "Scum and Villainy",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-lancerclasspursuitcraft",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Ketsu Onyo",
                         "Asajj Ventress"
@@ -1316,11 +1222,10 @@
         "faction": "Scum and Villainy",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-m12lkimogilafighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Torani Kulda",
                         "Cartel Executioner"
@@ -1339,11 +1244,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-m3ainterceptor",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Serissu",
                         "Tansarii Point Veteran"
@@ -1378,11 +1282,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-quadrijettransferspacetug",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Constable Zuvio",
                         "Jakku Gunrunner"
@@ -1405,11 +1308,10 @@
         "faction": "Scum and Villainy",
         "size": "Medium",
         "shipIcon": "xwing-miniatures-ship-scurrgh6bomber",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Captain Nym",
                         "Lok Revenant"
@@ -1428,11 +1330,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-starviperclassattackplatform",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Guri",
                         "Black Sun Assassin"
@@ -1459,11 +1360,10 @@
         "faction": "Scum and Villainy",
         "size": "Large",
         "shipIcon": "xwing-miniatures-ship-yv666lightfreighter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "Bossk",
                         "Latts Razzi"
@@ -1482,11 +1382,10 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "shipIcon": "xwing-miniatures-ship-z95af4headhunter",
-        "factionIcon": "xwing-miniatures-font-scum",
-        "tokens": [
+        "products": [
             {
-                "product": "Scum and Villainy Conversion Kit",
-                "pilots": [
+                "name": "Scum and Villainy Conversion Kit",
+                "shipTokens": [
                     [
                         "N'dru Suhlak",
                         "Binayre Pirate"

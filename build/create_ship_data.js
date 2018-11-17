@@ -40,8 +40,7 @@ shipFilePaths.forEach(shipFilePath => {
 			"faction": shipJson.faction,
 			"size": shipJson.size,
 			"shipIcon": `xwing-miniatures-ship-${shipJson.xws}`,
-			"factionIcon": getFactionIcon(shipJson.faction),
-			"tokens": knownShipTokensJson[shipJson.xws] !== undefined ? knownShipTokensJson[shipJson.xws][shipJson.faction] : null
+			"products": knownShipTokensJson[shipJson.xws] !== undefined ? knownShipTokensJson[shipJson.xws][shipJson.faction] : null
 		};
 
 		// add to ship-data.json
@@ -51,8 +50,9 @@ shipFilePaths.forEach(shipFilePath => {
 		shipTokensTemplate[shipJson.xws] = shipTokensTemplate[shipJson.xws] || {};
 		shipTokensTemplate[shipJson.xws][shipJson.faction] = shipTokensTemplate[shipJson.xws][shipJson.faction] || [];
 		shipTokensTemplate[shipJson.xws][shipJson.faction].push({ 
-			"product": `${shipJson.faction} Conversion Kit`,
-			"pilots": getPilots(shipJson.pilots)
+			"name": `${shipJson.name} Expansion Pack`,
+			"numberOfTokens": Math.round(shipJson.pilots.length / 2),
+			"pilotNames": getPilots(shipJson.pilots)
 		});
 		
 	}
@@ -74,27 +74,6 @@ let shipTokensFilePath = "./build/ship-tokens-template.json";
 fs.writeFileSync(shipTokensFilePath, JSON.stringify(shipTokensTemplate, null, 4));
 console.log(`\n *CREATED ${shipTokensFilePath} * \n`);
 
-
-function getFactionIcon(faction) {
-	switch(faction) {
-		case "Rebel Alliance":
-			return "xwing-miniatures-font-rebel";
-		case "Galactic Empire":
-			return "xwing-miniatures-font-empire";
-		case "Scum and Villainy":
-			return "xwing-miniatures-font-scum";
-		case "Resistance":
-			return "xwing-miniatures-font-rebel-outline";
-		case "First Order":
-			return "xwing-miniatures-font-firstorder";
-		case "Galactic Republic":
-			return "xwing-miniatures-font-republic";
-		case "Separatist Alliance":
-			return "xwing-miniatures-font-separatists";
-		default:
-			return null;
-	}
-}
 
 function getPilots(pilots) {
 

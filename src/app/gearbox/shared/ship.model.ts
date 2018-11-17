@@ -1,4 +1,4 @@
-import { Token } from "./token.model";
+import { Product } from "./product.model";
 
 export interface Ship {
     ffg: number;
@@ -6,6 +6,5 @@ export interface Ship {
     size: string;
     faction: string;
     shipIcon: string;
-    factionIcon: string;
-    tokens: Token[];
+    products: Product[];
 }
