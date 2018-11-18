@@ -55,6 +55,17 @@ export class GearboxComponent implements OnInit {
 
   onSelectedShipChange(): void {
     this.selectedProduct = this.selectedShip.products[0];
+    this.onSelectedProductChange();
+  }
+
+  onSelectedProductChange(): void {
+    this.setDepth();
+  }
+
+  setDepth(): void {
+    let extraTokens = this.selectedProduct.numberOfTokens !== undefined ? this.selectedProduct.numberOfTokens - 1 : 0; //TODO replace zero with checkbox count
+
+    this.depth = (extraTokens * this.shipTokenDepth) + this.defaultDepth;
   }
 
   getRotateTableStyle() {

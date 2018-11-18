@@ -34,7 +34,7 @@
 
   <div>
       <mat-form-field>
-        <mat-select placeholder="Product" [(ngModel)]="selectedProduct">
+        <mat-select placeholder="Product" [(ngModel)]="selectedProduct" (selectionChange)="onSelectedProductChange()">
           <mat-option *ngFor="let product of selectedShip?.products" [value]="product">
             {{product?.name}}
           </mat-option>
