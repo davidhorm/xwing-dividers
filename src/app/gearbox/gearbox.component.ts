@@ -45,6 +45,9 @@ export class GearboxComponent implements OnInit {
   /** Product selected in the Product dropdown. */
   selectedProduct: Product;
 
+  /** Selected Pilot Names to print on box. */
+  selectedPilotNames: Set<string> = new Set();
+
   constructor(private shipService: ShipService) { 
     this.selectedFaction = FACTIONS[0];
     this.selectedGearboxSize = GEARBOX_SIZE[0];
@@ -78,6 +81,15 @@ export class GearboxComponent implements OnInit {
 
   onSelectedProductChange(): void {
     this.setDepth();
+    this.setSelectedPilotNames();
+  }
+
+  onSelectedShipTokensChange(selected: any[]): void {
+    this.selectedPilotNames.clear();
+    selected.forEach(shipToken => {
+      this.selectedPilotNames.add(shipToken.value[0]);
+      this.selectedPilotNames.add(shipToken.value[1]);
+    });
   }
 
   /** Set the Width and Height of the box based on the selected ship. */
@@ -90,6 +102,21 @@ export class GearboxComponent implements OnInit {
     let extraTokens = this.selectedProduct.numberOfTokens !== undefined ? this.selectedProduct.numberOfTokens - 1 : 0; //TODO replace zero with checkbox count
 
     this.depth = (extraTokens * this.shipTokenDepth) + this.defaultDepth;
+  }
+
+  /** Set the selected pilot names. By default, the product will have set names. But Conversion Kits can allow customizable list. */
+  setSelectedPilotNames(): void {
+    this.selectedPilotNames.clear();
+
+    if (this.selectedProduct.pilotNames !== undefined) {
+      this.selectedPilotNames = new Set(this.selectedProduct.pilotNames);
+    }
+    else if (this.selectedProduct.shipTokens !== undefined) {
+      this.selectedProduct.shipTokens.forEach(shipToken => {
+        this.selectedPilotNames.add(shipToken[0]);
+        this.selectedPilotNames.add(shipToken[1]);
+      });
+    }
   }
 
   getRotateTableStyle() {

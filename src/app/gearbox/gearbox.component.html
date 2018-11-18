@@ -1,6 +1,5 @@
 <div class="gearbox">
 
-
 <div class="non-print">
 
   <h1>X-Wing Gearboxes</h1>
@@ -47,9 +46,11 @@
 
     <!-- Ship Token Checkboxes -->
   <div>
-    <ul *ngFor="let shipToken of selectedProduct?.shipTokens">
-      <li>{{shipToken[0]}} / {{shipToken[1]}}</li>
-    </ul>
+    <mat-selection-list #selectedShipTokens (selectionChange)="onSelectedShipTokensChange(selectedShipTokens.selectedOptions.selected)">
+      <mat-list-option checkboxPosition="before" selected="true" *ngFor="let shipToken of selectedProduct?.shipTokens" [value]="shipToken">
+          {{shipToken[0]}} / {{shipToken[1]}}
+      </mat-list-option>
+    </mat-selection-list>
   </div>
 
 </div>
@@ -105,7 +106,7 @@
       <app-front-back
         [factionIcon]="selectedFaction?.icon"  
         [shipIcon]="selectedShip?.shipIcon"
-        [pilotNames]="selectedProduct?.pilotNames">
+        [pilotNames]="selectedPilotNames">
       </app-front-back>
 
     </td>
@@ -134,7 +135,7 @@
       <app-front-back
         [factionIcon]="selectedFaction?.icon"  
         [shipIcon]="selectedShip?.shipIcon"
-        [pilotNames]="selectedProduct?.pilotNames">
+        [pilotNames]="selectedPilotNames">
       </app-front-back>
 
     </td>
