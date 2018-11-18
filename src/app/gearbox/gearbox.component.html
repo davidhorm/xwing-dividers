@@ -98,7 +98,13 @@
           </app-side>
 
         </td>
-        <td class="dashed" [style.width.mm]="selectedGearboxSize.width">back</td>
+        <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
+
+          <div style="font-size: 3.3mm; margin: 3mm">
+            <div *ngFor="let pilotName of selectedProduct?.pilotNames">{{pilotName}}</div>
+          </div>
+
+        </td>
 
         <!-- right side -->
         <td class="dashed" [style.width.mm]="depth">
@@ -119,7 +125,15 @@
               <span class="inner-container-span front-indent solid-right solid-bottom solid-left">&nbsp;</span>
               <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
           </div>
-          <div>front</div>
+
+          <div>
+
+            <div style="font-size: 3.3mm; margin: 3mm">
+              <div *ngFor="let pilotName of selectedProduct?.pilotNames">{{pilotName}}</div>
+            </div>
+
+          </div>
+
         </td>
 
         <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>

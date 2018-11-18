@@ -15,8 +15,6 @@ import { Product } from './shared/product.model';
 })
 export class GearboxComponent implements OnInit {
 
-  selectedGearboxSize: GearboxSize;
-
   /** The depth (mm) of the box with the plastic stand stand, pegs, movement dial, and single ship token. */
   defaultDepth: number = 16;
 
@@ -40,6 +38,9 @@ export class GearboxComponent implements OnInit {
 
   /** Ship selected in the Ship dropdown. */
   selectedShip: Ship;
+
+  /** Size of the selected ship. */
+  selectedGearboxSize: GearboxSize;
 
   /** Product selected in the Product dropdown. */
   selectedProduct: Product;
