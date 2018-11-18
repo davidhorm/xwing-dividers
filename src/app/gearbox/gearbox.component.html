@@ -10,6 +10,7 @@
     Beside the ship tokens, the gearboxes will also fix a single base, two pegs, a maneuver dial, and a dial ID token.
   </div>
 
+  <!-- Faction Dropdown -->
   <div>
     <mat-form-field>
       <mat-select placeholder="Faction" [(ngModel)]="selectedFaction" (selectionChange)="onSelectedFactionChange()">
@@ -21,6 +22,7 @@
     </mat-form-field>
   </div>
 
+  <!-- Ship Dropdown -->
   <div>
     <mat-form-field>
       <mat-select placeholder="Ship" [(ngModel)]="selectedShip" (selectionChange)="onSelectedShipChange()">
@@ -32,6 +34,7 @@
     </mat-form-field>
   </div>
 
+  <!-- Product Dropdown -->
   <div>
       <mat-form-field>
         <mat-select placeholder="Product" [(ngModel)]="selectedProduct" (selectionChange)="onSelectedProductChange()">
@@ -42,6 +45,7 @@
       </mat-form-field>
     </div>
 
+    <!-- Ship Token Checkboxes -->
   <div>
     <ul *ngFor="let shipToken of selectedProduct?.shipTokens">
       <li>{{shipToken[0]}} / {{shipToken[1]}}</li>

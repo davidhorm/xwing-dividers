@@ -16,17 +16,32 @@ import { Product } from './shared/product.model';
 export class GearboxComponent implements OnInit {
 
   selectedGearboxSize: GearboxSize;
+
+  /** The depth (mm) of the box with the plastic stand stand, pegs, movement dial, and single ship token. */
   defaultDepth: number = 16;
+
+  /** The depth (mm) of a single ship token. */
   shipTokenDepth: number = 2;
+
+  /** The depth (mm) of the gearbox that will change based on the number of ship tokens. */
   depth: number;
 
+  /** List of factions to show in the Faction dropdown. */
   factionCollection: Faction[] = FACTIONS;
+
+  /** Faction selected in the Faction dropdown. */
   selectedFaction: Faction;
 
+  /** All the ships defined in the ship-data.json. */
   allShipCollection: Ship[];
+
+  /** List of ships to show in the Ship dropdown. */
   filteredShipCollection: Ship[];
+
+  /** Ship selected in the Ship dropdown. */
   selectedShip: Ship;
 
+  /** Product selected in the Product dropdown. */
   selectedProduct: Product;
 
   constructor(private shipService: ShipService) { 
@@ -39,6 +54,7 @@ export class GearboxComponent implements OnInit {
     this.getShipData();
   }
 
+  /** Load ship-data.json into this.shipColection */
   getShipData(): void {
     this.shipService.getShipData()
       .subscribe((shipData: Ship[]) => {
@@ -62,6 +78,7 @@ export class GearboxComponent implements OnInit {
     this.setDepth();
   }
 
+  /** Set the depth of the gearbox based on number of ship tokens. */
   setDepth(): void {
     let extraTokens = this.selectedProduct.numberOfTokens !== undefined ? this.selectedProduct.numberOfTokens - 1 : 0; //TODO replace zero with checkbox count
 
