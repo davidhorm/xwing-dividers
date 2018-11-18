@@ -72,10 +72,16 @@ export class GearboxComponent implements OnInit {
   onSelectedShipChange(): void {
     this.selectedProduct = this.selectedShip.products[0];
     this.onSelectedProductChange();
+    this.setSelectedGearboxSize();
   }
 
   onSelectedProductChange(): void {
     this.setDepth();
+  }
+
+  /** Set the Width and Height of the box based on the selected ship. */
+  setSelectedGearboxSize(): void {
+    this.selectedGearboxSize = GEARBOX_SIZE.filter( size => size.name === this.selectedShip.size)[0];
   }
 
   /** Set the depth of the gearbox based on number of ship tokens. */
