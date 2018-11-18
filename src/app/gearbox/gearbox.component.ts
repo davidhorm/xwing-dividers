@@ -6,6 +6,7 @@ import { ShipService } from './shared/ship.service';
 import { FACTIONS } from './shared/faction.services';
 import { Faction } from './shared/faction.model';
 import { Product } from './shared/product.model';
+import { Pilot } from './shared/pilot.model';
 
 @Component({
   selector: 'app-gearbox',
@@ -85,10 +86,20 @@ export class GearboxComponent implements OnInit {
   }
 
   onSelectedShipTokensChange(selected: any[]): void {
-    this.selectedPilotNames.clear();
+    let pilots: Pilot[] = [];
+
     selected.forEach(shipToken => {
-      this.selectedPilotNames.add(shipToken.value[0]);
-      this.selectedPilotNames.add(shipToken.value[1]);
+      pilots.push(shipToken.value[0]);
+      pilots.push(shipToken.value[1]);
+    });
+    
+    pilots.sort((a,b) => {
+      return b.initiative - a.initiative || a.name.localeCompare(b.name);
+    })
+    
+    this.selectedPilotNames.clear();
+    pilots.forEach(pilot => {
+      this.selectedPilotNames.add(pilot.name);
     });
   }
 
@@ -113,8 +124,8 @@ export class GearboxComponent implements OnInit {
     }
     else if (this.selectedProduct.shipTokens !== undefined) {
       this.selectedProduct.shipTokens.forEach(shipToken => {
-        this.selectedPilotNames.add(shipToken[0]);
-        this.selectedPilotNames.add(shipToken[1]);
+        this.selectedPilotNames.add(shipToken[0].name);
+        this.selectedPilotNames.add(shipToken[1].name);
       });
     }
   }

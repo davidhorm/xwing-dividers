@@ -39,7 +39,7 @@ shipFilePaths.forEach(shipFilePath => {
 			"name": shipJson.name,
 			"faction": shipJson.faction,
 			"size": shipJson.size,
-			"shipIcon": `xwing-miniatures-ship-${shipJson.xws}`,
+			"icon": `xwing-miniatures-ship-${shipJson.xws}`,
 			"products": knownShipTokensJson[shipJson.xws] !== undefined ? knownShipTokensJson[shipJson.xws][shipJson.faction] : null
 		};
 

@@ -5,6 +5,6 @@ export interface Ship {
     name: string;
     size: string;
     faction: string;
-    shipIcon: string;
+    icon: string;
     products: Product[];
 }

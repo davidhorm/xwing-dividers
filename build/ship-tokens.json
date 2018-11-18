@@ -4,9 +4,36 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Major Vynder", "Rho Squadron Pilot"],
-                    ["Lieutenant Karsabi", "Nu Squadron Pilot"],
-                    ["Rho Squadron Pilot", "Nu Squadron Pilot"]
+                    [
+                        {
+                            "name": "Major Vynder",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Rho Squadron Pilot",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Karsabi",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Nu Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Rho Squadron Pilot",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Nu Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -16,8 +43,26 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Captain Kagi", "Colonel Jendon"],
-                    ["Lieutenant Sai", "Omicron Group Pilot"]
+                    [
+                        {
+                            "name": "Captain Kagi",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Colonel Jendon",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Sai",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Omicron Group Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -27,10 +72,46 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Grand Inquisitor", "Baron of the Empire"],
-                    ["Seventh Sister", "Inquisitor"],
-                    ["Baron of the Empire", "Inquisitor"],
-                    ["Baron of the Empire", "Inquisitor"]
+                    [
+                        {
+                            "name": "Grand Inquisitor",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Baron of the Empire",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Seventh Sister",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Inquisitor",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Baron of the Empire",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Inquisitor",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Baron of the Empire",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Inquisitor",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             }
         ]
@@ -40,11 +121,56 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Darth Vader", "Storm Squadron Ace"],
-                    ["Maarek Stele", "Tempest Squadron Pilot"],
-                    ["Ved Foslo", "Ved Foslo"],
-                    ["Zertik Strom", "Tempest Squadron Pilot"],
-                    ["Storm Squadron Ace", "Tempest Squadron Pilot"]
+                    [
+                        {
+                            "name": "Darth Vader",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Storm Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Maarek Stele",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Tempest Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ved Foslo",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Ved Foslo",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zertik Strom",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Tempest Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Storm Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Tempest Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             },
             {
@@ -66,9 +192,36 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["\"Double Edge\"", "Sienar Specialist"],
-                    ["Lieutenant Kestal", "Onyx Squadron Scout"],
-                    ["Onyx Squadron Scout", "Sienar Specialist"]
+                    [
+                        {
+                            "name": "\"Double Edge\"",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Sienar Specialist",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Kestal",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Onyx Squadron Scout",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Onyx Squadron Scout",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Sienar Specialist",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -78,8 +231,26 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["\"Redline\"", "Cutlass Squadron Pilot"],
-                    ["\"Deathrain\"", "Cutlass Squadron Pilot"]
+                    [
+                        {
+                            "name": "\"Redline\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Cutlass Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Deathrain\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Cutlass Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -89,10 +260,46 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Rexler Brath", "Onyx Squadron Ace"],
-                    ["Colonel Vessery", "Delta Squadron Pilot"],
-                    ["Countess Ryad", "Delta Squadron Pilot"],
-                    ["Onyx Squadron Ace", "Delta Squadron Pilot"]
+                    [
+                        {
+                            "name": "Rexler Brath",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Onyx Squadron Ace",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Colonel Vessery",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Delta Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Countess Ryad",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Delta Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Onyx Squadron Ace",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Delta Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -102,9 +309,36 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Soontir Fel", "Saber Squadron Ace"],
-                    ["Turr Phennir", "Alpha Squadron Pilot"],
-                    ["Saber Squadron Ace", "Alpha Squadron Pilot"]
+                    [
+                        {
+                            "name": "Soontir Fel",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Saber Squadron Ace",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Turr Phennir",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Alpha Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Saber Squadron Ace",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Alpha Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -114,17 +348,116 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["\"Howlrunner\"", "Black Squadron Ace"],
-                    ["\"Mauler\" Mithel", "Black Squadron Ace"],
-                    ["\"Scourge\" Skutu", "Obsidian Squadron Pilot"],
-                    ["Del Meeko", "Del Meeko"],
-                    ["Gideon Hask", "Gideon Hask"],
-                    ["Seyn Marana", "Seyn Marana"],
-                    ["\"Wampa\"", "Academy Pilot"],
-                    ["Black Squadron Ace", "Obsidian Squadron Pilot"],
-                    ["Black Squadron Ace", "Academy Pilot"],
-                    ["Obsidian Squadron Pilot", "Academy Pilot"],
-                    ["Obsidian Squadron Pilot", "Academy Pilot"]
+                    [
+                        {
+                            "name": "\"Howlrunner\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Mauler\" Mithel",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Scourge\" Skutu",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Del Meeko",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Del Meeko",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Gideon Hask",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Gideon Hask",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Seyn Marana",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Seyn Marana",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Wampa\"",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             },
             {
@@ -144,8 +477,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Ezra Bridger", "Sabine Wren"],
-                    ["\"Zeb\" Orrelios", "Captain Rex"]
+                    [
+                        {
+                            "name": "Ezra Bridger",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Sabine Wren",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Zeb\" Orrelios",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Captain Rex",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -155,9 +506,36 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["\"Whisper\"", "Sigma Squadron Ace"],
-                    ["\"Echo\"", "Imdaar Test Pilot"],
-                    ["Imdaar Test Pilot", "Sigma Squadron Ace"]
+                    [
+                        {
+                            "name": "\"Whisper\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Sigma Squadron Ace",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Echo\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Imdaar Test Pilot",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Imdaar Test Pilot",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Sigma Squadron Ace",
+                            "initiative": 4
+                        }
+                    ]
                 ]
             }
         ]
@@ -181,11 +559,56 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Tomax Bren", "Gamma Squadron Ace"],
-                    ["Captain Jonus", "Gamma Squadron Ace"],
-                    ["Major Rhymer", "Scimitar Squadron Pilot"],
-                    ["\"Deathfire\"", "Scimitar Squadron Pilot"],
-                    ["Gamma Squadron Ace", "Scimitar Squadron Pilot"]
+                    [
+                        {
+                            "name": "Tomax Bren",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Gamma Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Captain Jonus",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Gamma Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Major Rhymer",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Scimitar Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Deathfire\"",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Scimitar Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Gamma Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Scimitar Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -195,11 +618,56 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["\"Duchess\"", "Black Squadron Scout"],
-                    ["\"Countdown\"", "Planetary Sentinel"],
-                    ["\"Pure Sabacc\"", "Planetary Sentinel"],
-                    ["Black Squadron Scout", "Planetary Sentinel"],
-                    ["Black Squadron Scout", "Planetary Sentinel"]
+                    [
+                        {
+                            "name": "\"Duchess\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Black Squadron Scout",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Countdown\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Planetary Sentinel",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Pure Sabacc\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Planetary Sentinel",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Scout",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Planetary Sentinel",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Scout",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Planetary Sentinel",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -209,8 +677,26 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    ["Rear Admiral Chiraneau", "Patrol Leader"],
-                    ["Captain Oicunn", "Patrol Leader"]
+                    [
+                        {
+                            "name": "Rear Admiral Chiraneau",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Patrol Leader",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Captain Oicunn",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Patrol Leader",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -220,9 +706,36 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Braylen Stramm", "Blade Squadron Veteran"],
-                    ["Ten Numb", "Blue Squadron Pilot"],
-                    ["Blue Squadron Pilot", "Blade Squadron Veteran"]
+                    [
+                        {
+                            "name": "Braylen Stramm",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Blade Squadron Veteran",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ten Numb",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Blue Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Blue Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Blade Squadron Veteran",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             }
         ]
@@ -232,8 +745,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Garven Dreis", "Norra Wexley"],
-                    ["Ibtisam", "Shara Bey"]
+                    [
+                        {
+                            "name": "Garven Dreis",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Norra Wexley",
+                            "initiative": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ibtisam",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Shara Bey",
+                            "initiative": 4
+                        }
+                    ]
                 ]
             }
         ]
@@ -243,8 +774,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Hera Syndulla", "Ezra Bridger"],
-                    ["Sabine Wren", "\"Zeb\" Orrelios"]
+                    [
+                        {
+                            "name": "Hera Syndulla",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Ezra Bridger",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sabine Wren",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Zeb\" Orrelios",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -254,8 +803,25 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Wulffwarro", "Kashyyyk Defender"],
-                    ["Lowhhrick", "Kashyyyk Defender"]
+                    [
+                        {
+                            "name": "Wulffwarro"
+                        },
+                        {
+                            "name": "Kashyyyk Defender",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lowhhrick",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Kashyyyk Defender",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -265,11 +831,56 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Norra Wexley", "Norra Wexley"],
-                    ["\"Dutch\" Vander", "Gold Squadron Veteran"],
-                    ["Horton Salm", "Gray Squadron Bomber"],
-                    ["Evaan Verlaine", "Evaan Verlaine"],
-                    ["Gray Squadron Bomber", "Gold Squadron Veteran"]
+                    [
+                        {
+                            "name": "Norra Wexley",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Norra Wexley",
+                            "initiative": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Dutch\" Vander",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Gold Squadron Veteran",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Horton Salm",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Gray Squadron Bomber",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Evaan Verlaine",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Evaan Verlaine",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Gray Squadron Bomber",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Gold Squadron Veteran",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             },
             {
@@ -289,9 +900,36 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Kavil", "Hired Gun"],
-                    ["Drea Renthal", "Crymorah Goon"],
-                    ["Crymorah Goon", "Hired Gun"]
+                    [
+                        {
+                            "name": "Kavil",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Hired Gun",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Drea Renthal",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Crymorah Goon",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Crymorah Goon",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Hired Gun",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -301,8 +939,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Miranda Doni", "Warden Squadron Pilot"],
-                    ["Esege Tuketu", "Warden Squadron Pilot"]
+                    [
+                        {
+                            "name": "Miranda Doni",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Warden Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Esege Tuketu",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Warden Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -312,9 +968,36 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Corran Horn", "Rogue Squadron Escort"],
-                    ["Gavin Darklighter", "Knave Squadron Escort"],
-                    ["Rogue Squadron Escort", "Knave Squadron Escort"]
+                    [
+                        {
+                            "name": "Corran Horn",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Rogue Squadron Escort",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Gavin Darklighter",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Knave Squadron Escort",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Rogue Squadron Escort",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Knave Squadron Escort",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -324,9 +1007,36 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Jan Ors", "Rebel Scout"],
-                    ["Roark Garnet", "Rebel Scout"],
-                    ["Kyle Katarn", "Rebel Scout"]
+                    [
+                        {
+                            "name": "Jan Ors",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Rebel Scout",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Roark Garnet",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Rebel Scout",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kyle Katarn",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Rebel Scout",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ],
@@ -334,9 +1044,36 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Dace Bonearm", "Spice Runner"],
-                    ["Palob Godalhi", "Spice Runner"],
-                    ["Torkil Mux", "Spice Runner"]
+                    [
+                        {
+                            "name": "Dace Bonearm",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Spice Runner",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Palob Godalhi",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Spice Runner",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Torkil Mux",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Spice Runner",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -346,8 +1083,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Han Solo", "Chewbacca"],
-                    ["Lando Calrissian", "Outer Rim Smuggler"]
+                    [
+                        {
+                            "name": "Han Solo",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Chewbacca",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lando Calrissian",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Outer Rim Smuggler",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -357,9 +1112,36 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Jake Farrell", "Green Squadron Pilot"],
-                    ["Arvel Crynyd", "Phoenix Squadron Pilot"],
-                    ["Green Squadron Pilot", "Phoenix Squadron Pilot"]
+                    [
+                        {
+                            "name": "Jake Farrell",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Green Squadron Pilot",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Arvel Crynyd",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Phoenix Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Green Squadron Pilot",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Phoenix Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -369,8 +1151,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Fenn Rau", "Ezra Bridger"],
-                    ["\"Zeb\" Orrelios", "AP-5"]
+                    [
+                        {
+                            "name": "Fenn Rau",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Ezra Bridger",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Zeb\" Orrelios",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "AP-5",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -390,11 +1190,56 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Wedge Antilles", "Red Squadron Veteran"],
-                    ["Thane Kyrell", "Thane Kyrell"],
-                    ["Garven Dreis", "Blue Squadron Escort"],
-                    ["Biggs Darklighter", "Blue Squadron Escort"],
-                    ["Red Squadron Veteran", "Blue Squadron Escort"]
+                    [
+                        {
+                            "name": "Wedge Antilles",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Red Squadron Veteran",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Thane Kyrell",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Thane Kyrell",
+                            "initiative": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Garven Dreis",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Blue Squadron Escort",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Biggs Darklighter",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Escort",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Red Squadron Veteran",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Escort",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             },
             {
@@ -436,8 +1281,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Bodhi Rook", "Heff Tobber"],
-                    ["Cassian Andor", "Blue Squadron Scout"]
+                    [
+                        {
+                            "name": "Bodhi Rook",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Heff Tobber",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Cassian Andor",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Scout",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -447,8 +1310,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Hera Syndulla", "\"Chopper\""],
-                    ["Kanan Jarrus", "Lothal Rebel"]
+                    [
+                        {
+                            "name": "Hera Syndulla",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "\"Chopper\"",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kanan Jarrus",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Lothal Rebel",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -458,8 +1339,26 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Dash Rendar", "Wild Space Fringer"],
-                    ["\"Leebo\"", "Wild Space Fringer"]
+                    [
+                        {
+                            "name": "Dash Rendar",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Wild Space Fringer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Leebo\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Wild Space Fringer",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -469,10 +1368,46 @@
             {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
-                    ["Airen Cracken", "Tala Squadron Pilot"],
-                    ["Lieutenant Blount", "Bandit Squadron Pilot"],
-                    ["Tala Squadron Pilot", "Bandit Squadron Pilot"],
-                    ["Tala Squadron Pilot", "Bandit Squadron Pilot"]
+                    [
+                        {
+                            "name": "Airen Cracken",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Tala Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Blount",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Bandit Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Tala Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Bandit Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Tala Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Bandit Squadron Pilot",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ],
@@ -480,11 +1415,56 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["N'dru Suhlak", "Binayre Pirate"],
-                    ["Kaa'to Leeachos", "Black Sun Soldier"],
-                    ["Black Sun Soldier", "Binayre Pirate"],
-                    ["Black Sun Soldier", "Binayre Pirate"],
-                    ["Nashtah Pup", "Nashtah Pup"]
+                    [
+                        {
+                            "name": "N'dru Suhlak",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Binayre Pirate",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kaa'to Leeachos",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Black Sun Soldier",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Sun Soldier",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Binayre Pirate",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Sun Soldier",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Binayre Pirate",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Nashtah Pup",
+                            "initiative": 0
+                        },
+                        {
+                            "name": "Nashtah Pup",
+                            "initiative": 0
+                        }
+                    ]
                 ]
             }
         ]
@@ -494,10 +1474,46 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["IG-88A", "IG-88A"],
-                    ["IG-88B", "IG-88B"],
-                    ["IG-88C", "IG-88C"],
-                    ["IG-88D", "IG-88D"]
+                    [
+                        {
+                            "name": "IG-88A",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "IG-88A",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "IG-88B",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "IG-88B",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "IG-88C",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "IG-88C",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "IG-88D",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "IG-88D",
+                            "initiative": 4
+                        }
+                    ]
                 ]
             }
         ]
@@ -535,11 +1551,56 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Fenn Rau", "Skull Squadron Pilot"],
-                    ["Old Teroch", "Zealous Recruit"],
-                    ["Joy Rekkoff", "Joy Rekkoff"],
-                    ["Kad Solus", "Zealous Recruit"],
-                    ["Skull Squadron Pilot", "Zealous Recruit"]
+                    [
+                        {
+                            "name": "Fenn Rau",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Skull Squadron Pilot",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Old Teroch",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Zealous Recruit",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Joy Rekkoff",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Joy Rekkoff",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kad Solus",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Zealous Recruit",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Skull Squadron Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Zealous Recruit",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             },
             {
@@ -561,10 +1622,46 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Boba Fett", "Krassis Trelix"],
-                    ["Emon Azzameen", "Bounty Hunter"],
-                    ["Kath Scarlet", "Bounty Hunter"],
-                    ["Koshka Frost", "Koshka Frost"]
+                    [
+                        {
+                            "name": "Boba Fett",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Krassis Trelix",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Emon Azzameen",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Bounty Hunter",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kath Scarlet",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Bounty Hunter",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Koshka Frost",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Koshka Frost",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             },
             {
@@ -586,8 +1683,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["4-LOM", "Gand Findsman"],
-                    ["Zuckuss", "Gand Findsman"]
+                    [
+                        {
+                            "name": "4-LOM",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Gand Findsman",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zuckuss",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Gand Findsman",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -597,8 +1712,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Dengar", "Tel Trevura"],
-                    ["Manaroo", "Contracted Scout"]
+                    [
+                        {
+                            "name": "Dengar",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Tel Trevura",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Manaroo",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Contracted Scout",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -608,11 +1741,56 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Talonbane Cobra", "Black Sun Ace"],
-                    ["Graz", "Black Sun Ace"],
-                    ["Viktor Hel", "Cartel Marauder"],
-                    ["Black Sun Ace", "Cartel Marauder"],
-                    ["Captain Jostero", "Cartel Marauder"]
+                    [
+                        {
+                            "name": "Talonbane Cobra",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Black Sun Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Graz",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Black Sun Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Viktor Hel",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Cartel Marauder",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Sun Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cartel Marauder",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Captain Jostero",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cartel Marauder",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -622,8 +1800,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Ketsu Onyo", "Asajj Ventress"],
-                    ["Sabine Wren", "Shadowport Hunter"]
+                    [
+                        {
+                            "name": "Ketsu Onyo",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Asajj Ventress",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sabine Wren",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Shadowport Hunter",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -633,8 +1829,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Torani Kulda", "Cartel Executioner"],
-                    ["Dalan Oberos", "Cartel Executioner"]
+                    [
+                        {
+                            "name": "Torani Kulda",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Cartel Executioner",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Dalan Oberos",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cartel Executioner",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             }
         ]
@@ -644,12 +1858,66 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Serissu", "Tansarii Point Veteran"],
-                    ["Genesis Red", "Tansarii Point Veteran"],
-                    ["Laetin A'shera", "Cartel Spacer"],
-                    ["Quinn Jast", "Cartel Spacer"],
-                    ["Inaldra", "Cartel Spacer"],
-                    ["Sunny Bounder", "Cartel Spacer"]
+                    [
+                        {
+                            "name": "Serissu",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Tansarii Point Veteran",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Genesis Red",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Tansarii Point Veteran",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Laetin A'shera",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cartel Spacer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Quinn Jast",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cartel Spacer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Inaldra",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Cartel Spacer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sunny Bounder",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Cartel Spacer",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -659,9 +1927,36 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Constable Zuvio", "Jakku Gunrunner"],
-                    ["Sarco Plank", "Jakku Gunrunner"],
-                    ["Unkar Plutt", "Jakku Gunrunner"]
+                    [
+                        {
+                            "name": "Constable Zuvio",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Jakku Gunrunner",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sarco Plank",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Jakku Gunrunner",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Unkar Plutt",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Jakku Gunrunner",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]
@@ -671,8 +1966,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Captain Nym", "Lok Revenant"],
-                    ["Sol Sixxa", "Lok Revenant"]
+                    [
+                        {
+                            "name": "Captain Nym",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Lok Revenant",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sol Sixxa",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Lok Revenant",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -682,10 +1995,46 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Guri", "Black Sun Assassin"],
-                    ["Dalan Oberos", "Black Sun Enforcer"],
-                    ["Prince Xizor", "Black Sun Enforcer"],
-                    ["Black Sun Assassin", "Black Sun Enforcer"]
+                    [
+                        {
+                            "name": "Guri",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Black Sun Assassin",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Dalan Oberos",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Black Sun Enforcer",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Prince Xizor",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Black Sun Enforcer",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Sun Assassin",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Black Sun Enforcer",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]
@@ -695,8 +2044,26 @@
             {
                 "name": "Scum and Villainy Conversion Kit",
                 "shipTokens": [
-                    ["Bossk", "Latts Razzi"],
-                    ["Moralo Eval", "Trandoshan Slaver"]
+                    [
+                        {
+                            "name": "Bossk",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Latts Razzi",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Moralo Eval",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Trandoshan Slaver",
+                            "initiative": 2
+                        }
+                    ]
                 ]
             }
         ]

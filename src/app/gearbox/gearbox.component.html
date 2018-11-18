@@ -48,7 +48,7 @@
   <div>
     <mat-selection-list #selectedShipTokens (selectionChange)="onSelectedShipTokensChange(selectedShipTokens.selectedOptions.selected)">
       <mat-list-option checkboxPosition="before" selected="true" *ngFor="let shipToken of selectedProduct?.shipTokens" [value]="shipToken">
-          {{shipToken[0]}} / {{shipToken[1]}}
+          {{shipToken[0].name}} / {{shipToken[1].name}}
       </mat-list-option>
     </mat-selection-list>
   </div>
@@ -74,6 +74,7 @@
 
       <app-side 
         [ship]="selectedShip"
+        [faction]="selectedFaction"
         boxSide="top"
         [boxDepth]="depth"
         [sideWidth]="selectedGearboxSize.width">
@@ -93,6 +94,7 @@
           
       <app-side 
         [ship]="selectedShip"
+        [faction]="selectedFaction"
         boxSide="left"
         [boxDepth]="depth"
         [sideWidth]="selectedGearboxSize.height">
@@ -105,7 +107,7 @@
 
       <app-front-back
         [factionIcon]="selectedFaction?.icon"  
-        [shipIcon]="selectedShip?.shipIcon"
+        [shipIcon]="selectedShip?.icon"
         [pilotNames]="selectedPilotNames">
       </app-front-back>
 
@@ -116,6 +118,7 @@
           
       <app-side 
         [ship]="selectedShip"
+        [faction]="selectedFaction"
         boxSide="right"
         [boxDepth]="depth"
         [sideWidth]="selectedGearboxSize.height">
@@ -134,7 +137,7 @@
 
       <app-front-back
         [factionIcon]="selectedFaction?.icon"  
-        [shipIcon]="selectedShip?.shipIcon"
+        [shipIcon]="selectedShip?.icon"
         [pilotNames]="selectedPilotNames">
       </app-front-back>
 
@@ -147,11 +150,12 @@
   <tr [style.height.mm]="depth">
     <td><div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
 
-    <!-- bottom -->
+    <!-- bottom side -->
     <td class="solid-left solid-bottom solid-right">
 
       <app-side 
         [ship]="selectedShip"
+        [faction]="selectedFaction"
         boxSide="bottom"
         [boxDepth]="depth"
         [sideWidth]="selectedGearboxSize.width">
