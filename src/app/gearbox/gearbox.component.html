@@ -36,14 +36,14 @@
 
   <!-- Product Dropdown -->
   <div>
-      <mat-form-field>
-        <mat-select placeholder="Product" [(ngModel)]="selectedProduct" (selectionChange)="onSelectedProductChange()">
-          <mat-option *ngFor="let product of selectedShip?.products" [value]="product">
-            {{product?.name}}
-          </mat-option>
-        </mat-select>
-      </mat-form-field>
-    </div>
+    <mat-form-field>
+      <mat-select placeholder="Product" [(ngModel)]="selectedProduct" (selectionChange)="onSelectedProductChange()">
+        <mat-option *ngFor="let product of selectedShip?.products" [value]="product">
+          {{product?.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
 
     <!-- Ship Token Checkboxes -->
   <div>
@@ -57,108 +57,111 @@
 <!-- [ngStyle]="getRotateTableStyle()" -->
 <table>
 
-    <!-- top flap -->
-    <tr>
-      <td><!-- empty --></td>
-      <td class="top-flap solid-top solid-right solid-left"><!-- top flap --></td>
-      <td><!-- empty --></td>
-      <td><!-- empty --></td>
-    </tr>
+  <!-- top flap -->
+  <tr>
+    <td><!-- empty --></td>
+    <td class="top-flap solid-top solid-right solid-left"><!-- top flap --></td>
+    <td><!-- empty --></td>
+    <td><!-- empty --></td>
+  </tr>
     
-    <!-- top -->
-    <tr [style.height.mm]="depth">
-      <td><div class="outer-container solid-top solid-left" [ngStyle]="getTopSideFlapStyle('left')"><!-- left flap --></div></td>
+  <!-- top -->
+  <tr [style.height.mm]="depth">
+    <td><div class="outer-container solid-top solid-left" [ngStyle]="getTopSideFlapStyle('left')"><!-- left flap --></div></td>
 
-      <td class="dashed-top solid-right solid-left" style="text-align: center;">
+    <td class="dashed-top solid-right solid-left" style="text-align: center;">
 
-        <app-side 
-          [ship]="selectedShip"
-          boxSide="top"
-          [boxDepth]="depth"
-          [sideWidth]="selectedGearboxSize.width">
-        </app-side>
+      <app-side 
+        [ship]="selectedShip"
+        boxSide="top"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.width">
+      </app-side>
 
-      </td>
+    </td>
 
-      <td><div class="outer-container solid-top solid-right" [ngStyle]="getTopSideFlapStyle('right')"><!-- right flap --></div></td>
-      <td><!-- empty --></td>
-    </tr>
+    <td><div class="outer-container solid-top solid-right" [ngStyle]="getTopSideFlapStyle('right')"><!-- right flap --></div></td>
+    <td><!-- empty --></td>
+  </tr>
     
-    <!-- front/back/sides -->
-    <tr [style.height.mm]="selectedGearboxSize.height">
+  <!-- front/back/sides -->
+  <tr [style.height.mm]="selectedGearboxSize.height">
         
-      <!-- left side -->
-      <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
+    <!-- left side -->
+    <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
           
-          <app-side 
-            [ship]="selectedShip"
-            boxSide="left"
-            [boxDepth]="depth"
-            [sideWidth]="selectedGearboxSize.height">
-          </app-side>
+      <app-side 
+        [ship]="selectedShip"
+        boxSide="left"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.height">
+      </app-side>
 
-        </td>
-        <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
+    </td>
 
-          <div style="font-size: 3.3mm; margin: 3mm">
-            <div *ngFor="let pilotName of selectedProduct?.pilotNames">{{pilotName}}</div>
-          </div>
+    <!-- back side -->
+    <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
 
-        </td>
+      <app-front-back
+        [factionIcon]="selectedFaction?.icon"  
+        [shipIcon]="selectedShip?.shipIcon"
+        [pilotNames]="selectedProduct?.pilotNames">
+      </app-front-back>
 
-        <!-- right side -->
-        <td class="dashed" [style.width.mm]="depth">
+    </td>
+
+    <!-- right side -->
+    <td class="dashed" [style.width.mm]="depth">
           
-            <app-side 
-              [ship]="selectedShip"
-              boxSide="right"
-              [boxDepth]="depth"
-              [sideWidth]="selectedGearboxSize.height">
-            </app-side>
+      <app-side 
+        [ship]="selectedShip"
+        boxSide="right"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.height">
+      </app-side>
 
-        </td>
+    </td>
 
-        <!-- front -->
-        <td class="outer-container dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">
-          <div class="inner-container">
-              <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
-              <span class="inner-container-span front-indent solid-right solid-bottom solid-left">&nbsp;</span>
-              <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
-          </div>
+    <!-- front -->
+    <td class="outer-container dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">
+      <!-- thumb hole in front -->
+      <div class="inner-container">
+        <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+        <span class="inner-container-span front-indent solid-right solid-bottom solid-left">&nbsp;</span>
+        <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+      </div>
 
-          <div>
+      <app-front-back
+        [factionIcon]="selectedFaction?.icon"  
+        [shipIcon]="selectedShip?.shipIcon"
+        [pilotNames]="selectedProduct?.pilotNames">
+      </app-front-back>
 
-            <div style="font-size: 3.3mm; margin: 3mm">
-              <div *ngFor="let pilotName of selectedProduct?.pilotNames">{{pilotName}}</div>
-            </div>
+    </td>
 
-          </div>
-
-        </td>
-
-        <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>
-    </tr>
+    <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>
+  </tr>
     
-    <!-- bottom glue row -->
-    <tr [style.height.mm]="depth">
-      <td><div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+  <!-- bottom glue row -->
+  <tr [style.height.mm]="depth">
+    <td><div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
 
-      <!-- bottom -->
-      <td class="solid-left solid-bottom solid-right">
+    <!-- bottom -->
+    <td class="solid-left solid-bottom solid-right">
 
-        <app-side 
-          [ship]="selectedShip"
-          boxSide="bottom"
-          [boxDepth]="depth"
-          [sideWidth]="selectedGearboxSize.width">
-        </app-side>
+      <app-side 
+        [ship]="selectedShip"
+        boxSide="bottom"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.width">
+      </app-side>
 
-      </td>
+    </td>
 
-      <td><div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
-      <td><div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div></td>
-      <td><!-- empty corner --></td>
-    </tr>
+    <td><div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+    <td><div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div></td>
+    <td><!-- empty corner --></td>
+  </tr>
 
 </table>
 

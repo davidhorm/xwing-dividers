@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { DividerComponent } from './divider/divider.component';
 import { GearboxComponent } from './gearbox/gearbox.component';
 import { SideComponent } from './gearbox/side/side.component';
+import { FrontBackComponent } from './gearbox/front-back/front-back.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SideComponent } from './gearbox/side/side.component';
     AboutComponent,
     DividerComponent,
     GearboxComponent,
-    SideComponent
+    SideComponent,
+    FrontBackComponent
   ],
   imports: [
     BrowserModule,
