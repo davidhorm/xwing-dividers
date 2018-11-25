@@ -49,6 +49,9 @@ export class GearboxComponent implements OnInit {
   /** Selected Pilot Names to print on box. */
   selectedPilotNames: Set<string> = new Set();
 
+  /** The number of ship tokens. Most products will have a set number, but the Conversion Kits will have a dynamic number. */
+  numberOfTokens: number;
+
   constructor(private shipService: ShipService) { 
     this.selectedFaction = FACTIONS[0];
     this.selectedGearboxSize = GEARBOX_SIZE[0];
@@ -81,7 +84,6 @@ export class GearboxComponent implements OnInit {
   }
 
   onSelectedProductChange(): void {
-    this.setDepth();
     this.setSelectedPilotNames();
   }
 
@@ -101,6 +103,9 @@ export class GearboxComponent implements OnInit {
     pilots.forEach(pilot => {
       this.selectedPilotNames.add(pilot.name);
     });
+
+    this.numberOfTokens = selected.length;
+    this.setDepth();
   }
 
   /** Set the Width and Height of the box based on the selected ship. */
@@ -110,7 +115,7 @@ export class GearboxComponent implements OnInit {
 
   /** Set the depth of the gearbox based on number of ship tokens. */
   setDepth(): void {
-    let extraTokens = this.selectedProduct.numberOfTokens !== undefined ? this.selectedProduct.numberOfTokens - 1 : 0; //TODO replace zero with checkbox count
+    let extraTokens = Math.max(this.numberOfTokens - 1, 0);
 
     this.depth = (extraTokens * this.shipTokenDepth) + this.defaultDepth;
   }
@@ -121,13 +126,18 @@ export class GearboxComponent implements OnInit {
 
     if (this.selectedProduct.pilotNames !== undefined) {
       this.selectedPilotNames = new Set(this.selectedProduct.pilotNames);
+      this.numberOfTokens = this.selectedProduct.numberOfTokens;
     }
     else if (this.selectedProduct.shipTokens !== undefined) {
       this.selectedProduct.shipTokens.forEach(shipToken => {
         this.selectedPilotNames.add(shipToken[0].name);
         this.selectedPilotNames.add(shipToken[1].name);
       });
+
+      this.numberOfTokens = this.selectedProduct.shipTokens.length;
     }
+
+    this.setDepth();
   }
 
   getRotateTableStyle() {
