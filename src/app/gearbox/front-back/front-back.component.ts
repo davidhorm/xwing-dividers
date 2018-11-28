@@ -6,9 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./front-back.component.css']
 })
 export class FrontBackComponent implements OnInit {
-
-  @Input() factionIcon: string;
-  @Input() shipIcon: string;
+  
   @Input() pilotNames: string[];
 
   constructor() { }
