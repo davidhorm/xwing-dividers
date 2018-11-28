@@ -103,7 +103,15 @@
     </td>
 
     <!-- back side -->
-    <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
+    <td class="dashed" [style.width.mm]="selectedGearboxSize.width" [style.height.mm]="selectedGearboxSize.height" style="position: relative">
+
+      <div [ngStyle]="getFrontBackShipBackgroundDivStyle()">
+          <i class="ship-icon xwing-miniatures-ship {{selectedShip?.icon}}" [ngStyle]="getFrontBackBackgroundIconStyle()"></i>
+      </div>
+
+      <div [ngStyle]="getFrontBackFactionBackgroundDivStyle()">
+        <i class="faction-icon xwing-miniatures-font {{selectedFaction?.icon}}" [ngStyle]="getFrontBackBackgroundIconStyle()"></i>
+      </div>
 
       <app-front-back
         [factionIcon]="selectedFaction?.icon"  

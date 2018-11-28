@@ -159,6 +159,73 @@ export class GearboxComponent implements OnInit {
       'border-top-right-radius': side === "right" ? `${this.depth-buffer}mm`: null,
       'margin-top': `${buffer}mm`
     };
-    
+  }
+
+  getFrontBackShipBackgroundDivStyle() {
+    let top: number;
+
+    switch(this.selectedGearboxSize.name) {
+      case "Small": {
+        top = -5;
+        break;
+      }
+      case "Medium": {
+        top = -8;
+        break;
+      }
+      case "Large": {
+        top = -12;
+        break;
+      }
+      default: {
+        top = 0;
+        break;
+      }
+    }
+
+    return {
+      'height': '100%',
+      'position': 'absolute',
+      'z-index': -1,
+      'top': `${top}mm`
+    };
+  }
+
+  getFrontBackFactionBackgroundDivStyle() {
+    let bottom: number;
+
+    switch(this.selectedGearboxSize.name) {
+      case "Small": {
+        bottom = -7;
+        break;
+      }
+      case "Medium": {
+        bottom = -15;
+        break;
+      }
+      case "Large": {
+        bottom = -19;
+        break;
+      }
+      default: {
+        bottom = 0;
+        break;
+      }
+    }
+
+    return {
+      'height': '100%',
+      'position': 'absolute',
+      'z-index': -1,
+      'right': 0,
+      'bottom': `${bottom}mm`
+    };
+  }
+
+  getFrontBackBackgroundIconStyle() {
+    return {
+      'color': '#E0E0E0',
+      'font-size': `${this.selectedGearboxSize.width * 0.6}mm`
+    };
   }
 }
