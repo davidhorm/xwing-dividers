@@ -115,7 +115,8 @@ export class GearboxComponent implements OnInit {
 
   /** Set the depth of the gearbox based on number of ship tokens. */
   setDepth(): void {
-    let extraTokens = Math.max(this.numberOfTokens - 1, 0);
+    /** Default depth is for one or two ship tokens. Anything after that is extra tokens */
+    let extraTokens = Math.max(this.numberOfTokens - 2, 0);
 
     this.depth = (extraTokens * this.shipTokenDepth) + this.defaultDepth;
   }
