@@ -1,3 +1,11 @@
+@media print {
+    .gearbox {
+        max-height: 6in;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
 div, table {
     margin-top: 1.5em;
 }

@@ -55,7 +55,8 @@
 
 </div>
 
-<table [ngStyle]="getRotateTableStyle()">
+<!-- [ngStyle]="getRotateTableStyle()" -->
+<table>
 
   <!-- top flap -->
   <tr>
@@ -105,7 +106,8 @@
     <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
 
       <app-front-back
-        [pilotNames]="selectedPilotNames">
+        [pilotNames]="selectedPilotNames"
+        [boxHeight]="selectedGearboxSize.height">
       </app-front-back>
 
     </td>
@@ -133,7 +135,8 @@
       </div>
 
       <app-front-back
-        [pilotNames]="selectedPilotNames">
+        [pilotNames]="selectedPilotNames"
+        [boxHeight]="selectedGearboxSize.height">
       </app-front-back>
 
     </td>
