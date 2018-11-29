@@ -14,6 +14,10 @@
     }
 }
 
+@page {
+    margin: 10mm;
+}
+
 /* 100% tab fill */
 body, html {
     height: 100%;
