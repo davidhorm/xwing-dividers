@@ -88,6 +88,7 @@ export class GearboxComponent implements OnInit {
   }
 
   onSelectedShipTokensChange(selected: any[]): void {
+
     let pilots: Pilot[] = [];
 
     selected.forEach(shipToken => {
@@ -130,19 +131,12 @@ export class GearboxComponent implements OnInit {
       this.numberOfTokens = this.selectedProduct.numberOfTokens;
     }
     else if (this.selectedProduct.shipTokens !== undefined) {
-
-      let pilotArray = [];
-
+      let allSelected = [];
       this.selectedProduct.shipTokens.forEach(shipToken => {
-        pilotArray.push(`${shipToken[0].initiative || ' ■'} - ${shipToken[0].name}`);
-        pilotArray.push(`${shipToken[1].initiative || ' ■'} - ${shipToken[1].name}`);
+        allSelected.push({"value": shipToken});
       });
 
-      pilotArray.sort();
-      pilotArray.reverse();
-
-      this.selectedPilotNames = new Set(pilotArray);
-
+      this.onSelectedShipTokensChange(allSelected);
       this.numberOfTokens = this.selectedProduct.shipTokens.length;
     }
 
