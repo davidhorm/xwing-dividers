@@ -101,7 +101,7 @@ export class GearboxComponent implements OnInit {
     
     this.selectedPilotNames.clear();
     pilots.forEach(pilot => {
-      this.selectedPilotNames.add(pilot.name);
+      this.selectedPilotNames.add(`${pilot.initiative || ' ■'} - ${pilot.name}`);
     });
 
     this.numberOfTokens = selected.length;
@@ -130,10 +130,18 @@ export class GearboxComponent implements OnInit {
       this.numberOfTokens = this.selectedProduct.numberOfTokens;
     }
     else if (this.selectedProduct.shipTokens !== undefined) {
+
+      let pilotArray = [];
+
       this.selectedProduct.shipTokens.forEach(shipToken => {
-        this.selectedPilotNames.add(shipToken[0].name);
-        this.selectedPilotNames.add(shipToken[1].name);
+        pilotArray.push(`${shipToken[0].initiative || ' ■'} - ${shipToken[0].name}`);
+        pilotArray.push(`${shipToken[1].initiative || ' ■'} - ${shipToken[1].name}`);
       });
+
+      pilotArray.sort();
+      pilotArray.reverse();
+
+      this.selectedPilotNames = new Set(pilotArray);
 
       this.numberOfTokens = this.selectedProduct.shipTokens.length;
     }
