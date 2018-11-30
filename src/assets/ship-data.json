@@ -282,16 +282,6 @@
                 "shipTokens": [
                     [
                         {
-                            "name": "\"Double Edge\"",
-                            "initiative": 2
-                        },
-                        {
-                            "name": "Sienar Specialist",
-                            "initiative": 2
-                        }
-                    ],
-                    [
-                        {
                             "name": "Lieutenant Kestal",
                             "initiative": 4
                         },
@@ -304,6 +294,16 @@
                         {
                             "name": "Onyx Squadron Scout",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Sienar Specialist",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Double Edge\"",
+                            "initiative": 2
                         },
                         {
                             "name": "Sienar Specialist",
@@ -474,48 +474,48 @@
                     ],
                     [
                         {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
                             "name": "\"Wampa\"",
                             "initiative": 1
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Black Squadron Ace",
-                            "initiative": 3
-                        },
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Black Squadron Ace",
-                            "initiative": 3
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
                         },
                         {
                             "name": "Academy Pilot",
@@ -570,12 +570,12 @@
                     ],
                     [
                         {
-                            "name": "Imdaar Test Pilot",
-                            "initiative": 3
-                        },
-                        {
                             "name": "Sigma Squadron Ace",
                             "initiative": 4
+                        },
+                        {
+                            "name": "Imdaar Test Pilot",
+                            "initiative": 3
                         }
                     ]
                 ]
@@ -624,8 +624,8 @@
                     ],
                     [
                         {
-                            "name": "\"Deathfire\"",
-                            "initiative": 2
+                            "name": "Gamma Squadron Ace",
+                            "initiative": 3
                         },
                         {
                             "name": "Scimitar Squadron Pilot",
@@ -634,8 +634,8 @@
                     ],
                     [
                         {
-                            "name": "Gamma Squadron Ace",
-                            "initiative": 3
+                            "name": "\"Deathfire\"",
+                            "initiative": 2
                         },
                         {
                             "name": "Scimitar Squadron Pilot",
@@ -776,12 +776,12 @@
                     ],
                     [
                         {
-                            "name": "Blue Squadron Pilot",
-                            "initiative": 2
-                        },
-                        {
                             "name": "Blade Squadron Veteran",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Pilot",
+                            "initiative": 2
                         }
                     ]
                 ]
@@ -800,22 +800,22 @@
                 "shipTokens": [
                     [
                         {
-                            "name": "Garven Dreis",
-                            "initiative": 4
-                        },
-                        {
                             "name": "Norra Wexley",
                             "initiative": 5
+                        },
+                        {
+                            "name": "Garven Dreis",
+                            "initiative": 4
                         }
                     ],
                     [
                         {
-                            "name": "Ibtisam",
-                            "initiative": 3
-                        },
-                        {
                             "name": "Shara Bey",
                             "initiative": 4
+                        },
+                        {
+                            "name": "Ibtisam",
+                            "initiative": 3
                         }
                     ]
                 ]
@@ -868,7 +868,8 @@
                 "shipTokens": [
                     [
                         {
-                            "name": "Wulffwarro"
+                            "name": "Wulffwarro",
+                            "initiative": 4
                         },
                         {
                             "name": "Kashyyyk Defender",
@@ -941,12 +942,12 @@
                     ],
                     [
                         {
-                            "name": "Gray Squadron Bomber",
-                            "initiative": 2
-                        },
-                        {
                             "name": "Gold Squadron Veteran",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Gray Squadron Bomber",
+                            "initiative": 2
                         }
                     ]
                 ]
@@ -1581,12 +1582,12 @@
                     ],
                     [
                         {
-                            "name": "Crymorah Goon",
-                            "initiative": 1
-                        },
-                        {
                             "name": "Hired Gun",
                             "initiative": 2
+                        },
+                        {
+                            "name": "Crymorah Goon",
+                            "initiative": 1
                         }
                     ]
                 ]
@@ -2309,12 +2310,10 @@
                     ],
                     [
                         {
-                            "name": "Nashtah Pup",
-                            "initiative": 0
+                            "name": "Nashtah Pup"
                         },
                         {
-                            "name": "Nashtah Pup",
-                            "initiative": 0
+                            "name": "Nashtah Pup"
                         }
                     ]
                 ]
