@@ -263,9 +263,6 @@ Apache-2.0
  
 
 
-@angular/compiler
-MIT
-
 @angular/core
 MIT
 
@@ -338,6 +335,8 @@ MIT
 MIT
 
 @angular/material/select
+
+@angular/material/list
 
 zone.js
 MIT
