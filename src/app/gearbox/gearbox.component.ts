@@ -116,10 +116,14 @@ export class GearboxComponent implements OnInit {
 
   /** Set the depth of the gearbox based on number of ship tokens. */
   setDepth(): void {
+
+    /** Large Bases plus dial can fit within 14mm. */
+    let startingDepth = this.selectedShip.size === "Large" ? 14 : this.defaultDepth;
+
     /** Default depth is for one or two ship tokens. Anything after that is extra tokens */
     let extraTokens = Math.max(this.numberOfTokens - 2, 0);
 
-    this.depth = (extraTokens * this.shipTokenDepth) + this.defaultDepth;
+    this.depth = startingDepth + (extraTokens * this.shipTokenDepth);
   }
 
   /** Set the selected pilot names. By default, the product will have set names. But Conversion Kits can allow customizable list. */
