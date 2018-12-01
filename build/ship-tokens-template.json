@@ -1,0 +1,713 @@
+{
+    "alphaclassstarwing": {
+        "Galactic Empire": [
+            {
+                "name": "Alpha-class Star Wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Major Vynder",
+                    "3 -  Lieutenant Karsabi",
+                    "3 -  Rho Squadron Pilot",
+                    "2 -  Nu Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "lambdaclasst4ashuttle": {
+        "Galactic Empire": [
+            {
+                "name": "Lambda-class T-4a Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Captain Kagi",
+                    "3 -  Colonel Jendon",
+                    "3 -  Lieutenant Sai",
+                    "1 -  Omicron Group Pilot"
+                ]
+            }
+        ]
+    },
+    "tieadvancedv1": {
+        "Galactic Empire": [
+            {
+                "name": "TIE Advanced v1 Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Grand Inquisitor",
+                    "4 -  Seventh Sister",
+                    "3 -  Baron of the Empire",
+                    "3 -  Inquisitor"
+                ]
+            }
+        ]
+    },
+    "tieadvancedx1": {
+        "Galactic Empire": [
+            {
+                "name": "TIE Advanced x1 Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "6 -  Darth Vader",
+                    "5 -  Maarek Stele",
+                    "4 -  Ved Foslo",
+                    "3 -  Storm Squadron Ace",
+                    "3 -  Zertik Strom",
+                    "2 -  Tempest Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieagaggressor": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/ag Aggressor Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Lieutenant Kestal",
+                    "3 -  Onyx Squadron Scout",
+                    "2 -  \"Double Edge\"",
+                    "2 -  Sienar Specialist"
+                ]
+            }
+        ]
+    },
+    "tiecapunisher": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/ca Punisher Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  \"Redline\"",
+                    "4 -  \"Deathrain\"",
+                    "2 -  Cutlass Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieddefender": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/D Defender Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Rexler Brath",
+                    "4 -  Colonel Vessery",
+                    "4 -  Countess Ryad",
+                    "4 -  Onyx Squadron Ace",
+                    "1 -  Delta Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieinterceptor": {
+        "Galactic Empire": [
+            {
+                "name": "TIE Interceptor Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 -  Soontir Fel",
+                    "4 -  Saber Squadron Ace",
+                    "4 -  Turr Phennir",
+                    "1 -  Alpha Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tielnfighter": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 7,
+                "pilotNames": [
+                    "5 -  \"Howlrunner\"",
+                    "5 -  \"Mauler\" Mithel",
+                    "5 -  \"Scourge\" Skutu",
+                    "4 -  Del Meeko",
+                    "4 -  Gideon Hask",
+                    "4 -  Iden Versio",
+                    "4 -  Seyn Marana",
+                    "3 -  Black Squadron Ace",
+                    "3 -  Valen Rudor",
+                    "2 -  \"Night Beast\"",
+                    "2 -  Obsidian Squadron Pilot",
+                    "1 -  \"Wampa\"",
+                    "1 -  Academy Pilot"
+                ]
+            }
+        ],
+        "Rebel Alliance": [
+            {
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "3 -  Ezra Bridger",
+                    "3 -  Sabine Wren",
+                    "2 -  \"Zeb\" Orrelios",
+                    "2 -  Captain Rex"
+                ]
+            }
+        ]
+    },
+    "tiephphantom": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/ph Phantom Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  \"Whisper\"",
+                    "4 -  \"Echo\"",
+                    "4 -  Sigma Squadron Ace",
+                    "3 -  Imdaar Test Pilot"
+                ]
+            }
+        ]
+    },
+    "tiereaper": {
+        "Galactic Empire": [
+            {
+                "name": "TIE Reaper Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Major Vermeil",
+                    "3 -  Captain Feroph",
+                    "2 -  \"Vizier\"",
+                    "1 -  Scarif Base Pilot"
+                ]
+            }
+        ]
+    },
+    "tiesabomber": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/sa Bomber Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Tomax Bren",
+                    "4 -  Captain Jonus",
+                    "4 -  Major Rhymer",
+                    "3 -  Gamma Squadron Ace",
+                    "2 -  \"Deathfire\"",
+                    "2 -  Scimitar Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "tieskstriker": {
+        "Galactic Empire": [
+            {
+                "name": "TIE/sk Striker Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  \"Duchess\"",
+                    "4 -  \"Countdown\"",
+                    "4 -  \"Pure Sabacc\"",
+                    "3 -  Black Squadron Scout",
+                    "1 -  Planetary Sentinel"
+                ]
+            }
+        ]
+    },
+    "vt49decimator": {
+        "Galactic Empire": [
+            {
+                "name": "VT-49 Decimator Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Rear Admiral Chiraneau",
+                    "3 -  Captain Oicunn",
+                    "2 -  Patrol Leader"
+                ]
+            }
+        ]
+    },
+    "asf01bwing": {
+        "Rebel Alliance": [
+            {
+                "name": "A/SF-01 B-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Braylen Stramm",
+                    "4 -  Ten Numb",
+                    "3 -  Blade Squadron Veteran",
+                    "2 -  Blue Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "arc170starfighter": {
+        "Rebel Alliance": [
+            {
+                "name": "ARC-170 Starfighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Norra Wexley",
+                    "4 -  Garven Dreis",
+                    "4 -  Shara Bey",
+                    "3 -  Ibtisam"
+                ]
+            }
+        ]
+    },
+    "attackshuttle": {
+        "Rebel Alliance": [
+            {
+                "name": "Attack Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Hera Syndulla",
+                    "3 -  Ezra Bridger",
+                    "3 -  Sabine Wren",
+                    "2 -  \"Zeb\" Orrelios"
+                ]
+            }
+        ]
+    },
+    "auzituckgunship": {
+        "Rebel Alliance": [
+            {
+                "name": "Auzituck Gunship Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Wullffwarro",
+                    "3 -  Lowhhrick",
+                    "1 -  Kashyyyk Defender"
+                ]
+            }
+        ]
+    },
+    "btla4ywing": {
+        "Rebel Alliance": [
+            {
+                "name": "BTL-A4 Y-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Norra Wexley",
+                    "4 -  \"Dutch\" Vander",
+                    "4 -  Horton Salm",
+                    "3 -  Evaan Verlaine",
+                    "3 -  Gold Squadron Veteran",
+                    "2 -  Gray Squadron Bomber"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "name": "BTL-A4 Y-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Kavil",
+                    "4 -  Drea Renthal",
+                    "2 -  Hired Gun",
+                    "1 -  Crymorah Goon"
+                ]
+            }
+        ]
+    },
+    "btls8kwing": {
+        "Rebel Alliance": [
+            {
+                "name": "BTL-S8 K-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Miranda Doni",
+                    "3 -  Esege Tuketu",
+                    "2 -  Warden Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "ewing": {
+        "Rebel Alliance": [
+            {
+                "name": "E-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Corran Horn",
+                    "4 -  Gavin Darklighter",
+                    "4 -  Rogue Squadron Escort",
+                    "2 -  Knave Squadron Escort"
+                ]
+            }
+        ]
+    },
+    "hwk290lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "name": "HWK-290 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Jan Ors",
+                    "4 -  Roark Garnet",
+                    "3 -  Kyle Katarn",
+                    "2 -  Rebel Scout"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "name": "HWK-290 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Dace Bonearm",
+                    "3 -  Palob Godalhi",
+                    "2 -  Torkil Mux",
+                    "1 -  Spice Runner"
+                ]
+            }
+        ]
+    },
+    "modifiedyt1300lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "name": "Modified YT-1300 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 -  Han Solo",
+                    "5 -  Lando Calrissian",
+                    "4 -  Chewbacca",
+                    "1 -  Outer Rim Smuggler"
+                ]
+            }
+        ]
+    },
+    "rz1awing": {
+        "Rebel Alliance": [
+            {
+                "name": "RZ-1 A-wing Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Jake Farrell",
+                    "3 -  Arvel Crynyd",
+                    "3 -  Green Squadron Pilot",
+                    "1 -  Phoenix Squadron Pilot"
+                ]
+            }
+        ]
+    },
+    "sheathipedeclassshuttle": {
+        "Rebel Alliance": [
+            {
+                "name": "Sheathipede-class Shuttle Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 -  Fenn Rau",
+                    "3 -  Ezra Bridger",
+                    "2 -  \"Zeb\" Orrelios",
+                    "1 -  AP-5"
+                ]
+            }
+        ]
+    },
+    "t65xwing": {
+        "Rebel Alliance": [
+            {
+                "name": "T-65 X-wing Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 -  Wedge Antilles",
+                    "5 -  Luke Skywalker",
+                    "5 -  Thane Kyrell",
+                    "4 -  Garven Dreis",
+                    "4 -  Jek Porkins",
+                    "4 -  Kullbee Sperado",
+                    "3 -  Biggs Darklighter",
+                    "3 -  Leevan Tenza",
+                    "3 -  Red Squadron Veteran",
+                    "2 -  Blue Squadron Escort",
+                    "2 -  Edrio Two Tubes",
+                    "1 -  Cavern Angels Zealot"
+                ]
+            }
+        ]
+    },
+    "ut60duwing": {
+        "Rebel Alliance": [
+            {
+                "name": "UT-60D U-wing Expansion Pack",
+                "numberOfTokens": 4,
+                "pilotNames": [
+                    "4 -  Bodhi Rook",
+                    "4 -  Saw Gerrera",
+                    "3 -  Cassian Andor",
+                    "3 -  Magva Yarro",
+                    "2 -  Benthic Two Tubes",
+                    "2 -  Blue Squadron Scout",
+                    "2 -  Heff Tobber",
+                    "1 -  Partisan Renegade"
+                ]
+            }
+        ]
+    },
+    "vcx100lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "name": "VCX-100 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Hera Syndulla",
+                    "3 -  Kanan Jarrus",
+                    "2 -  \"Chopper\"",
+                    "2 -  Lothal Rebel"
+                ]
+            }
+        ]
+    },
+    "yt2400lightfreighter": {
+        "Rebel Alliance": [
+            {
+                "name": "YT-2400 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Dash Rendar",
+                    "3 -  \"Leebo\"",
+                    "1 -  Wild Space Fringer"
+                ]
+            }
+        ]
+    },
+    "z95af4headhunter": {
+        "Rebel Alliance": [
+            {
+                "name": "Z-95-AF4 Headhunter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Airen Cracken",
+                    "4 -  Lieutenant Blount",
+                    "2 -  Tala Squadron Pilot",
+                    "1 -  Bandit Squadron Pilot"
+                ]
+            }
+        ],
+        "Scum and Villainy": [
+            {
+                "name": "Z-95-AF4 Headhunter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 -  N'dru Suhlak",
+                    "3 -  Black Sun Soldier",
+                    "3 -  Kaa'to Leeachos",
+                    "1 -  Binayre Pirate",
+                    "0 -  Nashtah Pup"
+                ]
+            }
+        ]
+    },
+    "aggressorassaultfighter": {
+        "Scum and Villainy": [
+            {
+                "name": "Aggressor Assault Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  IG-88A",
+                    "4 -  IG-88B",
+                    "4 -  IG-88C",
+                    "4 -  IG-88D"
+                ]
+            }
+        ]
+    },
+    "customizedyt1300lightfreighter": {
+        "Scum and Villainy": [
+            {
+                "name": "Customized YT-1300 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 -  Han Solo",
+                    "4 -  Lando Calrissian",
+                    "2 -  L3-37",
+                    "1 -  Freighter Captain"
+                ]
+            }
+        ]
+    },
+    "escapecraft": {
+        "Scum and Villainy": [
+            {
+                "name": "Escape Craft Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Lando Calrissian",
+                    "3 -  Outer Rim Pioneer",
+                    "2 -  L3-37",
+                    "1 -  Autopilot Drone"
+                ]
+            }
+        ]
+    },
+    "fangfighter": {
+        "Scum and Villainy": [
+            {
+                "name": "Fang Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "6 -  Fenn Rau",
+                    "5 -  Old Teroch",
+                    "4 -  Joy Rekkoff",
+                    "4 -  Kad Solus",
+                    "4 -  Skull Squadron Pilot",
+                    "1 -  Zealous Recruit"
+                ]
+            }
+        ]
+    },
+    "firesprayclasspatrolcraft": {
+        "Scum and Villainy": [
+            {
+                "name": "Firespray-class Patrol Craft Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Boba Fett",
+                    "4 -  Emon Azzameen",
+                    "4 -  Kath Scarlet",
+                    "3 -  Koshka Frost",
+                    "3 -  Krassis Trelix",
+                    "2 -  Bounty Hunter"
+                ]
+            }
+        ]
+    },
+    "g1astarfighter": {
+        "Scum and Villainy": [
+            {
+                "name": "G-1A Starfighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "3 -  4-LOM",
+                    "3 -  Zuckuss",
+                    "1 -  Gand Findsman"
+                ]
+            }
+        ]
+    },
+    "jumpmaster5000": {
+        "Scum and Villainy": [
+            {
+                "name": "JumpMaster 5000 Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 -  Dengar",
+                    "4 -  Tel Trevura",
+                    "3 -  Manaroo",
+                    "2 -  Contracted Scout"
+                ]
+            }
+        ]
+    },
+    "kihraxzfighter": {
+        "Scum and Villainy": [
+            {
+                "name": "Kihraxz Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Talonbane Cobra",
+                    "4 -  Graz",
+                    "4 -  Viktor Hel",
+                    "3 -  Black Sun Ace",
+                    "3 -  Captain Jostero",
+                    "2 -  Cartel Marauder"
+                ]
+            }
+        ]
+    },
+    "lancerclasspursuitcraft": {
+        "Scum and Villainy": [
+            {
+                "name": "Lancer-class Pursuit Craft Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Ketsu Onyo",
+                    "4 -  Asajj Ventress",
+                    "3 -  Sabine Wren",
+                    "2 -  Shadowport Hunter"
+                ]
+            }
+        ]
+    },
+    "m12lkimogilafighter": {
+        "Scum and Villainy": [
+            {
+                "name": "M12-L Kimogila Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Torani Kulda",
+                    "3 -  Cartel Executioner",
+                    "3 -  Dalan Oberos"
+                ]
+            }
+        ]
+    },
+    "m3ainterceptor": {
+        "Scum and Villainy": [
+            {
+                "name": "M3-A Interceptor Expansion Pack",
+                "numberOfTokens": 4,
+                "pilotNames": [
+                    "5 -  Serissu",
+                    "4 -  Genesis Red",
+                    "3 -  Laetin A'shera",
+                    "3 -  Quinn Jast",
+                    "3 -  Tansarii Point Veteran",
+                    "2 -  Inaldra",
+                    "1 -  Cartel Spacer",
+                    "1 -  Sunny Bounder"
+                ]
+            }
+        ]
+    },
+    "quadrijettransferspacetug": {
+        "Scum and Villainy": [
+            {
+                "name": "Quadrijet Transfer Spacetug Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Constable Zuvio",
+                    "2 -  Sarco Plank",
+                    "2 -  Unkar Plutt",
+                    "1 -  Jakku Gunrunner"
+                ]
+            }
+        ]
+    },
+    "scurrgh6bomber": {
+        "Scum and Villainy": [
+            {
+                "name": "Scurrg H-6 Bomber Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 -  Captain Nym",
+                    "3 -  Sol Sixxa",
+                    "2 -  Lok Revenant"
+                ]
+            }
+        ]
+    },
+    "starviperclassattackplatform": {
+        "Scum and Villainy": [
+            {
+                "name": "StarViper-class Attack Platform Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 -  Guri",
+                    "4 -  Dalan Oberos",
+                    "4 -  Prince Xizor",
+                    "3 -  Black Sun Assassin",
+                    "2 -  Black Sun Enforcer"
+                ]
+            }
+        ]
+    },
+    "yv666lightfreighter": {
+        "Scum and Villainy": [
+            {
+                "name": "YV-666 Light Freighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "4 -  Bossk",
+                    "4 -  Moralo Eval",
+                    "3 -  Latts Razzi",
+                    "2 -  Trandoshan Slaver"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,174 @@
+<div class="gearbox">
+
+<div class="non-print">
+
+  <h1>X-Wing Gearboxes</h1>
+  <div>
+    Select a Faction, Ship and Product. If the Product is a conversion kit, then select which ship tokens you want in the box. Print at Scale 100% (instead of 
+    "Shrink to fit") and Narrow margins. Cut on solid lines and fold on dashed lines.
+  </div>
+  <div>Beside the ship tokens, the gearboxes will also fit a single base (nubs along the sides), two pegs (separated), a maneuver dial, and a dial ID token. 
+    Boxes for Small and Medium sized ships can be printed in Portrait orientation. Two patterns can even be printed on the same page if you know how to put the 
+    sheet back into your printer. Boxes for Large ships need to be printed in Landscape orientation.
+  </div>
+
+  <!-- Faction Dropdown -->
+  <div>
+    <mat-form-field>
+      <mat-select placeholder="Faction" [(ngModel)]="selectedFaction" (selectionChange)="onSelectedFactionChange()">
+          <mat-option *ngFor="let faction of factionCollection" [value]="faction">
+            <i class="faction-icon xwing-miniatures-font {{faction.icon}}" style="font-size: 4mm;"></i> 
+            {{faction.name}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+  </div>
+
+  <!-- Ship Dropdown -->
+  <div>
+    <mat-form-field>
+      <mat-select placeholder="Ship" [(ngModel)]="selectedShip" (selectionChange)="onSelectedShipChange()">
+        <mat-option *ngFor="let ship of filteredShipCollection" [value]="ship">
+          <i class="ship-icon xwing-miniatures-ship {{ship?.shipIcon}}"></i>
+          {{ship.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <!-- Product Dropdown -->
+  <div>
+    <mat-form-field>
+      <mat-select placeholder="Product" [(ngModel)]="selectedProduct" (selectionChange)="onSelectedProductChange()">
+        <mat-option *ngFor="let product of selectedShip?.products" [value]="product">
+          {{product?.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+    <!-- Ship Token Checkboxes -->
+  <div>
+    <mat-selection-list #selectedShipTokens (selectionChange)="onSelectedShipTokensChange(selectedShipTokens.selectedOptions.selected)">
+      <mat-list-option checkboxPosition="before" selected="true" *ngFor="let shipToken of selectedProduct?.shipTokens" [value]="shipToken">
+          {{shipToken[0].name}} / {{shipToken[1].name}}
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+
+</div>
+
+<!-- [ngStyle]="getRotateTableStyle()" -->
+<table>
+
+  <!-- top flap -->
+  <tr>
+    <td><!-- empty --></td>
+    <td class="top-flap solid-top solid-right solid-left"><!-- top flap --></td>
+    <td><!-- empty --></td>
+    <td><!-- empty --></td>
+  </tr>
+    
+  <!-- top -->
+  <tr [style.height.mm]="depth">
+    <td><div class="outer-container solid-top solid-left" [ngStyle]="getTopSideFlapStyle('left')"><!-- left flap --></div></td>
+
+    <td class="dashed-top solid-right solid-left" style="text-align: center;">
+
+      <app-side 
+        [ship]="selectedShip"
+        [faction]="selectedFaction"
+        boxSide="top"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.width">
+      </app-side>
+
+    </td>
+
+    <td><div class="outer-container solid-top solid-right" [ngStyle]="getTopSideFlapStyle('right')"><!-- right flap --></div></td>
+    <td><!-- empty --></td>
+  </tr>
+    
+  <!-- front/back/sides -->
+  <tr [style.height.mm]="selectedGearboxSize.height">
+        
+    <!-- left side -->
+    <td class="dashed-top dashed-right dashed-bottom solid-left" [style.width.mm]="depth">
+          
+      <app-side 
+        [ship]="selectedShip"
+        [faction]="selectedFaction"
+        boxSide="left"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.height">
+      </app-side>
+
+    </td>
+
+    <!-- back side -->
+    <td class="dashed" [style.width.mm]="selectedGearboxSize.width">
+
+      <app-front-back
+        [pilotNames]="selectedPilotNames"
+        [boxHeight]="selectedGearboxSize.height">
+      </app-front-back>
+
+    </td>
+
+    <!-- right side -->
+    <td class="dashed" [style.width.mm]="depth">
+          
+      <app-side 
+        [ship]="selectedShip"
+        [faction]="selectedFaction"
+        boxSide="right"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.height">
+      </app-side>
+
+    </td>
+
+    <!-- front -->
+    <td class="outer-container dashed-right dashed-bottom dashed-left" [style.width.mm]="selectedGearboxSize.width">
+      <!-- thumb hole in front -->
+      <div class="inner-container">
+        <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+        <span class="inner-container-span front-indent solid-right solid-bottom solid-left">&nbsp;</span>
+        <span class="inner-container-span solid-top" [style.width.mm]="(selectedGearboxSize.width - 14)/2">&nbsp;</span>
+      </div>
+
+      <app-front-back
+        [pilotNames]="selectedPilotNames"
+        [boxHeight]="selectedGearboxSize.height">
+      </app-front-back>
+
+    </td>
+
+    <td class="solid-top solid-right solid-bottom" [style.width.mm]="depth-1" style="transform: rotate(-90deg);">glue</td>
+  </tr>
+    
+  <!-- bottom glue row -->
+  <tr [style.height.mm]="depth">
+    <td><div class="center-text solid-bottom solid-left" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+
+    <!-- bottom side -->
+    <td class="solid-left solid-bottom solid-right">
+
+      <app-side 
+        [ship]="selectedShip"
+        [faction]="selectedFaction"
+        boxSide="bottom"
+        [boxDepth]="depth"
+        [sideWidth]="selectedGearboxSize.width">
+      </app-side>
+
+    </td>
+
+    <td><div class="center-text solid-bottom" [style.height.mm]="depth-4" [style.line-height.mm]="depth-4" [style.margin-bottom.mm]="4">glue</div></td>
+    <td><div class="center-text solid-right solid-bottom solid-left" [style.height.mm]="depth-2" [style.line-height.mm]="depth-2" [style.margin-bottom.mm]="2">glue</div></td>
+    <td><!-- empty corner --></td>
+  </tr>
+
+</table>
+
+</div>

@@ -1,0 +1,96 @@
+@media print {
+    .gearbox {
+        max-height: 6in;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+div, table {
+    margin-top: 1.5em;
+}
+
+table div {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Jura', sans-serif;
+}
+
+td {
+    padding: 0;
+}
+
+.outer-container {
+    height: 100%;
+    position: relative;
+}
+
+.inner-container {
+    position: absolute; 
+    top: 0; 
+    white-space: nowrap;
+}
+
+.inner-container-span {
+    display: inline-block;
+}
+
+.top-flap {
+    height: 16mm; 
+    border-radius: 14mm 14mm 0 0;
+}
+
+.front-indent {
+    height: 7mm; 
+    width: 14mm; 
+    border-radius: 0 0 14mm 14mm;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.gearbox {
+    height: 210mm;
+}
+
+/* common border classes */
+.solid-top, .solid-right, .solid-bottom, .solid-left, .dashed-top, .dashed-right, .dashed-bottom, .dashed-left, .dashed {
+    border-width: 1px;
+    border-color: gray;
+}
+
+.solid-top {
+    border-top-style: solid;
+}
+
+.solid-right {
+    border-right-style: solid;
+}
+
+.solid-bottom {
+    border-bottom-style: solid;
+}
+
+.solid-left {
+    border-left-style: solid;
+}
+
+.dashed-top, .dashed {
+    border-top-style: dashed;
+}
+
+.dashed-right, .dashed {
+    border-right-style: dashed;
+}
+
+.dashed-bottom, .dashed {
+    border-bottom-style: dashed;
+}
+
+.dashed-left, .dashed {
+    border-left-style: dashed;
+}

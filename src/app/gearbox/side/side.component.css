@@ -1,0 +1,25 @@
+.outer-side-container {
+    position: relative;
+}
+
+.inner-side-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ship-icon {
+    font-size: 8mm; 
+}
+
+.ship-name {
+    display: inline-block; 
+    font-size: 3.3mm; 
+    white-space: normal;
+    margin: 1mm;
+}
+
+.faction-icon {
+    font-size: 6mm;
+}
