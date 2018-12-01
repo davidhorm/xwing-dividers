@@ -177,12 +177,12 @@
                 "name": "TIE Advanced x1 Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Darth Vader",
-                    "Maarek Stele",
-                    "Ved Foslo",
-                    "Storm Squadron Ace",
-                    "Zertik Strom",
-                    "Tempest Squadron Pilot"
+                    "6 - Darth Vader",
+                    "5 - Maarek Stele",
+                    "4 - Ved Foslo",
+                    "3 - Storm Squadron Ace",
+                    "3 - Zertik Strom",
+                    "2 - Tempest Squadron Pilot"
                 ]
             }
         ]
@@ -192,16 +192,6 @@
             {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
-                    [
-                        {
-                            "name": "\"Double Edge\"",
-                            "initiative": 2
-                        },
-                        {
-                            "name": "Sienar Specialist",
-                            "initiative": 2
-                        }
-                    ],
                     [
                         {
                             "name": "Lieutenant Kestal",
@@ -216,6 +206,16 @@
                         {
                             "name": "Onyx Squadron Scout",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Sienar Specialist",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Double Edge\"",
+                            "initiative": 2
                         },
                         {
                             "name": "Sienar Specialist",
@@ -346,6 +346,18 @@
     "tielnfighter": {
         "Galactic Empire": [
             {
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Iden Versio",
+                    "3 - Black Squadron Ace",
+                    "3 - Valen Rudor",
+                    "2 - \"Night Beast\"",
+                    "2 - Obsidian Squadron Pilot",
+                    "1 - Academy Pilot"
+                ]
+            },
+            {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
                     [
@@ -410,48 +422,48 @@
                     ],
                     [
                         {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Obsidian Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Academy Pilot",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
                             "name": "\"Wampa\"",
                             "initiative": 1
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Black Squadron Ace",
-                            "initiative": 3
-                        },
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Black Squadron Ace",
-                            "initiative": 3
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
-                        },
-                        {
-                            "name": "Academy Pilot",
-                            "initiative": 1
-                        }
-                    ],
-                    [
-                        {
-                            "name": "Obsidian Squadron Pilot",
-                            "initiative": 2
                         },
                         {
                             "name": "Academy Pilot",
@@ -461,15 +473,19 @@
                 ]
             },
             {
-                "name": "X-Wing Core Set",
-                "numberOfTokens": 3,
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 5,
                 "pilotNames": [
-                    "Iden Versio",
-                    "Black Squadron Ace",
-                    "Valen Rudor",
-                    "\"Night Beast\"",
-                    "Obsidian Squadron Pilot",
-                    "Academy Pilot"
+                    "5 - \"Howlrunner\"",
+                    "5 - \"Mauler\" Mithel",
+                    "5 - \"Scourge\" Skutu",
+                    "4 - Gideon Hask",
+                    "4 - Del Meeko",
+                    "4 - Seyn Marana",
+                    "3 - Black Squadron Ace",
+                    "2 - Obsidian Squadron Pilot",
+                    "1 - \"Wampa\"",
+                    "1 - Academy Pilot"
                 ]
             }
         ],
@@ -528,12 +544,12 @@
                     ],
                     [
                         {
-                            "name": "Imdaar Test Pilot",
-                            "initiative": 3
-                        },
-                        {
                             "name": "Sigma Squadron Ace",
                             "initiative": 4
+                        },
+                        {
+                            "name": "Imdaar Test Pilot",
+                            "initiative": 3
                         }
                     ]
                 ]
@@ -546,10 +562,10 @@
                 "name": "TIE Reaper Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "Major Vermeil",
-                    "Captain Feroph",
-                    "\"Vizier\"",
-                    "Scarif Base Pilot"
+                    "4 - Major Vermeil",
+                    "3 - Captain Feroph",
+                    "2 - \"Vizier\"",
+                    "1 - Scarif Base Pilot"
                 ]
             }
         ]
@@ -591,8 +607,8 @@
                     ],
                     [
                         {
-                            "name": "\"Deathfire\"",
-                            "initiative": 2
+                            "name": "Gamma Squadron Ace",
+                            "initiative": 3
                         },
                         {
                             "name": "Scimitar Squadron Pilot",
@@ -601,8 +617,8 @@
                     ],
                     [
                         {
-                            "name": "Gamma Squadron Ace",
-                            "initiative": 3
+                            "name": "\"Deathfire\"",
+                            "initiative": 2
                         },
                         {
                             "name": "Scimitar Squadron Pilot",
@@ -728,12 +744,12 @@
                     ],
                     [
                         {
-                            "name": "Blue Squadron Pilot",
-                            "initiative": 2
-                        },
-                        {
                             "name": "Blade Squadron Veteran",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Pilot",
+                            "initiative": 2
                         }
                     ]
                 ]
@@ -747,22 +763,22 @@
                 "shipTokens": [
                     [
                         {
-                            "name": "Garven Dreis",
-                            "initiative": 4
-                        },
-                        {
                             "name": "Norra Wexley",
                             "initiative": 5
+                        },
+                        {
+                            "name": "Garven Dreis",
+                            "initiative": 4
                         }
                     ],
                     [
                         {
-                            "name": "Ibtisam",
-                            "initiative": 3
-                        },
-                        {
                             "name": "Shara Bey",
                             "initiative": 4
+                        },
+                        {
+                            "name": "Ibtisam",
+                            "initiative": 3
                         }
                     ]
                 ]
@@ -805,7 +821,8 @@
                 "shipTokens": [
                     [
                         {
-                            "name": "Wulffwarro"
+                            "name": "Wulffwarro",
+                            "initiative": 4
                         },
                         {
                             "name": "Kashyyyk Defender",
@@ -873,12 +890,12 @@
                     ],
                     [
                         {
-                            "name": "Gray Squadron Bomber",
-                            "initiative": 2
-                        },
-                        {
                             "name": "Gold Squadron Veteran",
                             "initiative": 3
+                        },
+                        {
+                            "name": "Gray Squadron Bomber",
+                            "initiative": 2
                         }
                     ]
                 ]
@@ -887,12 +904,12 @@
                 "name": "BTL-A4 Y-wing Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Norra Wexley",
-                    "\"Dutch\" Vander",
-                    "Horton Salm",
-                    "Evaan Verlaine",
-                    "Gold Squadron Veteran",
-                    "Gray Squadron Bomber"
+                    "5 - Norra Wexley",
+                    "4 - \"Dutch\" Vander",
+                    "4 - Horton Salm",
+                    "3 - Evaan Verlaine",
+                    "3 - Gold Squadron Veteran",
+                    "2 - Gray Squadron Bomber"
                 ]
             }
         ],
@@ -922,12 +939,12 @@
                     ],
                     [
                         {
-                            "name": "Crymorah Goon",
-                            "initiative": 1
-                        },
-                        {
                             "name": "Hired Gun",
                             "initiative": 2
+                        },
+                        {
+                            "name": "Crymorah Goon",
+                            "initiative": 1
                         }
                     ]
                 ]
@@ -1181,10 +1198,20 @@
                 "name": "Saw's Renegades Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Kullbee Sperado",
-                    "Leevan Tenza",
-                    "Edrio Two Tubes",
-                    "Cavern Angels Zealot"
+                    "4 - Kullbee Sperado",
+                    "3 - Leevan Tenza",
+                    "2 - Edrio Two Tubes",
+                    "1 - Cavern Angels Zealot"
+                ]
+            },
+            {
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 - Luke Skywalker",
+                    "4 - Jek Porkins",
+                    "3 - Red Squadron Veteran",
+                    "2 - Blue Squadron Escort"
                 ]
             },
             {
@@ -1243,25 +1270,15 @@
                 ]
             },
             {
-                "name": "X-Wing Core Set",
-                "numberOfTokens": 2,
-                "pilotNames": [
-                    "Luke Skywalker",
-                    "Jek Porkins",
-                    "Red Squadron Veteran",
-                    "Blue Squadron Escort"
-                ]
-            },
-            {
                 "name": "T-65 X-wing Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Wedge Antilles",
-                    "Thane Kyrell",
-                    "Garven Dreis",
-                    "Biggs Darklighter",
-                    "Red Squadron Veteran",
-                    "Blue Squadron Escort"
+                    "6 - Wedge Antilles",
+                    "5 - Thane Kyrell",
+                    "4 - Garven Dreis",
+                    "3 - Biggs Darklighter",
+                    "3 - Red Squadron Veteran",
+                    "2 - Blue Squadron Escort"
                 ]
             }
         ]
@@ -1272,10 +1289,10 @@
                 "name": "Saw's Renegades Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "Saw Gerrera",
-                    "Magva Yarro",
-                    "Benthic Two Tubes",
-                    "Partisan Renegade"
+                    "4 - Saw Gerrera",
+                    "3 - Magva Yarro",
+                    "2 - Benthic Two Tubes",
+                    "1 - Partisan Renegade"
                 ]
             },
             {
@@ -1457,12 +1474,10 @@
                     ],
                     [
                         {
-                            "name": "Nashtah Pup",
-                            "initiative": 0
+                            "name": "Nashtah Pup"
                         },
                         {
-                            "name": "Nashtah Pup",
-                            "initiative": 0
+                            "name": "Nashtah Pup"
                         }
                     ]
                 ]
@@ -1524,10 +1539,10 @@
                 "name": "Lando's Millennium Falcon Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "Han Solo",
-                    "Lando Calrissian",
-                    "L3-37",
-                    "Freighter Captain"
+                    "6 - Han Solo",
+                    "5 - Lando Calrissian",
+                    "2 - L3-37",
+                    "1 - Freighter Captain"
                 ]
             }
         ]
@@ -1538,10 +1553,10 @@
                 "name": "Lando's Millennium Falcon Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "Lando Calrissian",
-                    "Outer Rim Pioneer",
-                    "L3-37",
-                    "Autopilot Drone"
+                    "4 - Lando Calrissian",
+                    "3 - Outer Rim Pioneer",
+                    "2 - L3-37",
+                    "1 - Autopilot Drone"
                 ]
             }
         ]
@@ -1607,12 +1622,12 @@
                 "name": "Fang Fighter Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Fenn Rau",
-                    "Old Teroch",
-                    "Joy Rekkoff",
-                    "Kad Solus",
-                    "Skull Squadron Pilot",
-                    "Zealous Recruit"
+                    "6 - Fenn Rau",
+                    "6 - Old Teroch",
+                    "4 - Joy Rekkoff",
+                    "4 - Kad Solus",
+                    "4 - Skull Squadron Pilot",
+                    "1 - Zealous Recruit"
                 ]
             }
         ]
@@ -1668,12 +1683,12 @@
                 "name": "Slave I Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "Boba Fett",
-                    "Emon Azzameen",
-                    "Kath Scarlet",
-                    "Koshka Frost",
-                    "Krassis Trelix",
-                    "Bounty Hunter"
+                    "5 - Boba Fett",
+                    "4 - Emon Azzameen",
+                    "4 - Kath Scarlet",
+                    "3 - Koshka Frost",
+                    "3 - Krassis Trelix",
+                    "2 - Bounty Hunter"
                 ]
             }
         ]
