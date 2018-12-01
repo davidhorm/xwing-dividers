@@ -17,12 +17,14 @@ export class FrontBackComponent implements OnInit {
 
   getOuterDivStyle() {
 
-    let margin = 3;
-    let maxHeight = this.boxHeight - (margin * 2);
+    let topMargin = 4.5;
+    let horizontalMargin = 3;
+    let bottomMargin = 1.5;
+    let maxHeight = this.boxHeight - topMargin - bottomMargin;
 
     return {
       'font-size': '3.2mm',
-      'margin': `${margin}mm`,
+      'margin': `${topMargin}mm ${horizontalMargin}mm ${bottomMargin}mm`,
       'max-height': `${maxHeight}mm`,
       'overflow-y': 'hidden'
     };

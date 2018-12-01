@@ -410,6 +410,18 @@
         "icon": "xwing-miniatures-ship-tielnfighter",
         "products": [
             {
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Iden Versio",
+                    "3 - Black Squadron Ace",
+                    "3 - Valen Rudor",
+                    "2 - \"Night Beast\"",
+                    "2 - Obsidian Squadron Pilot",
+                    "1 - Academy Pilot"
+                ]
+            },
+            {
                 "name": "Galactic Empire Conversion Kit",
                 "shipTokens": [
                     [
@@ -525,14 +537,18 @@
                 ]
             },
             {
-                "name": "X-Wing Core Set",
-                "numberOfTokens": 3,
+                "name": "TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 5,
                 "pilotNames": [
-                    "4 - Iden Versio",
+                    "5 - \"Howlrunner\"",
+                    "5 - \"Mauler\" Mithel",
+                    "5 - \"Scourge\" Skutu",
+                    "4 - Gideon Hask",
+                    "4 - Del Meeko",
+                    "4 - Seyn Marana",
                     "3 - Black Squadron Ace",
-                    "3 - Valen Rudor",
-                    "2 - \"Night Beast\"",
                     "2 - Obsidian Squadron Pilot",
+                    "1 - \"Wampa\"",
                     "1 - Academy Pilot"
                 ]
             }
@@ -1218,6 +1234,16 @@
                 ]
             },
             {
+                "name": "X-Wing Core Set",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "5 - Luke Skywalker",
+                    "4 - Jek Porkins",
+                    "3 - Red Squadron Veteran",
+                    "2 - Blue Squadron Escort"
+                ]
+            },
+            {
                 "name": "Rebel Alliance Conversion Kit",
                 "shipTokens": [
                     [
@@ -1270,16 +1296,6 @@
                             "initiative": 2
                         }
                     ]
-                ]
-            },
-            {
-                "name": "X-Wing Core Set",
-                "numberOfTokens": 2,
-                "pilotNames": [
-                    "5 - Luke Skywalker",
-                    "4 - Jek Porkins",
-                    "3 - Red Squadron Veteran",
-                    "2 - Blue Squadron Escort"
                 ]
             },
             {
