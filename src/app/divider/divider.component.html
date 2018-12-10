@@ -2,13 +2,23 @@
 
 <h1>X-Wing Dividers</h1>
 <div>
-  Select a Card Type. Enter a caddy length in millimeters. Print at Scale 100% (instead of "Shrink to fit") and Narrow margins. Cut on solid lines and fold on dashed lines.
+  Select a Faction and/or Card Type. Enter a caddy length in millimeters. Print at Scale 100% (instead of "Shrink to fit") and Narrow margins. Cut on solid lines and fold on dashed lines.
 </div>
 
 <div>
   <mat-form-field>
-    <mat-select placeholder="Card Type" [(ngModel)]="selectedCardType" (selectionChange)="caddyLength = selectedCardType.defaultLength">
-      <mat-option *ngFor="let cardType of cardTypes" [value]="cardType">
+    <mat-select placeholder="Faction" [(ngModel)]="selectedFactionType" (selectionChange)="onSelectionChange()">
+      <mat-option>- None -</mat-option>
+      <mat-option *ngFor="let factionType of factionTypes" [value]="factionType">
+        {{factionType.title}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Card Type" [(ngModel)]="selectedUpgradeCardType" (selectionChange)="onSelectionChange()">
+      <mat-option>- None -</mat-option>
+      <mat-option *ngFor="let cardType of upgradeCardTypes" [value]="cardType">
         {{cardType.title}}
       </mat-option>
     </mat-select>
@@ -16,6 +26,10 @@
 
   <mat-form-field>
     <input matInput placeholder="Caddy Length (mm)" [(ngModel)]="caddyLength" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Label" [(ngModel)]="caddyLabel" />
   </mat-form-field>
 </div>
   
@@ -27,7 +41,11 @@
   <tbody>
     <tr>
       <td class="side no-tab-top"><!-- empty space in corner--></td>
-      <td class="middle top-label top-border" rowspan="2"><i class="xwing-miniatures-font {{selectedCardType?.iconClassName}}"></i> {{selectedCardType?.title}}</td>
+      <td class="middle top-label top-border" rowspan="2">
+        <i class="xwing-miniatures-font {{selectedFactionType?.iconClassName}}"></i> 
+        <i class="xwing-miniatures-font {{selectedUpgradeCardType?.iconClassName}}"></i> 
+        {{caddyLabel}}
+      </td>
       <td class="side no-tab-top"><!-- empty space in corner--></td>
     </tr>
     <tr>
