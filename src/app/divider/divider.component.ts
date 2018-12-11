@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CARD_TYPES } from './shared/card-type.service';
+import { UpgradeCardTypes, FactionTypes } from './shared/card-type.service';
 import { CardType } from './shared/card-type.model';
 
 @Component({
@@ -8,23 +8,44 @@ import { CardType } from './shared/card-type.model';
   styleUrls: ['./divider.component.css']
 })
 export class DividerComponent implements OnInit {
-  /**
-   * The list of card types in the dropdown.
-   */
-  cardTypes: CardType[] = CARD_TYPES;
 
-  /**
-   * The selected card type. Default to the first item in the dropdown.
-   */
-  selectedCardType: CardType = this.cardTypes[0];
+  /** The list of faction types in the dropdown. */
+  factionTypes: CardType[] = FactionTypes;
+
+  /** The selected faction type. Default to none. */
+  selectedFactionType: CardType;
+
+  /** The list of upgrade card types in the dropdown. */
+  upgradeCardTypes: CardType[] = UpgradeCardTypes;
+
+  /** The selected upgrade card type. */
+  selectedUpgradeCardType: CardType;
   
-  /**
-   * The caddy length in millimeters. Default to the first item in the dropdown.
-   */
-  caddyLength: number = this.cardTypes[0].defaultLength;
+  /** The caddy length in millimeters. */
+  caddyLength: number;
+
+  /** The caddy label. */
+  caddyLabel: string;
   
   constructor() { }
 
   ngOnInit() {
+    this.selectedUpgradeCardType = this.upgradeCardTypes[0];
+    this.onSelectionChange();
+  }
+
+  onSelectionChange() {
+    if(this.selectedUpgradeCardType !== undefined || this.selectedFactionType !== undefined) {
+      let factionLength: number = this.selectedFactionType !== undefined ? this.selectedFactionType.defaultLength : 0;
+      let upgradeCardTypeLength: number = this.selectedUpgradeCardType !== undefined ? this.selectedUpgradeCardType.defaultLength : 0;
+      this.caddyLength = upgradeCardTypeLength || factionLength;
+      
+      let factionText: string = this.selectedFactionType !== undefined ? this.selectedFactionType.title : "";
+      let upgradeCardTypeText: string = this.selectedUpgradeCardType !== undefined ? this.selectedUpgradeCardType.title : "";
+      this.caddyLabel = `${factionText} ${upgradeCardTypeText}`;
+    }
+    else {
+      this.caddyLabel = "";
+    }
   }
 }
