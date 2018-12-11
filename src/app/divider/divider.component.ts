@@ -36,11 +36,12 @@ export class DividerComponent implements OnInit {
 
   onSelectionChange() {
     if(this.selectedUpgradeCardType !== undefined || this.selectedFactionType !== undefined) {
-      this.caddyLength = this.selectedUpgradeCardType.defaultLength || this.selectedFactionType.defaultLength;
-
+      let factionLength: number = this.selectedFactionType !== undefined ? this.selectedFactionType.defaultLength : 0;
+      let upgradeCardTypeLength: number = this.selectedUpgradeCardType !== undefined ? this.selectedUpgradeCardType.defaultLength : 0;
+      this.caddyLength = upgradeCardTypeLength || factionLength;
+      
       let factionText: string = this.selectedFactionType !== undefined ? this.selectedFactionType.title : "";
       let upgradeCardTypeText: string = this.selectedUpgradeCardType !== undefined ? this.selectedUpgradeCardType.title : "";
-
       this.caddyLabel = `${factionText} ${upgradeCardTypeText}`;
     }
     else {
