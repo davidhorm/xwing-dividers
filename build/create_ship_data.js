@@ -25,9 +25,12 @@ shipFilePaths.forEach(shipFilePath => {
 	let shipContent = fs.readFileSync(shipFilePath);
 	let shipJson = JSON.parse(shipContent);
 
-	//TIE Interceptor xws follows weird rules. https://github.com/guidokessels/xwing-data2/pull/93
+	//some ships xws follows weird rules. https://github.com/guidokessels/xwing-data2/pull/93
 	if (shipJson.xws === "tieininterceptor") {
 		shipJson.xws = "tieinterceptor"
+	}
+	else if (shipJson.xws === "tievnsilencer") {
+		shipJson.xws = "tiesilencer"
 	}
 
 	//only parse pilot content if ffg id is defined (to filter out preview content), and font is available
@@ -89,7 +92,7 @@ function getPilots(pilots) {
 
 	let pilotArray = [];
 	pilots.forEach(pilot => {
-		pilotArray.push(`${pilot.initiative} -  ${pilot.name}`);
+		pilotArray.push(`${pilot.initiative} - ${pilot.name}`);
 	});
 
 	return pilotArray;

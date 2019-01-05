@@ -1,14 +1,82 @@
 {
+    "tiefofighter": {
+        "First Order": [
+            {
+                "name": "TIE/fo Fighter Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - \"Midnight\"",
+                    "5 - Commander Malarus",
+                    "4 - \"Scorch\"",
+                    "4 - \"Static\"",
+                    "3 - \"Longshot\"",
+                    "3 - Omega Squadron Ace",
+                    "2 - \"Muse\"",
+                    "2 - TN-3465",
+                    "2 - Zeta Squadron Pilot",
+                    "1 - Epsilon Squadron Cadet",
+                    "1 - Lieutenant Rivas",
+                    "0 - \"Null\""
+                ]
+            }
+        ]
+    },
+    "tiesffighter": {
+        "First Order": [
+            {
+                "name": "TIE/sf Fighter Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 - Quickdraw",
+                    "4 - Backdraft",
+                    "3 - Omega Squadron Expert",
+                    "2 - Zeta Squadron Survivor"
+                ]
+            }
+        ]
+    },
+    "tiesilencer": {
+        "First Order": [
+            {
+                "name": "TIE Silencer Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 - \"Blackout\"",
+                    "5 - Kylo Ren",
+                    "4 - \"Recoil\"",
+                    "4 - First Order Test Pilot",
+                    "3 - \"Avenger\"",
+                    "1 - Sienar-Jaemus Engineer"
+                ]
+            }
+        ]
+    },
+    "upsilonclassshuttle": {
+        "First Order": [
+            {
+                "name": "Upsilon-class command shuttle Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Captain Cardinal",
+                    "4 - Major Stridan",
+                    "2 - Lieutenant Dormitz",
+                    "2 - Lieutenant Tavson",
+                    "2 - Starkiller Base Pilot",
+                    "1 - Petty Officer Thanisson"
+                ]
+            }
+        ]
+    },
     "alphaclassstarwing": {
         "Galactic Empire": [
             {
                 "name": "Alpha-class Star Wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Major Vynder",
-                    "3 -  Lieutenant Karsabi",
-                    "3 -  Rho Squadron Pilot",
-                    "2 -  Nu Squadron Pilot"
+                    "4 - Major Vynder",
+                    "3 - Lieutenant Karsabi",
+                    "3 - Rho Squadron Pilot",
+                    "2 - Nu Squadron Pilot"
                 ]
             }
         ]
@@ -19,10 +87,10 @@
                 "name": "Lambda-class T-4a Shuttle Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Captain Kagi",
-                    "3 -  Colonel Jendon",
-                    "3 -  Lieutenant Sai",
-                    "1 -  Omicron Group Pilot"
+                    "4 - Captain Kagi",
+                    "3 - Colonel Jendon",
+                    "3 - Lieutenant Sai",
+                    "1 - Omicron Group Pilot"
                 ]
             }
         ]
@@ -33,10 +101,10 @@
                 "name": "TIE Advanced v1 Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Grand Inquisitor",
-                    "4 -  Seventh Sister",
-                    "3 -  Baron of the Empire",
-                    "3 -  Inquisitor"
+                    "5 - Grand Inquisitor",
+                    "4 - Seventh Sister",
+                    "3 - Baron of the Empire",
+                    "3 - Inquisitor"
                 ]
             }
         ]
@@ -47,12 +115,12 @@
                 "name": "TIE Advanced x1 Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "6 -  Darth Vader",
-                    "5 -  Maarek Stele",
-                    "4 -  Ved Foslo",
-                    "3 -  Storm Squadron Ace",
-                    "3 -  Zertik Strom",
-                    "2 -  Tempest Squadron Pilot"
+                    "6 - Darth Vader",
+                    "5 - Maarek Stele",
+                    "4 - Ved Foslo",
+                    "3 - Storm Squadron Ace",
+                    "3 - Zertik Strom",
+                    "2 - Tempest Squadron Pilot"
                 ]
             }
         ]
@@ -63,10 +131,10 @@
                 "name": "TIE/ag Aggressor Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Lieutenant Kestal",
-                    "3 -  Onyx Squadron Scout",
-                    "2 -  \"Double Edge\"",
-                    "2 -  Sienar Specialist"
+                    "4 - Lieutenant Kestal",
+                    "3 - Onyx Squadron Scout",
+                    "2 - \"Double Edge\"",
+                    "2 - Sienar Specialist"
                 ]
             }
         ]
@@ -77,9 +145,9 @@
                 "name": "TIE/ca Punisher Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  \"Redline\"",
-                    "4 -  \"Deathrain\"",
-                    "2 -  Cutlass Squadron Pilot"
+                    "5 - \"Redline\"",
+                    "4 - \"Deathrain\"",
+                    "2 - Cutlass Squadron Pilot"
                 ]
             }
         ]
@@ -90,11 +158,11 @@
                 "name": "TIE/D Defender Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Rexler Brath",
-                    "4 -  Colonel Vessery",
-                    "4 -  Countess Ryad",
-                    "4 -  Onyx Squadron Ace",
-                    "1 -  Delta Squadron Pilot"
+                    "5 - Rexler Brath",
+                    "4 - Colonel Vessery",
+                    "4 - Countess Ryad",
+                    "4 - Onyx Squadron Ace",
+                    "1 - Delta Squadron Pilot"
                 ]
             }
         ]
@@ -105,10 +173,10 @@
                 "name": "TIE Interceptor Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 -  Soontir Fel",
-                    "4 -  Saber Squadron Ace",
-                    "4 -  Turr Phennir",
-                    "1 -  Alpha Squadron Pilot"
+                    "6 - Soontir Fel",
+                    "4 - Saber Squadron Ace",
+                    "4 - Turr Phennir",
+                    "1 - Alpha Squadron Pilot"
                 ]
             }
         ]
@@ -119,19 +187,19 @@
                 "name": "TIE/ln Fighter Expansion Pack",
                 "numberOfTokens": 7,
                 "pilotNames": [
-                    "5 -  \"Howlrunner\"",
-                    "5 -  \"Mauler\" Mithel",
-                    "5 -  \"Scourge\" Skutu",
-                    "4 -  Del Meeko",
-                    "4 -  Gideon Hask",
-                    "4 -  Iden Versio",
-                    "4 -  Seyn Marana",
-                    "3 -  Black Squadron Ace",
-                    "3 -  Valen Rudor",
-                    "2 -  \"Night Beast\"",
-                    "2 -  Obsidian Squadron Pilot",
-                    "1 -  \"Wampa\"",
-                    "1 -  Academy Pilot"
+                    "5 - \"Howlrunner\"",
+                    "5 - \"Mauler\" Mithel",
+                    "5 - \"Scourge\" Skutu",
+                    "4 - Del Meeko",
+                    "4 - Gideon Hask",
+                    "4 - Iden Versio",
+                    "4 - Seyn Marana",
+                    "3 - Black Squadron Ace",
+                    "3 - Valen Rudor",
+                    "2 - \"Night Beast\"",
+                    "2 - Obsidian Squadron Pilot",
+                    "1 - \"Wampa\"",
+                    "1 - Academy Pilot"
                 ]
             }
         ],
@@ -140,10 +208,10 @@
                 "name": "TIE/ln Fighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "3 -  Ezra Bridger",
-                    "3 -  Sabine Wren",
-                    "2 -  \"Zeb\" Orrelios",
-                    "2 -  Captain Rex"
+                    "3 - Ezra Bridger",
+                    "3 - Sabine Wren",
+                    "2 - \"Zeb\" Orrelios",
+                    "2 - Captain Rex"
                 ]
             }
         ]
@@ -154,10 +222,10 @@
                 "name": "TIE/ph Phantom Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  \"Whisper\"",
-                    "4 -  \"Echo\"",
-                    "4 -  Sigma Squadron Ace",
-                    "3 -  Imdaar Test Pilot"
+                    "5 - \"Whisper\"",
+                    "4 - \"Echo\"",
+                    "4 - Sigma Squadron Ace",
+                    "3 - Imdaar Test Pilot"
                 ]
             }
         ]
@@ -168,10 +236,10 @@
                 "name": "TIE Reaper Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Major Vermeil",
-                    "3 -  Captain Feroph",
-                    "2 -  \"Vizier\"",
-                    "1 -  Scarif Base Pilot"
+                    "4 - Major Vermeil",
+                    "3 - Captain Feroph",
+                    "2 - \"Vizier\"",
+                    "1 - Scarif Base Pilot"
                 ]
             }
         ]
@@ -182,12 +250,12 @@
                 "name": "TIE/sa Bomber Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Tomax Bren",
-                    "4 -  Captain Jonus",
-                    "4 -  Major Rhymer",
-                    "3 -  Gamma Squadron Ace",
-                    "2 -  \"Deathfire\"",
-                    "2 -  Scimitar Squadron Pilot"
+                    "5 - Tomax Bren",
+                    "4 - Captain Jonus",
+                    "4 - Major Rhymer",
+                    "3 - Gamma Squadron Ace",
+                    "2 - \"Deathfire\"",
+                    "2 - Scimitar Squadron Pilot"
                 ]
             }
         ]
@@ -198,11 +266,11 @@
                 "name": "TIE/sk Striker Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  \"Duchess\"",
-                    "4 -  \"Countdown\"",
-                    "4 -  \"Pure Sabacc\"",
-                    "3 -  Black Squadron Scout",
-                    "1 -  Planetary Sentinel"
+                    "5 - \"Duchess\"",
+                    "4 - \"Countdown\"",
+                    "4 - \"Pure Sabacc\"",
+                    "3 - Black Squadron Scout",
+                    "1 - Planetary Sentinel"
                 ]
             }
         ]
@@ -213,9 +281,9 @@
                 "name": "VT-49 Decimator Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Rear Admiral Chiraneau",
-                    "3 -  Captain Oicunn",
-                    "2 -  Patrol Leader"
+                    "5 - Rear Admiral Chiraneau",
+                    "3 - Captain Oicunn",
+                    "2 - Patrol Leader"
                 ]
             }
         ]
@@ -226,10 +294,10 @@
                 "name": "A/SF-01 B-wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Braylen Stramm",
-                    "4 -  Ten Numb",
-                    "3 -  Blade Squadron Veteran",
-                    "2 -  Blue Squadron Pilot"
+                    "4 - Braylen Stramm",
+                    "4 - Ten Numb",
+                    "3 - Blade Squadron Veteran",
+                    "2 - Blue Squadron Pilot"
                 ]
             }
         ]
@@ -240,10 +308,10 @@
                 "name": "ARC-170 Starfighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Norra Wexley",
-                    "4 -  Garven Dreis",
-                    "4 -  Shara Bey",
-                    "3 -  Ibtisam"
+                    "5 - Norra Wexley",
+                    "4 - Garven Dreis",
+                    "4 - Shara Bey",
+                    "3 - Ibtisam"
                 ]
             }
         ]
@@ -254,10 +322,10 @@
                 "name": "Attack Shuttle Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Hera Syndulla",
-                    "3 -  Ezra Bridger",
-                    "3 -  Sabine Wren",
-                    "2 -  \"Zeb\" Orrelios"
+                    "5 - Hera Syndulla",
+                    "3 - Ezra Bridger",
+                    "3 - Sabine Wren",
+                    "2 - \"Zeb\" Orrelios"
                 ]
             }
         ]
@@ -268,9 +336,9 @@
                 "name": "Auzituck Gunship Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Wullffwarro",
-                    "3 -  Lowhhrick",
-                    "1 -  Kashyyyk Defender"
+                    "4 - Wullffwarro",
+                    "3 - Lowhhrick",
+                    "1 - Kashyyyk Defender"
                 ]
             }
         ]
@@ -281,12 +349,12 @@
                 "name": "BTL-A4 Y-wing Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Norra Wexley",
-                    "4 -  \"Dutch\" Vander",
-                    "4 -  Horton Salm",
-                    "3 -  Evaan Verlaine",
-                    "3 -  Gold Squadron Veteran",
-                    "2 -  Gray Squadron Bomber"
+                    "5 - Norra Wexley",
+                    "4 - \"Dutch\" Vander",
+                    "4 - Horton Salm",
+                    "3 - Evaan Verlaine",
+                    "3 - Gold Squadron Veteran",
+                    "2 - Gray Squadron Bomber"
                 ]
             }
         ],
@@ -295,10 +363,10 @@
                 "name": "BTL-A4 Y-wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Kavil",
-                    "4 -  Drea Renthal",
-                    "2 -  Hired Gun",
-                    "1 -  Crymorah Goon"
+                    "5 - Kavil",
+                    "4 - Drea Renthal",
+                    "2 - Hired Gun",
+                    "1 - Crymorah Goon"
                 ]
             }
         ]
@@ -309,9 +377,9 @@
                 "name": "BTL-S8 K-wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Miranda Doni",
-                    "3 -  Esege Tuketu",
-                    "2 -  Warden Squadron Pilot"
+                    "4 - Miranda Doni",
+                    "3 - Esege Tuketu",
+                    "2 - Warden Squadron Pilot"
                 ]
             }
         ]
@@ -322,10 +390,10 @@
                 "name": "E-wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Corran Horn",
-                    "4 -  Gavin Darklighter",
-                    "4 -  Rogue Squadron Escort",
-                    "2 -  Knave Squadron Escort"
+                    "5 - Corran Horn",
+                    "4 - Gavin Darklighter",
+                    "4 - Rogue Squadron Escort",
+                    "2 - Knave Squadron Escort"
                 ]
             }
         ]
@@ -336,10 +404,10 @@
                 "name": "HWK-290 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Jan Ors",
-                    "4 -  Roark Garnet",
-                    "3 -  Kyle Katarn",
-                    "2 -  Rebel Scout"
+                    "5 - Jan Ors",
+                    "4 - Roark Garnet",
+                    "3 - Kyle Katarn",
+                    "2 - Rebel Scout"
                 ]
             }
         ],
@@ -348,10 +416,10 @@
                 "name": "HWK-290 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Dace Bonearm",
-                    "3 -  Palob Godalhi",
-                    "2 -  Torkil Mux",
-                    "1 -  Spice Runner"
+                    "4 - Dace Bonearm",
+                    "3 - Palob Godalhi",
+                    "2 - Torkil Mux",
+                    "1 - Spice Runner"
                 ]
             }
         ]
@@ -362,10 +430,10 @@
                 "name": "Modified YT-1300 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 -  Han Solo",
-                    "5 -  Lando Calrissian",
-                    "4 -  Chewbacca",
-                    "1 -  Outer Rim Smuggler"
+                    "6 - Han Solo",
+                    "5 - Lando Calrissian",
+                    "4 - Chewbacca",
+                    "1 - Outer Rim Smuggler"
                 ]
             }
         ]
@@ -376,10 +444,10 @@
                 "name": "RZ-1 A-wing Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Jake Farrell",
-                    "3 -  Arvel Crynyd",
-                    "3 -  Green Squadron Pilot",
-                    "1 -  Phoenix Squadron Pilot"
+                    "4 - Jake Farrell",
+                    "3 - Arvel Crynyd",
+                    "3 - Green Squadron Pilot",
+                    "1 - Phoenix Squadron Pilot"
                 ]
             }
         ]
@@ -390,10 +458,10 @@
                 "name": "Sheathipede-class Shuttle Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 -  Fenn Rau",
-                    "3 -  Ezra Bridger",
-                    "2 -  \"Zeb\" Orrelios",
-                    "1 -  AP-5"
+                    "6 - Fenn Rau",
+                    "3 - Ezra Bridger",
+                    "2 - \"Zeb\" Orrelios",
+                    "1 - AP-5"
                 ]
             }
         ]
@@ -404,18 +472,18 @@
                 "name": "T-65 X-wing Expansion Pack",
                 "numberOfTokens": 6,
                 "pilotNames": [
-                    "6 -  Wedge Antilles",
-                    "5 -  Luke Skywalker",
-                    "5 -  Thane Kyrell",
-                    "4 -  Garven Dreis",
-                    "4 -  Jek Porkins",
-                    "4 -  Kullbee Sperado",
-                    "3 -  Biggs Darklighter",
-                    "3 -  Leevan Tenza",
-                    "3 -  Red Squadron Veteran",
-                    "2 -  Blue Squadron Escort",
-                    "2 -  Edrio Two Tubes",
-                    "1 -  Cavern Angels Zealot"
+                    "6 - Wedge Antilles",
+                    "5 - Luke Skywalker",
+                    "5 - Thane Kyrell",
+                    "4 - Garven Dreis",
+                    "4 - Jek Porkins",
+                    "4 - Kullbee Sperado",
+                    "3 - Biggs Darklighter",
+                    "3 - Leevan Tenza",
+                    "3 - Red Squadron Veteran",
+                    "2 - Blue Squadron Escort",
+                    "2 - Edrio Two Tubes",
+                    "1 - Cavern Angels Zealot"
                 ]
             }
         ]
@@ -426,14 +494,14 @@
                 "name": "UT-60D U-wing Expansion Pack",
                 "numberOfTokens": 4,
                 "pilotNames": [
-                    "4 -  Bodhi Rook",
-                    "4 -  Saw Gerrera",
-                    "3 -  Cassian Andor",
-                    "3 -  Magva Yarro",
-                    "2 -  Benthic Two Tubes",
-                    "2 -  Blue Squadron Scout",
-                    "2 -  Heff Tobber",
-                    "1 -  Partisan Renegade"
+                    "4 - Bodhi Rook",
+                    "4 - Saw Gerrera",
+                    "3 - Cassian Andor",
+                    "3 - Magva Yarro",
+                    "2 - Benthic Two Tubes",
+                    "2 - Blue Squadron Scout",
+                    "2 - Heff Tobber",
+                    "1 - Partisan Renegade"
                 ]
             }
         ]
@@ -444,10 +512,10 @@
                 "name": "VCX-100 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Hera Syndulla",
-                    "3 -  Kanan Jarrus",
-                    "2 -  \"Chopper\"",
-                    "2 -  Lothal Rebel"
+                    "5 - Hera Syndulla",
+                    "3 - Kanan Jarrus",
+                    "2 - \"Chopper\"",
+                    "2 - Lothal Rebel"
                 ]
             }
         ]
@@ -458,9 +526,9 @@
                 "name": "YT-2400 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Dash Rendar",
-                    "3 -  \"Leebo\"",
-                    "1 -  Wild Space Fringer"
+                    "5 - Dash Rendar",
+                    "3 - \"Leebo\"",
+                    "1 - Wild Space Fringer"
                 ]
             }
         ]
@@ -471,10 +539,10 @@
                 "name": "Z-95-AF4 Headhunter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Airen Cracken",
-                    "4 -  Lieutenant Blount",
-                    "2 -  Tala Squadron Pilot",
-                    "1 -  Bandit Squadron Pilot"
+                    "5 - Airen Cracken",
+                    "4 - Lieutenant Blount",
+                    "2 - Tala Squadron Pilot",
+                    "1 - Bandit Squadron Pilot"
                 ]
             }
         ],
@@ -483,11 +551,49 @@
                 "name": "Z-95-AF4 Headhunter Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "4 -  N'dru Suhlak",
-                    "3 -  Black Sun Soldier",
-                    "3 -  Kaa'to Leeachos",
-                    "1 -  Binayre Pirate",
-                    "0 -  Nashtah Pup"
+                    "4 - N'dru Suhlak",
+                    "3 - Black Sun Soldier",
+                    "3 - Kaa'to Leeachos",
+                    "1 - Binayre Pirate",
+                    "0 - Nashtah Pup"
+                ]
+            }
+        ]
+    },
+    "mg100starfortresssf17": {
+        "Resistance": [
+            {
+                "name": "MG-100 StarFortress SF-17 Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Finch Dallow",
+                    "3 - Ben Teene",
+                    "3 - Edon Kappehl",
+                    "2 - Vennie",
+                    "1 - Cat",
+                    "1 - Cobalt Squadron Bomber"
+                ]
+            }
+        ]
+    },
+    "t70xwing": {
+        "Resistance": [
+            {
+                "name": "T-70 X-wing Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - Poe Dameron",
+                    "5 - Ello Asty",
+                    "5 - Nien Nunb",
+                    "4 - Black Squadron Ace",
+                    "4 - Karé Kun",
+                    "4 - Temmin Wexley",
+                    "3 - Jessika Pava",
+                    "3 - Joph Seastriker",
+                    "3 - Red Squadron Expert",
+                    "2 - Lieutenant Bastian",
+                    "1 - Blue Squadron Rookie",
+                    "1 - Jaycris Tubbs"
                 ]
             }
         ]
@@ -498,10 +604,10 @@
                 "name": "Aggressor Assault Fighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  IG-88A",
-                    "4 -  IG-88B",
-                    "4 -  IG-88C",
-                    "4 -  IG-88D"
+                    "4 - IG-88A",
+                    "4 - IG-88B",
+                    "4 - IG-88C",
+                    "4 - IG-88D"
                 ]
             }
         ]
@@ -512,10 +618,10 @@
                 "name": "Customized YT-1300 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 -  Han Solo",
-                    "4 -  Lando Calrissian",
-                    "2 -  L3-37",
-                    "1 -  Freighter Captain"
+                    "6 - Han Solo",
+                    "4 - Lando Calrissian",
+                    "2 - L3-37",
+                    "1 - Freighter Captain"
                 ]
             }
         ]
@@ -526,10 +632,10 @@
                 "name": "Escape Craft Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Lando Calrissian",
-                    "3 -  Outer Rim Pioneer",
-                    "2 -  L3-37",
-                    "1 -  Autopilot Drone"
+                    "4 - Lando Calrissian",
+                    "3 - Outer Rim Pioneer",
+                    "2 - L3-37",
+                    "1 - Autopilot Drone"
                 ]
             }
         ]
@@ -540,12 +646,12 @@
                 "name": "Fang Fighter Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "6 -  Fenn Rau",
-                    "5 -  Old Teroch",
-                    "4 -  Joy Rekkoff",
-                    "4 -  Kad Solus",
-                    "4 -  Skull Squadron Pilot",
-                    "1 -  Zealous Recruit"
+                    "6 - Fenn Rau",
+                    "5 - Old Teroch",
+                    "4 - Joy Rekkoff",
+                    "4 - Kad Solus",
+                    "4 - Skull Squadron Pilot",
+                    "1 - Zealous Recruit"
                 ]
             }
         ]
@@ -556,12 +662,12 @@
                 "name": "Firespray-class Patrol Craft Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Boba Fett",
-                    "4 -  Emon Azzameen",
-                    "4 -  Kath Scarlet",
-                    "3 -  Koshka Frost",
-                    "3 -  Krassis Trelix",
-                    "2 -  Bounty Hunter"
+                    "5 - Boba Fett",
+                    "4 - Emon Azzameen",
+                    "4 - Kath Scarlet",
+                    "3 - Koshka Frost",
+                    "3 - Krassis Trelix",
+                    "2 - Bounty Hunter"
                 ]
             }
         ]
@@ -572,9 +678,9 @@
                 "name": "G-1A Starfighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "3 -  4-LOM",
-                    "3 -  Zuckuss",
-                    "1 -  Gand Findsman"
+                    "3 - 4-LOM",
+                    "3 - Zuckuss",
+                    "1 - Gand Findsman"
                 ]
             }
         ]
@@ -585,10 +691,10 @@
                 "name": "JumpMaster 5000 Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 -  Dengar",
-                    "4 -  Tel Trevura",
-                    "3 -  Manaroo",
-                    "2 -  Contracted Scout"
+                    "6 - Dengar",
+                    "4 - Tel Trevura",
+                    "3 - Manaroo",
+                    "2 - Contracted Scout"
                 ]
             }
         ]
@@ -599,12 +705,12 @@
                 "name": "Kihraxz Fighter Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Talonbane Cobra",
-                    "4 -  Graz",
-                    "4 -  Viktor Hel",
-                    "3 -  Black Sun Ace",
-                    "3 -  Captain Jostero",
-                    "2 -  Cartel Marauder"
+                    "5 - Talonbane Cobra",
+                    "4 - Graz",
+                    "4 - Viktor Hel",
+                    "3 - Black Sun Ace",
+                    "3 - Captain Jostero",
+                    "2 - Cartel Marauder"
                 ]
             }
         ]
@@ -615,10 +721,10 @@
                 "name": "Lancer-class Pursuit Craft Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Ketsu Onyo",
-                    "4 -  Asajj Ventress",
-                    "3 -  Sabine Wren",
-                    "2 -  Shadowport Hunter"
+                    "5 - Ketsu Onyo",
+                    "4 - Asajj Ventress",
+                    "3 - Sabine Wren",
+                    "2 - Shadowport Hunter"
                 ]
             }
         ]
@@ -629,9 +735,9 @@
                 "name": "M12-L Kimogila Fighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Torani Kulda",
-                    "3 -  Cartel Executioner",
-                    "3 -  Dalan Oberos"
+                    "4 - Torani Kulda",
+                    "3 - Cartel Executioner",
+                    "3 - Dalan Oberos"
                 ]
             }
         ]
@@ -642,14 +748,14 @@
                 "name": "M3-A Interceptor Expansion Pack",
                 "numberOfTokens": 4,
                 "pilotNames": [
-                    "5 -  Serissu",
-                    "4 -  Genesis Red",
-                    "3 -  Laetin A'shera",
-                    "3 -  Quinn Jast",
-                    "3 -  Tansarii Point Veteran",
-                    "2 -  Inaldra",
-                    "1 -  Cartel Spacer",
-                    "1 -  Sunny Bounder"
+                    "5 - Serissu",
+                    "4 - Genesis Red",
+                    "3 - Laetin A'shera",
+                    "3 - Quinn Jast",
+                    "3 - Tansarii Point Veteran",
+                    "2 - Inaldra",
+                    "1 - Cartel Spacer",
+                    "1 - Sunny Bounder"
                 ]
             }
         ]
@@ -660,10 +766,10 @@
                 "name": "Quadrijet Transfer Spacetug Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Constable Zuvio",
-                    "2 -  Sarco Plank",
-                    "2 -  Unkar Plutt",
-                    "1 -  Jakku Gunrunner"
+                    "4 - Constable Zuvio",
+                    "2 - Sarco Plank",
+                    "2 - Unkar Plutt",
+                    "1 - Jakku Gunrunner"
                 ]
             }
         ]
@@ -674,9 +780,9 @@
                 "name": "Scurrg H-6 Bomber Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "5 -  Captain Nym",
-                    "3 -  Sol Sixxa",
-                    "2 -  Lok Revenant"
+                    "5 - Captain Nym",
+                    "3 - Sol Sixxa",
+                    "2 - Lok Revenant"
                 ]
             }
         ]
@@ -687,11 +793,11 @@
                 "name": "StarViper-class Attack Platform Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
-                    "5 -  Guri",
-                    "4 -  Dalan Oberos",
-                    "4 -  Prince Xizor",
-                    "3 -  Black Sun Assassin",
-                    "2 -  Black Sun Enforcer"
+                    "5 - Guri",
+                    "4 - Dalan Oberos",
+                    "4 - Prince Xizor",
+                    "3 - Black Sun Assassin",
+                    "2 - Black Sun Enforcer"
                 ]
             }
         ]
@@ -702,10 +808,10 @@
                 "name": "YV-666 Light Freighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "4 -  Bossk",
-                    "4 -  Moralo Eval",
-                    "3 -  Latts Razzi",
-                    "2 -  Trandoshan Slaver"
+                    "4 - Bossk",
+                    "4 - Moralo Eval",
+                    "3 - Latts Razzi",
+                    "2 - Trandoshan Slaver"
                 ]
             }
         ]
