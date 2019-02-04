@@ -27,18 +27,18 @@
                 "name": "TIE/sf Fighter Expansion Pack",
                 "numberOfTokens": 2,
                 "pilotNames": [
-                    "6 - Quickdraw",
-                    "4 - Backdraft",
+                    "6 - \"Quickdraw\"",
+                    "4 - \"Backdraft\"",
                     "3 - Omega Squadron Expert",
                     "2 - Zeta Squadron Survivor"
                 ]
             }
         ]
     },
-    "tiesilencer": {
+    "tievnsilencer": {
         "First Order": [
             {
-                "name": "TIE Silencer Expansion Pack",
+                "name": "TIE/vn Silencer Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
                     "5 - \"Blackout\"",
@@ -51,7 +51,7 @@
             }
         ]
     },
-    "upsilonclassshuttle": {
+    "upsilonclasscommandshuttle": {
         "First Order": [
             {
                 "name": "Upsilon-class command shuttle Expansion Pack",
@@ -59,8 +59,8 @@
                 "pilotNames": [
                     "4 - Captain Cardinal",
                     "4 - Major Stridan",
+                    "3 - Lieutenant Tavson",
                     "2 - Lieutenant Dormitz",
-                    "2 - Lieutenant Tavson",
                     "2 - Starkiller Base Pilot",
                     "1 - Petty Officer Thanisson"
                 ]
@@ -560,10 +560,10 @@
             }
         ]
     },
-    "mg100starfortresssf17": {
+    "mg100starfortress": {
         "Resistance": [
             {
-                "name": "MG-100 StarFortress SF-17 Expansion Pack",
+                "name": "MG-100 StarFortress Expansion Pack",
                 "numberOfTokens": 3,
                 "pilotNames": [
                     "4 - Finch Dallow",
@@ -572,6 +572,36 @@
                     "2 - Vennie",
                     "1 - Cat",
                     "1 - Cobalt Squadron Bomber"
+                ]
+            }
+        ]
+    },
+    "rz2awing": {
+        "Resistance": [
+            {
+                "name": "RZ-2 A-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 - L'ulo L'ampar",
+                    "5 - Tallissan Lintra",
+                    "4 - Greer Sonnel",
+                    "3 - Green Squadron Expert",
+                    "3 - Zari Bangel",
+                    "1 - Blue Squadron Recruit"
+                ]
+            }
+        ]
+    },
+    "scavengedyt1300": {
+        "Resistance": [
+            {
+                "name": "Scavenged YT-1300 Expansion Pack",
+                "numberOfTokens": 2,
+                "pilotNames": [
+                    "6 - Han Solo",
+                    "5 - Rey",
+                    "4 - Chewbacca",
+                    "2 - Resistance Sympathizer"
                 ]
             }
         ]
@@ -586,7 +616,7 @@
                     "5 - Ello Asty",
                     "5 - Nien Nunb",
                     "4 - Black Squadron Ace",
-                    "4 - Karé Kun",
+                    "4 - Kare Kun",
                     "4 - Temmin Wexley",
                     "3 - Jessika Pava",
                     "3 - Joph Seastriker",
@@ -756,6 +786,22 @@
                     "2 - Inaldra",
                     "1 - Cartel Spacer",
                     "1 - Sunny Bounder"
+                ]
+            }
+        ]
+    },
+    "modifiedtielnfighter": {
+        "Scum and Villainy": [
+            {
+                "name": "Modified TIE/ln Fighter Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Foreman Proach",
+                    "3 - Ahhav",
+                    "3 - Captain Seevor",
+                    "2 - Mining Guild Surveyor",
+                    "2 - Overseer Yushyn",
+                    "1 - Mining Guild Sentry"
                 ]
             }
         ]

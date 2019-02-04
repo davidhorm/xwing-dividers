@@ -1,6 +1,6 @@
 {
   "name": "xwing-dividers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "update-submodule": "git submodule update --init --recursive --remote",
     "ng": "ng",
@@ -30,11 +30,11 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.11.4",
-    "@angular/cli": "^7.1.4",
-    "@angular/compiler-cli": "^7.1.4",
-    "@angular/language-service": "^7.1.4",
-    "@types/jasmine": "^2.8.14",
+    "@angular-devkit/build-angular": "^0.13.0",
+    "@angular/cli": "^7.0.6",
+    "@angular/compiler-cli": "^7.0.4",
+    "@angular/language-service": "^7.0.4",
+    "@types/jasmine": "^2.8.12",
     "@types/jasminewd2": "^2.0.6",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
