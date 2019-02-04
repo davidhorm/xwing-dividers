@@ -1,4 +1,292 @@
 {
+    "tiefofighter": {
+        "First Order": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Midnight\"",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Commander Malarus",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Commander Malarus",
+                            "initiative": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Scorch\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Static\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Longshot\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Muse\"",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Null\"",
+                            "initiative": 0
+                        }
+                    ],
+                    [
+                        {
+                            "name": "TN-3465",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "TN-3465",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Rivas",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Lieutenant Rivas",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "TIE/fo Fighter Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - \"Midnight\"",
+                    "5 - Commander Malarus",
+                    "4 - \"Scorch\"",
+                    "4 - \"Static\"",
+                    "3 - \"Longshot\"",
+                    "3 - Omega Squadron Ace",
+                    "2 - \"Muse\"",
+                    "2 - TN-3465",
+                    "2 - Zeta Squadron Pilot",
+                    "1 - Epsilon Squadron Cadet",
+                    "1 - Lieutenant Rivas",
+                    "0 - \"Null\""
+                ]
+            }
+        ]
+    },
+    "tiesffighter": {
+        "First Order": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Quickdraw\"",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Backdraft\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    "tiesilencer": {
+        "First Order": [
+            {
+                "name": "TIE Silencer Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 - \"Blackout\"",
+                    "5 - Kylo Ren",
+                    "4 - \"Recoil\"",
+                    "4 - First Order Test Pilot",
+                    "3 - \"Avenger\"",
+                    "1 - Sienar-Jaemus Engineer"
+                ]
+            }
+        ]
+    },
+    "upsilonclassshuttle": {
+        "First Order": [
+            {
+                "name": "Upsilon-class command shuttle Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Captain Cardinal",
+                    "4 - Major Stridan",
+                    "2 - Lieutenant Dormitz",
+                    "2 - Lieutenant Tavson",
+                    "2 - Starkiller Base Pilot",
+                    "1 - Petty Officer Thanisson"
+                ]
+            }
+        ]
+    },
     "alphaclassstarwing": {
         "Galactic Empire": [
             {
@@ -1480,6 +1768,44 @@
                             "name": "Nashtah Pup"
                         }
                     ]
+                ]
+            }
+        ]
+    },
+    "mg100starfortresssf17": {
+        "Resistance": [
+            {
+                "name": "MG-100 StarFortress SF-17 Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Finch Dallow",
+                    "3 - Ben Teene",
+                    "3 - Edon Kappehl",
+                    "2 - Vennie",
+                    "1 - Cat",
+                    "1 - Cobalt Squadron Bomber"
+                ]
+            }
+        ]
+    },
+    "t70xwing": {
+        "Resistance": [
+            {
+                "name": "T-70 X-wing Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - Poe Dameron",
+                    "5 - Ello Asty",
+                    "5 - Nien Nunb",
+                    "4 - Black Squadron Ace",
+                    "4 - Karé Kun",
+                    "4 - Temmin Wexley",
+                    "3 - Jessika Pava",
+                    "3 - Joph Seastriker",
+                    "3 - Red Squadron Expert",
+                    "2 - Lieutenant Bastian",
+                    "1 - Blue Squadron Rookie",
+                    "1 - Jaycris Tubbs"
                 ]
             }
         ]
