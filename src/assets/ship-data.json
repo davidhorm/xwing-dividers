@@ -271,7 +271,73 @@
         "faction": "First Order",
         "size": "Small",
         "icon": "xwing-miniatures-ship-tievnsilencer",
-        "products": null
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Blackout\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kylo Ren",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        }
+                    ]
+                ]
+            }
+        ]
     },
     {
         "ffg": 51,
@@ -279,7 +345,63 @@
         "faction": "First Order",
         "size": "Large",
         "icon": "xwing-miniatures-ship-upsilonclasscommandshuttle",
-        "products": null
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Major Stridan",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Dormitz",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Tavson",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            }
+        ]
     },
     {
         "ffg": 14,
