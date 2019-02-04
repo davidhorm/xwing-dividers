@@ -1,5 +1,409 @@
 [
     {
+        "ffg": 49,
+        "name": "TIE/fo Fighter",
+        "faction": "First Order",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-tiefofighter",
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Midnight\"",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Commander Malarus",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Commander Malarus",
+                            "initiative": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Scorch\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Static\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Longshot\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Muse\"",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Ace",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Null\"",
+                            "initiative": 0
+                        }
+                    ],
+                    [
+                        {
+                            "name": "TN-3465",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "TN-3465",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Zeta Squadron Pilot",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Epsilon Squadron Cadet",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Rivas",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Lieutenant Rivas",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "TIE/fo Fighter Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - \"Midnight\"",
+                    "5 - Commander Malarus",
+                    "4 - \"Scorch\"",
+                    "4 - \"Static\"",
+                    "3 - \"Longshot\"",
+                    "3 - Omega Squadron Ace",
+                    "2 - \"Muse\"",
+                    "2 - TN-3465",
+                    "2 - Zeta Squadron Pilot",
+                    "1 - Epsilon Squadron Cadet",
+                    "1 - Lieutenant Rivas",
+                    "0 - \"Null\""
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 50,
+        "name": "TIE/sf Fighter",
+        "faction": "First Order",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-tiesffighter",
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Quickdraw\"",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Backdraft\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Omega Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Zeta Squadron Survivor",
+                            "initiative": 2
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 52,
+        "name": "TIE/vn Silencer",
+        "faction": "First Order",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-tievnsilencer",
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Blackout\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kylo Ren",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 51,
+        "name": "Upsilon-class command shuttle",
+        "faction": "First Order",
+        "size": "Large",
+        "icon": "xwing-miniatures-ship-upsilonclasscommandshuttle",
+        "products": [
+            {
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Major Stridan",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Dormitz",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Tavson",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "ffg": 14,
         "name": "Alpha-class Star Wing",
         "faction": "Galactic Empire",
@@ -1513,6 +1917,277 @@
         ]
     },
     {
+        "ffg": 55,
+        "name": "MG-100 StarFortress",
+        "faction": "Resistance",
+        "size": "Large",
+        "icon": "xwing-miniatures-ship-mg100starfortress",
+        "products": [
+            {
+                "name": "Resistance Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Finch Dallow",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Cobalt Squadron Bomber",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ben Teene",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Cobalt Squadron Bomber",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Edon Kappehl",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Edon Kappehl",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Vennie",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Vennie",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Cat",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Cobalt Squadron Bomber",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 54,
+        "name": "RZ-2 A-wing",
+        "faction": "Resistance",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-rz2awing",
+        "products": [
+            {
+                "name": "RZ-2 A-wing Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 - L'ulo L'ampar",
+                    "5 - Tallissan Lintra",
+                    "4 - Greer Sonnel",
+                    "3 - Green Squadron Expert",
+                    "3 - Zari Bangel",
+                    "1 - Blue Squadron Recruit"
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 57,
+        "name": "Scavenged YT-1300",
+        "faction": "Resistance",
+        "size": "Large",
+        "icon": "xwing-miniatures-ship-scavengedyt1300",
+        "products": [
+            {
+                "name": "Resistance Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Han Solo",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Resistance Sympathizer",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Rey",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Resistance Sympathizer",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Chewbacca",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Resistance Sympathizer",
+                            "initiative": 2
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 53,
+        "name": "T-70 X-wing",
+        "faction": "Resistance",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-t70xwing",
+        "products": [
+            {
+                "name": "Resistance Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Poe Dameron",
+                            "initiative": 6
+                        },
+                        {
+                            "name": "Red Squadron Expert",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ello Asty",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Red Squadron Expert",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Nien Nunb",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Red Squadron Expert",
+                            "initiative": 3
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Black Squadron Ace",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kare Kun",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Blue Squadron Rookie",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Temmin Wexley",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Blue Squadron Rookie",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Jessika Pava",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Rookie",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Joph Seastriker",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Rookie",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Red Squadron Expert",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "Blue Squadron Rookie",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Bastian",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Lieutenant Bastian",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Jaycris Tubbs",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Jaycris Tubbs",
+                            "initiative": 1
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "T-70 X-wing Expansion Pack",
+                "numberOfTokens": 6,
+                "pilotNames": [
+                    "6 - Poe Dameron",
+                    "5 - Ello Asty",
+                    "5 - Nien Nunb",
+                    "4 - Black Squadron Ace",
+                    "4 - Kare Kun",
+                    "4 - Temmin Wexley",
+                    "3 - Jessika Pava",
+                    "3 - Joph Seastriker",
+                    "3 - Red Squadron Expert",
+                    "2 - Lieutenant Bastian",
+                    "1 - Blue Squadron Rookie",
+                    "1 - Jaycris Tubbs"
+                ]
+            }
+        ]
+    },
+    {
         "ffg": 21,
         "name": "Aggressor Assault Fighter",
         "faction": "Scum and Villainy",
@@ -2104,6 +2779,27 @@
                             "initiative": 1
                         }
                     ]
+                ]
+            }
+        ]
+    },
+    {
+        "ffg": 56,
+        "name": "Modified TIE/ln Fighter",
+        "faction": "Scum and Villainy",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-modifiedtielnfighter",
+        "products": [
+            {
+                "name": "Mining Guild TIE Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Foreman Proach",
+                    "3 - Ahhav",
+                    "3 - Captain Seevor",
+                    "2 - Mining Guild Surveyor",
+                    "2 - Overseer Yushyn",
+                    "1 - Mining Guild Sentry"
                 ]
             }
         ]
