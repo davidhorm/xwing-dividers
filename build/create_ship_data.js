@@ -29,8 +29,8 @@ shipFilePaths.forEach(shipFilePath => {
 	if (shipJson.xws === "tieininterceptor") {
 		shipJson.xws = "tieinterceptor"
 	}
-	else if (shipJson.xws === "tievnsilencer") {
-		shipJson.xws = "tiesilencer"
+	else if (shipJson.xws === "upsilonclassshuttle") {
+		shipJson.xws = "upsilonclasscommandshuttle"
 	}
 
 	//only parse pilot content if ffg id is defined (to filter out preview content), and font is available

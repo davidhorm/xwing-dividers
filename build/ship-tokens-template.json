@@ -35,6 +35,38 @@
             }
         ]
     },
+    "tievnsilencer": {
+        "First Order": [
+            {
+                "name": "TIE/vn Silencer Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "5 - \"Blackout\"",
+                    "5 - Kylo Ren",
+                    "4 - \"Recoil\"",
+                    "4 - First Order Test Pilot",
+                    "3 - \"Avenger\"",
+                    "1 - Sienar-Jaemus Engineer"
+                ]
+            }
+        ]
+    },
+    "upsilonclasscommandshuttle": {
+        "First Order": [
+            {
+                "name": "Upsilon-class command shuttle Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Captain Cardinal",
+                    "4 - Major Stridan",
+                    "3 - Lieutenant Tavson",
+                    "2 - Lieutenant Dormitz",
+                    "2 - Starkiller Base Pilot",
+                    "1 - Petty Officer Thanisson"
+                ]
+            }
+        ]
+    },
     "alphaclassstarwing": {
         "Galactic Empire": [
             {

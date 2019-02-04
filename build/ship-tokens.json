@@ -258,15 +258,68 @@
     "tiesilencer": {
         "First Order": [
             {
-                "name": "TIE Silencer Expansion Pack",
-                "numberOfTokens": 3,
-                "pilotNames": [
-                    "5 - \"Blackout\"",
-                    "5 - Kylo Ren",
-                    "4 - \"Recoil\"",
-                    "4 - First Order Test Pilot",
-                    "3 - \"Avenger\"",
-                    "1 - Sienar-Jaemus Engineer"
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "\"Blackout\"",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kylo Ren",
+                            "initiative": 5
+                        },
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "\"Recoil\"",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "First Order Test Pilot",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Sienar-Jaemus Engineer",
+                            "initiative": 1
+                        }
+                    ],
+                    [
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        },
+                        {
+                            "name": "\"Avenger\"",
+                            "initiative": 3
+                        }
+                    ]
                 ]
             }
         ]
@@ -274,15 +327,58 @@
     "upsilonclassshuttle": {
         "First Order": [
             {
-                "name": "Upsilon-class command shuttle Expansion Pack",
-                "numberOfTokens": 3,
-                "pilotNames": [
-                    "4 - Captain Cardinal",
-                    "4 - Major Stridan",
-                    "2 - Lieutenant Dormitz",
-                    "2 - Lieutenant Tavson",
-                    "2 - Starkiller Base Pilot",
-                    "1 - Petty Officer Thanisson"
+                "name": "First Order Conversion Kit",
+                "shipTokens": [
+                    [
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Captain Cardinal",
+                            "initiative": 4
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Major Stridan",
+                            "initiative": 4
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Dormitz",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Lieutenant Tavson",
+                            "initiative": 2
+                        },
+                        {
+                            "name": "Starkiller Base Pilot",
+                            "initiative": 2
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        },
+                        {
+                            "name": "Petty Officer Thanisson",
+                            "initiative": 1
+                        }
+                    ]
                 ]
             }
         ]

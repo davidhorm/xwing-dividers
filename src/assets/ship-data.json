@@ -266,6 +266,22 @@
         ]
     },
     {
+        "ffg": 52,
+        "name": "TIE/vn Silencer",
+        "faction": "First Order",
+        "size": "Small",
+        "icon": "xwing-miniatures-ship-tievnsilencer",
+        "products": null
+    },
+    {
+        "ffg": 51,
+        "name": "Upsilon-class command shuttle",
+        "faction": "First Order",
+        "size": "Large",
+        "icon": "xwing-miniatures-ship-upsilonclasscommandshuttle",
+        "products": null
+    },
+    {
         "ffg": 14,
         "name": "Alpha-class Star Wing",
         "faction": "Galactic Empire",
