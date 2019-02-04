@@ -2667,7 +2667,20 @@
         "faction": "Scum and Villainy",
         "size": "Small",
         "icon": "xwing-miniatures-ship-modifiedtielnfighter",
-        "products": null
+        "products": [
+            {
+                "name": "Mining Guild TIE Expansion Pack",
+                "numberOfTokens": 3,
+                "pilotNames": [
+                    "4 - Foreman Proach",
+                    "3 - Ahhav",
+                    "3 - Captain Seevor",
+                    "2 - Mining Guild Surveyor",
+                    "2 - Overseer Yushyn",
+                    "1 - Mining Guild Sentry"
+                ]
+            }
+        ]
     },
     {
         "ffg": 9,
